@@ -67,7 +67,7 @@
     "id": "easylist",
     "url": "https://easylist.to/easylist/easylist.txt",
     "description": "Most popular global ad filter — blocks ads on most websites",
-    "isEnabled": true,
+    "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads"
   },
