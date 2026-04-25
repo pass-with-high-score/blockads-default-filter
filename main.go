@@ -59,6 +59,10 @@ type ManifestEntry struct {
 	TrieURL     string `json:"trieUrl,omitempty"`
 	CssURL      string `json:"cssUrl,omitempty"`
 	OriginalURL string `json:"originalUrl"`
+
+	// Scriptlets is not serialized — collected per-list, then merged centrally
+	// into a single dist/scriptlets.txt artifact for the engine.
+	Scriptlets []string `json:"-"`
 }
 
 // loadConfigJSON reads a JSON config file containing an array of FilterEntry.
@@ -238,28 +242,30 @@ func containsLetterOrDigit(s string) bool {
 	return false
 }
 
-// downloadAndParseDomains returns unique domains and cosmetic CSS rules.
+// downloadAndParseDomains returns unique domains, cosmetic CSS rules, and scriptlet rules.
 // It streams the response line-by-line using bufio.Scanner for memory efficiency.
-func downloadAndParseDomains(url string) ([]string, []string, error) {
+func downloadAndParseDomains(url string) ([]string, []string, []string, error) {
 	client := &http.Client{
 		Timeout: 60 * time.Second,
 	}
 
 	resp, err := client.Get(url)
 	if err != nil {
-		return nil, nil, fmt.Errorf("HTTP GET %s: %w", url, err)
+		return nil, nil, nil, fmt.Errorf("HTTP GET %s: %w", url, err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, nil, fmt.Errorf("HTTP %d for %s", resp.StatusCode, url)
+		return nil, nil, nil, fmt.Errorf("HTTP %d for %s", resp.StatusCode, url)
 	}
 
 	// Use sets to deduplicate
 	seenDomains := make(map[string]struct{})
 	seenCSS := make(map[string]struct{})
+	seenScriptlets := make(map[string]struct{})
 	var domains []string
 	var cssRules []string
+	var scriptlets []string
 
 	scanner := bufio.NewScanner(resp.Body)
 	// Increase buffer size for very long lines (some filter lists have them)
@@ -273,6 +279,20 @@ func downloadAndParseDomains(url string) ([]string, []string, error) {
 
 		// Skip obvious comments
 		if (strings.HasPrefix(rawLine, "! ") || strings.HasPrefix(rawLine, "# ")) && !strings.Contains(rawLine, "##") {
+			continue
+		}
+
+		// 0. Extract Scriptlet Rules — kept as raw filter-list lines. Both dialects:
+		//   uBlock:  domain##+js(name, args)
+		//   AdGuard: domain#%#//scriptlet('name', 'args')
+		// Exception forms (#@#+js, #@%#//scriptlet) don't contain these substrings,
+		// so they're naturally excluded. Done before CSS/domain parsing so scriptlet
+		// lines don't leak into either bucket.
+		if strings.Contains(rawLine, "##+js(") || strings.Contains(rawLine, "#%#//scriptlet(") {
+			if _, exists := seenScriptlets[rawLine]; !exists {
+				seenScriptlets[rawLine] = struct{}{}
+				scriptlets = append(scriptlets, rawLine)
+			}
 			continue
 		}
 
@@ -328,10 +348,13 @@ func downloadAndParseDomains(url string) ([]string, []string, error) {
 		}
 	}
 	if err := scanner.Err(); err != nil {
-		return nil, nil, fmt.Errorf("scanning response from %s: %w", url, err)
+		return nil, nil, nil, fmt.Errorf("scanning response from %s: %w", url, err)
 	}
 
-	return domains, cssRules, nil
+	// Sort scriptlets for deterministic output (matches `sort -u` semantics).
+	sort.Strings(scriptlets)
+
+	return domains, cssRules, scriptlets, nil
 }
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -674,17 +697,17 @@ func processEntry(entry FilterEntry, outputDir string) (*ManifestEntry, error) {
 		manifest.ID = prefix
 	}
 
-	// Step 1: Download and parse domains and CSS
-	domains, cssRules, err := downloadAndParseDomains(entry.URL)
+	// Step 1: Download and parse domains, CSS, and scriptlet rules
+	domains, cssRules, scriptlets, err := downloadAndParseDomains(entry.URL)
 	if err != nil {
 		return nil, fmt.Errorf("[%s] download failed: %w", entry.Name, err)
 	}
 	downloadDuration := time.Since(startTime)
-	log.Printf("[%s] ✓ Downloaded and parsed %d domains, %d CSS rules (%.2fs)",
-		entry.Name, len(domains), len(cssRules), downloadDuration.Seconds())
+	log.Printf("[%s] ✓ Downloaded and parsed %d domains, %d CSS rules, %d scriptlets (%.2fs)",
+		entry.Name, len(domains), len(cssRules), len(scriptlets), downloadDuration.Seconds())
 
-	if len(domains) == 0 && len(cssRules) == 0 {
-		log.Printf("[%s] ⚠ No domains or CSS rules found, skipping", entry.Name)
+	if len(domains) == 0 && len(cssRules) == 0 && len(scriptlets) == 0 {
+		log.Printf("[%s] ⚠ No domains, CSS rules, or scriptlets found, skipping", entry.Name)
 		return nil, nil
 	}
 
@@ -770,6 +793,10 @@ func processEntry(entry FilterEntry, outputDir string) (*ManifestEntry, error) {
 		manifest.CssURL = fmt.Sprintf("%s/%s.css", GitHubRawBase, prefix)
 		log.Printf("[%s] ✓ Saved %s (%s)", entry.Name, cssPath, formatBytes(cssFileInfo.Size()))
 	}
+
+	// Step 7: Hand scriptlet rules off to main() for central aggregation into a
+	// single dist/scriptlets.txt artifact (both ##+js and #%#//scriptlet dialects).
+	manifest.Scriptlets = scriptlets
 
 	serializeDuration := time.Since(serializeStart)
 	totalDuration := time.Since(startTime)
@@ -877,6 +904,44 @@ func main() {
 		} else if res.manifest != nil {
 			manifests = append(manifests, res.manifest)
 		}
+	}
+
+	// Aggregate scriptlets from every list into one merged dist/scriptlets.txt.
+	// Equivalent to: cat *.txt | grep -E '#%#//scriptlet\(|##\+js\(' | sort -u
+	// The engine consumes this verbatim via Engine.SetScriptletRules.
+	mergedScriptlets := make(map[string]struct{})
+	for _, m := range manifests {
+		for _, rule := range m.Scriptlets {
+			mergedScriptlets[rule] = struct{}{}
+		}
+	}
+	if len(mergedScriptlets) > 0 {
+		sorted := make([]string, 0, len(mergedScriptlets))
+		for rule := range mergedScriptlets {
+			sorted = append(sorted, rule)
+		}
+		sort.Strings(sorted)
+
+		scriptletsPath := filepath.Join(*outputDir, "scriptlets.txt")
+		scriptletsFile, err := os.Create(scriptletsPath)
+		if err != nil {
+			log.Printf("✗ Failed to create scriptlets.txt: %v", err)
+		} else {
+			w := bufio.NewWriter(scriptletsFile)
+			for _, rule := range sorted {
+				w.WriteString(rule)
+				w.WriteByte('\n')
+			}
+			if err := w.Flush(); err != nil {
+				log.Printf("✗ Failed to flush scriptlets.txt: %v", err)
+			}
+			scriptletsFile.Close()
+			if info, err := os.Stat(scriptletsPath); err == nil {
+				log.Printf("✓ Generated scriptlets.txt: %d rules (%s)", len(sorted), formatBytes(info.Size()))
+			}
+		}
+	} else {
+		log.Printf("⚠ No scriptlet rules extracted from any filter list")
 	}
 
 	// Write manifest JSON
