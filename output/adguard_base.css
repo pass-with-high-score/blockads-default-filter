@@ -18,7 +18,6 @@ embed[width="468"][height="60"]
 embed[width="600"][height="160"]
 embed[width="728"][height="90"]
 iframe[width="100%"][height="90"]
-iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
 iframe[width="104"][height="464"]
 iframe[width="200"][height="240"]
 iframe[width="200"][height="300"]
@@ -307,8 +306,6 @@ div[id^="M"][id*="Composite"]
 #AD_160
 #AD_300
 #AD_468x60
-#AD_G
-#AD_L
 #AD_ROW
 #AD_Top
 #AD_text
@@ -1998,3 +1995,6 @@ div[id^="M"][id*="Composite"]
 #advert1
 #advert2
 #advertBanner
+#advertBox
+#advertBoxRight
+#advertBoxSquare
