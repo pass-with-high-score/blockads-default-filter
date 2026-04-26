@@ -57,12 +57,9 @@ type ManifestEntry struct {
 	RuleCount   int    `json:"ruleCount"`
 	BloomURL    string `json:"bloomUrl,omitempty"`
 	TrieURL     string `json:"trieUrl,omitempty"`
-	CssURL      string `json:"cssUrl,omitempty"`
-	OriginalURL string `json:"originalUrl"`
-
-	// Scriptlets is not serialized — collected per-list, then merged centrally
-	// into a single dist/scriptlets.txt artifact for the engine.
-	Scriptlets []string `json:"-"`
+	CssURL        string `json:"cssUrl,omitempty"`
+	ScriptletsURL string `json:"scriptletsUrl,omitempty"`
+	OriginalURL   string `json:"originalUrl"`
 }
 
 // loadConfigJSON reads a JSON config file containing an array of FilterEntry.
@@ -794,9 +791,32 @@ func processEntry(entry FilterEntry, outputDir string) (*ManifestEntry, error) {
 		log.Printf("[%s] ✓ Saved %s (%s)", entry.Name, cssPath, formatBytes(cssFileInfo.Size()))
 	}
 
-	// Step 7: Hand scriptlet rules off to main() for central aggregation into a
-	// single dist/scriptlets.txt artifact (both ##+js and #%#//scriptlet dialects).
-	manifest.Scriptlets = scriptlets
+	// Step 7: Save scriptlet rules to per-list .scriptlets file
+	if len(scriptlets) > 0 {
+		scriptletsPath := filepath.Join(outputDir, prefix+".scriptlets")
+		scriptletsFile, err := os.Create(scriptletsPath)
+		if err != nil {
+			return nil, fmt.Errorf("[%s] creating scriptlets file failed: %w", entry.Name, err)
+		}
+
+		scriptletsWriter := bufio.NewWriter(scriptletsFile)
+		for _, rule := range scriptlets {
+			if _, err := scriptletsWriter.WriteString(rule + "\n"); err != nil {
+				scriptletsFile.Close()
+				return nil, fmt.Errorf("[%s] writing scriptlet rule failed: %w", entry.Name, err)
+			}
+		}
+
+		if err := scriptletsWriter.Flush(); err != nil {
+			scriptletsFile.Close()
+			return nil, fmt.Errorf("[%s] flushing scriptlet rules failed: %w", entry.Name, err)
+		}
+		scriptletsFile.Close()
+
+		scriptletsFileInfo, _ := os.Stat(scriptletsPath)
+		manifest.ScriptletsURL = fmt.Sprintf("%s/%s.scriptlets", GitHubRawBase, prefix)
+		log.Printf("[%s] ✓ Saved %s (%s)", entry.Name, scriptletsPath, formatBytes(scriptletsFileInfo.Size()))
+	}
 
 	serializeDuration := time.Since(serializeStart)
 	totalDuration := time.Since(startTime)
@@ -904,44 +924,6 @@ func main() {
 		} else if res.manifest != nil {
 			manifests = append(manifests, res.manifest)
 		}
-	}
-
-	// Aggregate scriptlets from every list into one merged dist/scriptlets.txt.
-	// Equivalent to: cat *.txt | grep -E '#%#//scriptlet\(|##\+js\(' | sort -u
-	// The engine consumes this verbatim via Engine.SetScriptletRules.
-	mergedScriptlets := make(map[string]struct{})
-	for _, m := range manifests {
-		for _, rule := range m.Scriptlets {
-			mergedScriptlets[rule] = struct{}{}
-		}
-	}
-	if len(mergedScriptlets) > 0 {
-		sorted := make([]string, 0, len(mergedScriptlets))
-		for rule := range mergedScriptlets {
-			sorted = append(sorted, rule)
-		}
-		sort.Strings(sorted)
-
-		scriptletsPath := filepath.Join(*outputDir, "scriptlets.txt")
-		scriptletsFile, err := os.Create(scriptletsPath)
-		if err != nil {
-			log.Printf("✗ Failed to create scriptlets.txt: %v", err)
-		} else {
-			w := bufio.NewWriter(scriptletsFile)
-			for _, rule := range sorted {
-				w.WriteString(rule)
-				w.WriteByte('\n')
-			}
-			if err := w.Flush(); err != nil {
-				log.Printf("✗ Failed to flush scriptlets.txt: %v", err)
-			}
-			scriptletsFile.Close()
-			if info, err := os.Stat(scriptletsPath); err == nil {
-				log.Printf("✓ Generated scriptlets.txt: %d rules (%s)", len(sorted), formatBytes(info.Size()))
-			}
-		}
-	} else {
-		log.Printf("⚠ No scriptlet rules extracted from any filter list")
 	}
 
 	// Write manifest JSON
