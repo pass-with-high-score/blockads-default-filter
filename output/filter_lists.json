@@ -1,43 +1,5 @@
 [
   {
-    "name": "HostsVN",
-    "id": "hostsvn",
-    "description": "Vietnamese hosts-based ad blocker",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 17641,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hostsvn.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hostsvn.trie",
-    "originalUrl": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts"
-  },
-  {
-    "name": "AdGuard Mobile Ads",
-    "id": "adguard_mobile",
-    "description": "Optimized filter for mobile ads in apps and mobile websites",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 4310,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.trie",
-    "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.css",
-    "scriptletsUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.scriptlets",
-    "originalUrl": "https://filters.adtidy.org/extension/ublock/filters/11.txt"
-  },
-  {
-    "name": "StevenBlack Unified",
-    "id": "stevenblack",
-    "description": "Unified hosts from multiple curated sources — ads \u0026 malware",
-    "isEnabled": true,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 84736,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack.trie",
-    "originalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
-  },
-  {
     "name": "StevenBlack Gambling",
     "id": "stevenblack_gambling",
     "description": "Block gambling \u0026 betting sites",
@@ -50,16 +12,54 @@
     "originalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts"
   },
   {
-    "name": "AdGuard DNS",
-    "id": "adguard_dns",
-    "description": "AdGuard DNS filter for ad \u0026 tracker blocking",
+    "name": "StevenBlack Adult",
+    "id": "stevenblack_porn",
+    "description": "Block adult content domains",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 163321,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_dns.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_dns.trie",
-    "originalUrl": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+    "ruleCount": 76722,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack_porn.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack_porn.trie",
+    "originalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts"
+  },
+  {
+    "name": "HostsVN",
+    "id": "hostsvn",
+    "description": "Vietnamese hosts-based ad blocker",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 17641,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hostsvn.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hostsvn.trie",
+    "originalUrl": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts"
+  },
+  {
+    "name": "AdGuard Base Filter",
+    "id": "adguard_base",
+    "description": "AdGuard base ad filter — comprehensive alternative to EasyList",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 88237,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.trie",
+    "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.css",
+    "scriptletsUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.scriptlets",
+    "originalUrl": "https://filters.adtidy.org/extension/ublock/filters/2.txt"
+  },
+  {
+    "name": "StevenBlack Unified",
+    "id": "stevenblack",
+    "description": "Unified hosts from multiple curated sources — ads \u0026 malware",
+    "isEnabled": true,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 83091,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack.trie",
+    "originalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
   },
   {
     "name": "StevenBlack Social",
@@ -74,16 +74,16 @@
     "originalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social-only/hosts"
   },
   {
-    "name": "StevenBlack Adult",
-    "id": "stevenblack_porn",
-    "description": "Block adult content domains",
+    "name": "AdGuard DNS",
+    "id": "adguard_dns",
+    "description": "AdGuard DNS filter for ad \u0026 tracker blocking",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 76722,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack_porn.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/stevenblack_porn.trie",
-    "originalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts"
+    "ruleCount": 163389,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_dns.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_dns.trie",
+    "originalUrl": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
   },
   {
     "name": "EasyPrivacy",
@@ -106,37 +106,37 @@
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 66245,
+    "ruleCount": 66297,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.trie",
     "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.css",
     "originalUrl": "https://easylist.to/easylist/easylist.txt"
   },
   {
-    "name": "AdGuard Base Filter",
-    "id": "adguard_base",
-    "description": "AdGuard base ad filter — comprehensive alternative to EasyList",
+    "name": "ABPVN",
+    "id": "abpvn",
+    "description": "Vietnamese ad filter list",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 88179,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.trie",
-    "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.css",
-    "scriptletsUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.scriptlets",
-    "originalUrl": "https://filters.adtidy.org/extension/ublock/filters/2.txt"
+    "ruleCount": 18365,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/abpvn.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/abpvn.trie",
+    "originalUrl": "https://abpvn.com/android/abpvn.txt"
   },
   {
-    "name": "Peter Lowe's Ad and tracking server list",
-    "id": "yoyo_adservers",
-    "description": "Lightweight host-based ad and tracking server blocklist",
+    "name": "AdGuard Mobile Ads",
+    "id": "adguard_mobile",
+    "description": "Optimized filter for mobile ads in apps and mobile websites",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 3505,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.trie",
-    "originalUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus\u0026showintro=1\u0026mimetype=plaintext"
+    "ruleCount": 4310,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.trie",
+    "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.css",
+    "scriptletsUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_mobile.scriptlets",
+    "originalUrl": "https://filters.adtidy.org/extension/ublock/filters/11.txt"
   },
   {
     "name": "AdGuard Social Media",
@@ -153,16 +153,16 @@
     "originalUrl": "https://filters.adtidy.org/extension/ublock/filters/4.txt"
   },
   {
-    "name": "ABPVN",
-    "id": "abpvn",
-    "description": "Vietnamese ad filter list",
+    "name": "Peter Lowe's Ad and tracking server list",
+    "id": "yoyo_adservers",
+    "description": "Lightweight host-based ad and tracking server blocklist",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 18365,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/abpvn.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/abpvn.trie",
-    "originalUrl": "https://abpvn.com/android/abpvn.txt"
+    "ruleCount": 3505,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.trie",
+    "originalUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus\u0026showintro=1\u0026mimetype=plaintext"
   },
   {
     "name": "Hagezi Light",
@@ -171,10 +171,22 @@
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 69328,
+    "ruleCount": 69907,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_light.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_light.trie",
     "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt"
+  },
+  {
+    "name": "Hagezi Normal",
+    "id": "hagezi_multi",
+    "description": "Hagezi Normal — all-round protection against ads, tracking \u0026 malware",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 153978,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_multi.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_multi.trie",
+    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt"
   },
   {
     "name": "Hagezi Pro++",
@@ -183,7 +195,7 @@
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 241115,
+    "ruleCount": 241586,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro_plus.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro_plus.trie",
     "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt"
@@ -195,22 +207,10 @@
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "security",
-    "ruleCount": 398,
+    "ruleCount": 404,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/urlhaus_malware.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/urlhaus_malware.trie",
     "originalUrl": "https://urlhaus.abuse.ch/downloads/hostfile/"
-  },
-  {
-    "name": "Hagezi Normal",
-    "id": "hagezi_multi",
-    "description": "Hagezi Normal — all-round protection against ads, tracking \u0026 malware",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 153294,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_multi.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_multi.trie",
-    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt"
   },
   {
     "name": "Hagezi Pro",
@@ -219,34 +219,10 @@
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 188122,
+    "ruleCount": 188757,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro.trie",
     "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt"
-  },
-  {
-    "name": "PhishTank Blocklist",
-    "id": "phishing_army",
-    "description": "Blocks known phishing websites that steal personal information",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "security",
-    "ruleCount": 146266,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.trie",
-    "originalUrl": "https://phishing.army/download/phishing_army_blocklist.txt"
-  },
-  {
-    "name": "Hagezi Ultimate",
-    "id": "hagezi_ultimate",
-    "description": "Hagezi Ultimate — extremely aggressive blocking, will break most apps/sites",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 292649,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_ultimate.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_ultimate.trie",
-    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt"
   },
   {
     "name": "Malware Domain List",
@@ -261,13 +237,37 @@
     "originalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware"
   },
   {
+    "name": "PhishTank Blocklist",
+    "id": "phishing_army",
+    "description": "Blocks known phishing websites that steal personal information",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "security",
+    "ruleCount": 145531,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.trie",
+    "originalUrl": "https://phishing.army/download/phishing_army_blocklist.txt"
+  },
+  {
+    "name": "Hagezi Ultimate",
+    "id": "hagezi_ultimate",
+    "description": "Hagezi Ultimate — extremely aggressive blocking, will break most apps/sites",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 292360,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_ultimate.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_ultimate.trie",
+    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt"
+  },
+  {
     "name": "Hagezi TIF",
     "id": "hagezi_tif",
     "description": "Hagezi Threat Intelligence — blocks malware, phishing, scam \u0026 cryptojacking",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "security",
-    "ruleCount": 1020563,
+    "ruleCount": 1020955,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_tif.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_tif.trie",
     "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt"
