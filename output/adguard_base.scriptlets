@@ -2759,6 +2759,7 @@ porofessor.gg,mobafire.com,leagueofgraphs.com##+js(set-constant, __bt_intrnl.aaD
 port.hu##+js(no-setTimeout-if, /\.offsetHeight === 0[\s\S]*?\.appendChild[\s\S]*?document\.body\.style/)
 port.hu##+js(set-constant, Adserving.hasAdBlocker, falseFunc)
 portel.pl##+js(set-constant, blokowanko, false)
+positioniseverything.net##+js(abort-current-script, atob, showModal)
 postimees.ee##+js(no-setTimeout-if, adblockNotif)
 poszkole.pl##+js(google-ima)
 poszkole.pl##+js(no-xhr-if, redefine.hit.stat24.com)
