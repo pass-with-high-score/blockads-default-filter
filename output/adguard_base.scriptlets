@@ -2734,6 +2734,7 @@ pornharlot.net##+js(abort-current-script, EventTarget.prototype.addEventListener
 pornhex.com##+js(addEventListener-defuser, load, adIframe)
 pornhits.com##+js(abort-current-script, ACtMan)
 pornhoarder.net,streambtw.com,streamingnow.mov,mp4upload.com,x1337x.*,1stream.eu,sanet.st,streameast.*##+js(abort-on-property-read, aclib.runPop)
+pornhottube.com##+js(no-window-open-if)
 pornhub-sexfilme.net,pornojenny.net,pornoleon.com##+js(abort-on-stack-trace, document.createElement, loadNeverBlock)
 pornhub-sexfilme.net,pornojenny.net,pornoleon.com##+js(no-setTimeout-if, chatina)
 pornhub-sexfilme.net,pornojenny.net,pornoleon.com,herzporno.net##+js(no-setTimeout-if, /loadMomoVip|loadExo|includeSpecial/)
