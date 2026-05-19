@@ -18,7 +18,7 @@
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 89773,
+    "ruleCount": 89833,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.trie",
     "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_base.css",
@@ -32,7 +32,7 @@
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 164804,
+    "ruleCount": 164871,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_dns.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/adguard_dns.trie",
     "originalUrl": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -86,26 +86,13 @@
     "originalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts"
   },
   {
-    "name": "EasyList",
-    "id": "easylist",
-    "description": "Most popular global ad filter — blocks ads on most websites",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 67736,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.trie",
-    "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.css",
-    "originalUrl": "https://easylist.to/easylist/easylist.txt"
-  },
-  {
     "name": "EasyPrivacy",
     "id": "easyprivacy",
     "description": "Blocks tracking scripts and privacy-invasive trackers",
     "isEnabled": true,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 46868,
+    "ruleCount": 46870,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easyprivacy.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easyprivacy.trie",
     "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easyprivacy.css",
@@ -113,16 +100,29 @@
     "originalUrl": "https://easylist.to/easylist/easyprivacy.txt"
   },
   {
-    "name": "Peter Lowe's Ad and tracking server list",
-    "id": "yoyo_adservers",
-    "description": "Lightweight host-based ad and tracking server blocklist",
+    "name": "EasyList",
+    "id": "easylist",
+    "description": "Most popular global ad filter — blocks ads on most websites",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "ads",
-    "ruleCount": 3510,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.trie",
-    "originalUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus\u0026showintro=1\u0026mimetype=plaintext"
+    "ruleCount": 67799,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.trie",
+    "cssUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/easylist.css",
+    "originalUrl": "https://easylist.to/easylist/easylist.txt"
+  },
+  {
+    "name": "Hagezi Pro",
+    "id": "hagezi_pro",
+    "description": "Hagezi Pro — extended protection, recommended for advanced users",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 204480,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro.trie",
+    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt"
   },
   {
     "name": "AdGuard Mobile Ads",
@@ -165,6 +165,18 @@
     "originalUrl": "https://abpvn.com/android/abpvn.txt"
   },
   {
+    "name": "Peter Lowe's Ad and tracking server list",
+    "id": "yoyo_adservers",
+    "description": "Lightweight host-based ad and tracking server blocklist",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 3510,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/yoyo_adservers.trie",
+    "originalUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus\u0026showintro=1\u0026mimetype=plaintext"
+  },
+  {
     "name": "Hagezi Light",
     "id": "hagezi_light",
     "description": "Hagezi Light — basic ad \u0026 tracker blocking with minimal false positives",
@@ -175,18 +187,6 @@
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_light.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_light.trie",
     "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt"
-  },
-  {
-    "name": "Hagezi Pro++",
-    "id": "hagezi_pro_plus",
-    "description": "Hagezi Pro++ — aggressive blocking, may break some apps/sites",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 240167,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro_plus.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro_plus.trie",
-    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt"
   },
   {
     "name": "Hagezi Normal",
@@ -201,28 +201,28 @@
     "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt"
   },
   {
+    "name": "Hagezi Pro++",
+    "id": "hagezi_pro_plus",
+    "description": "Hagezi Pro++ — aggressive blocking, may break some apps/sites",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "ads",
+    "ruleCount": 240167,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro_plus.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro_plus.trie",
+    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt"
+  },
+  {
     "name": "URLhaus Malicious URL Blocklist",
     "id": "urlhaus_malware",
     "description": "Blocks malware distribution sites — updated frequently by abuse.ch",
     "isEnabled": false,
     "isBuiltIn": true,
     "category": "security",
-    "ruleCount": 571,
+    "ruleCount": 576,
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/urlhaus_malware.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/urlhaus_malware.trie",
     "originalUrl": "https://urlhaus.abuse.ch/downloads/hostfile/"
-  },
-  {
-    "name": "Hagezi Pro",
-    "id": "hagezi_pro",
-    "description": "Hagezi Pro — extended protection, recommended for advanced users",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "ads",
-    "ruleCount": 204480,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_pro.trie",
-    "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt"
   },
   {
     "name": "Malware Domain List",
@@ -237,18 +237,6 @@
     "originalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware"
   },
   {
-    "name": "PhishTank Blocklist",
-    "id": "phishing_army",
-    "description": "Blocks known phishing websites that steal personal information",
-    "isEnabled": false,
-    "isBuiltIn": true,
-    "category": "security",
-    "ruleCount": 143828,
-    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.bloom",
-    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.trie",
-    "originalUrl": "https://phishing.army/download/phishing_army_blocklist.txt"
-  },
-  {
     "name": "Hagezi Ultimate",
     "id": "hagezi_ultimate",
     "description": "Hagezi Ultimate — extremely aggressive blocking, will break most apps/sites",
@@ -259,6 +247,18 @@
     "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_ultimate.bloom",
     "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/hagezi_ultimate.trie",
     "originalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt"
+  },
+  {
+    "name": "PhishTank Blocklist",
+    "id": "phishing_army",
+    "description": "Blocks known phishing websites that steal personal information",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "security",
+    "ruleCount": 143851,
+    "bloomUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.bloom",
+    "trieUrl": "https://raw.githubusercontent.com/pass-with-high-score/blockads-default-filter/refs/heads/main/output/phishing_army.trie",
+    "originalUrl": "https://phishing.army/download/phishing_army_blocklist.txt"
   },
   {
     "name": "Hagezi TIF",
