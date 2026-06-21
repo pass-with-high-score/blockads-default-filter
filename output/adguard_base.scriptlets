@@ -637,6 +637,7 @@ cloudfam.io##+js(abort-current-script, EventTarget.prototype.addEventListener, /
 cloudfam.io##+js(abort-on-stack-trace, document.createElement, openAdWithFallback)
 cloudfam.io##+js(no-window-open-if)
 cloudfam.io##+js(prevent-fetch, /pagead|adserve|adsbygoogle/)
+cloudfam.io##+js(prevent-fetch, method:HEAD)
 cloudgallery.net,imgair.net##+js(abort-current-script, document.getElementById, shouldFire)
 cloudgallery.net,imgair.net##+js(no-window-open-if, /tripedrated\.xyz|salaure\.pro|imgair\.net\/vip\//)
 cloudnestra.com##+js(abort-on-stack-trace, atob, _0x)
