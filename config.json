@@ -2,7 +2,7 @@
   {
     "name": "ABPVN",
     "id": "abpvn",
-    "url": "https://abpvn.com/android/abpvn.txt",
+    "url": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt",
     "description": "Vietnamese ad filter list",
     "isEnabled": false,
     "isBuiltIn": true,
