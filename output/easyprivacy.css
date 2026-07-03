@@ -1,2 +1,5 @@
 #cxense-recs-in-article
 .embed-responsive-trendmd
+html[class^="loading"]:style(visibility: visible !important;)
+.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
+body[style="opacity: 0;"]:style(opacity: 1 !important;)

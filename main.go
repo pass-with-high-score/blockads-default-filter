@@ -301,18 +301,13 @@ func downloadAndParseDomains(url string) ([]string, []string, []string, error) {
 
 			idx := strings.Index(rawLine, "##")
 			if idx >= 0 {
-				prefix := rawLine[:idx]
 				selector := strings.TrimSpace(rawLine[idx+2:])
 
-				// V1: Only generic rules (no domain prefix)
-				if prefix == "" && selector != "" {
+				if selector != "" {
 					// Validate selector
 					isValid := true
 					if strings.HasPrefix(selector, "+") || strings.HasPrefix(selector, "^") {
 						// Invalid start
-						isValid = false
-					} else if strings.Contains(selector, " ") {
-						// Exclude selectors with unescaped spaces
 						isValid = false
 					} else if !containsLetterOrDigit(selector) {
 						// Exclude comment separators that slipped through like `###############`
@@ -325,7 +320,7 @@ func downloadAndParseDomains(url string) ([]string, []string, []string, error) {
 					if isValid {
 						if _, exists := seenCSS[selector]; !exists {
 							seenCSS[selector] = struct{}{}
-							if len(cssRules) < maxCSSRules {
+							if len(cssRules) < 10000 {
 								cssRules = append(cssRules, selector)
 							}
 						}
