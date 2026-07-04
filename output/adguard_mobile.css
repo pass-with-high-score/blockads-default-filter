@@ -324,6 +324,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+#content > div[class]:has(> div[data-concert="mobile_leaderboard"] > div.m-ad)
 .wptouch-custom-ad
 [src^="https://data.sports-widgets.com/"]
 .mt-ad-link

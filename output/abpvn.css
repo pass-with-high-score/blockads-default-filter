@@ -486,6 +486,7 @@ section.mar20:nth-of-type(4)
 #supper_masthead
 .box-kd-300
 .section_ads_300x250
+#floating-ad-img-container
 .adsbypubpower
 .p-body-sidebar>.block>.block-container:has(.adsbypubpower)
 .p-body-sidebar>.block>.block-container:has([data-widget_id])
@@ -551,8 +552,6 @@ a.news__item--action:nth-of-type(2)
 #vl-underplayer-adx
 .catfish-ad
 [id$="bnr"]
-#popup-ad-box
-.banner-ad
 div#recent-content:nth-of-type(1)
 .cashfish
 .mini-player
@@ -580,6 +579,8 @@ div[id^="divFLR"]
 .xx-ads
 .btm_bar
 div.ad-container
+#popup-ad-box
+.banner-ad
 .adace-slideup-slot-wrap
 .adace-slot
 .g1-advertisement
