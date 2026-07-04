@@ -7278,6 +7278,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.div-gpt-ad-post
 div[class$="billboard"]
 div[data-ad-slot-path]
 #adbanner
@@ -9997,4 +9998,3 @@ main > div.f:has(> div.zone > div.package div[data-block-type="ad"])
 .fdc > div.package:has(> div.s > div[data-block-type="ad"])
 div[id="mhwilds.banner.top"]
 #progress + a.abutton[target="_blank"]
-[class*="warhist-"]

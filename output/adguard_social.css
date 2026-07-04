@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.social-btn-group
 .share-button-b
 .rss-share
 .keepup-sharing
@@ -9997,4 +9998,3 @@ ul.s-bar
 .share.verticalC
 .top-items > .share-icons
 #tb > label[for="scv"]
-.item-facebook
