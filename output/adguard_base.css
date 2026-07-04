@@ -7278,6 +7278,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.adfiller
+.boxads2
 #content > div[class]:has(> div[data-concert="desktop_leaderboard_variable"])
 .div-gpt-ad-post
 div[class$="billboard"]
@@ -9996,5 +9998,3 @@ body .nts-ad
 #AdPanelRight
 body > #Page:has(+ #AdPanelRight):style(right: 0 !important;)
 main > div.f:has(> div.zone > div.package div[data-block-type="ad"])
-.fdc > div.package:has(> div.s > div[data-block-type="ad"])
-div[id="mhwilds.banner.top"]
