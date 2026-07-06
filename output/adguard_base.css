@@ -2899,6 +2899,7 @@ div[class^="semprotpokemon_"]
 #kiri
 .cp_adct
 img[alt="ads"]
+.adv-wrapper
 div.wnh__banner
 .post-content > div.box_read_also:has(> div > strong > a[href^="https://www.ebay.it/"])
 div.centra > div.center[style]:has(> .tcc-banner #div-gpt-ad-MaxTicker)
@@ -3095,7 +3096,6 @@ body .mhwrap
 div[style*="min-width:300px;"][style*="min-height: 250px;"]
 a[href^="https://www.imiglioricasinoonline.net/"] > img
 .bannerpost
-.adv-wrapper
 div[class^="runa-integration-newsletter-box"]
 #ta-adblock-modal
 .ta-adblock-modal-open::before
@@ -4613,6 +4613,7 @@ iframe[src^="https://www.wiocha.pl/subpages/"][src*=".php"]
 .adv_body
 article .adv_in_art
 .AdContainer
+div[data-testid="marketing-banner"]
 div[data-testid="marketing-hbo-max-block"]
 .placement
 .partners-module
@@ -7281,6 +7282,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.flex.border:has(> div[class] > .ad-slot)
+.fake-downloads
 .partner-block
 a[href^="https://www2.pornfidelity.com/track/"]
 a[href^="https://pawgpornstars.com/link/brazzers/"]
@@ -9995,6 +9998,3 @@ div[class^="UnifiedProductCardBody"]
 .body__inner-container > p:contains(Shop Vogue)
 #sp-player
 .spots-horizontal-title
-.spots-bottom
-.mpp-ad-container
-.mpp-main-element-sponsor-container

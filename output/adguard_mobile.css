@@ -371,7 +371,6 @@ main > div.sticky > div.mb-4:has(div#mobile-banner)
 .mobile-reklam-card
 .MHL_VIDEO
 .not-prose > div.md\:hidden:has(script[src^="https://subscribe-forms.beehiiv.com/"])
-div.flex.border:has(> div[class] > .ad-slot)
 .ad-sticky-footer-mobile
 .sub__head:has(+ .job-list-wrap)
 div[style="min-width:320px;min-height:160px;text-align:center;margin:20px 0 0 0;"]
@@ -5974,6 +5973,7 @@ div:matches-css(before, content: /^Реклама/):matches-css(max-height:100px
 header > div[class]:has(> div[class*="rb-slot_plug"])
 data-banner-place-id
 div[id^="billboard_mobile_"]
+.js-sidebar-zone
 .image-100
 .ads-container
 #c-videoAd--outer

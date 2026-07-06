@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.bnr
 .fixed.right-4
 div[data-tooltip="Share"]
 .social-btn-group
@@ -9997,4 +9998,3 @@ ul.s-bar
 .sp-share
 .c-socialshare
 .vhb-share-button
-.share.verticalC
