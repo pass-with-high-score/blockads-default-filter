@@ -254,11 +254,6 @@ div[style="margin: 10px 0 5px 0; min-height: 250px;"]
 .popup
 .sticky
 a.btn_fb:nth-of-type(2)
-#hots-btn
-.bn-popup-bottom-sdwdwxw
-[href="/top-nha-cai.html"]
-li.for-desktop-2>[href]
-li.for-mobile-2>[href]
 .text-muted
 [href$="/goout/lazada"]
 section.nh-section:nth-of-type(5)
@@ -275,9 +270,6 @@ section.nh-section:nth-of-type(5)
 #catfish_ad_top
 .bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
 div[data-widget-id]
-.admicro_top
-#adop_bfd
-ins[class*="adsby"]
 .ad_info
 .ads_insert_shop
 .truct-catfish
@@ -317,12 +309,6 @@ div[id^="ads_"]
 .box-banner
 .gwd-banner-image
 #adrighttop
-.art-layer-betting-layer.art-layer
-.backdrop-blur-sm.bg-black\/70.inset-0.absolute
-.cursor-pointer.shrink-0.sm\:py-2.sm\:px-4.transition-opacity.hover\:opacity-90.shadow-\[0px_4px_4px_0px_rgba\(0\,0\,0\,0\.25\)\].rounded-lg.py-1\.5.px-3.bg-\[\#2b7fff\]
-.p-4.justify-center.items-center.flex.z-\[60\].inset-0.fixed
-.transition-opacity.hover\:opacity-90.shadow-\[0px_4px_4px_0px_rgba\(0\,0\,0\,0\.25\)\].flex-shrink-0.sm\:py-3.sm\:px-4.py-1.px-2.rounded-lg.to-\[\#f8e201\].from-\[\#fee701\].bg-gradient-to-r.sm\:gap-2.gap-1.items-center.flex
-.transition-opacity.hover\:opacity-90.shadow-\[0px_4px_4px_0px_rgba\(0\,0\,0\,0\.25\)\].py-2.px-4.rounded-lg.to-\[\#f8e201\].from-\[\#fee701\].bg-gradient-to-r.gap-2.items-center.flex
 #wap_bottombanner
 .bookmaker-selector-container
 .btn-8xbet
@@ -347,10 +333,6 @@ div[class^="adv-"]
 .btn-bet-top
 .item-betnow
 div[class*="size-"]
-.css-d32i5r.MuiBox-root.-translate-x-1\/2.left-1\/2.max-w-\[720px\].w-full.fixed.md\:px-2.px-0
-.css-nlhufw.MuiStack-root>.whitespace-nowrap.transition.text-xs.text-black.font-medium.rounded-full.py-1\.5.px-4.shrink-0
-.items-end.justify-between.flex.gap-2.px-4.py-4.w-full>.whitespace-nowrap.transition.text-xs.text-black.font-medium.rounded-full.py-1\.5.px-4.shrink-0
-.no-underline.font-semibold.items-center.justify-start.flex.text-black.rounded-full.shrink-0.w-fit
 .-translate-x-1\/2.left-1\/2.z-40.max-w-\[720px\].w-full.fixed.md\:block.md\:bottom-0.md\:px-2.px-0.bottom-\[52px\]
 .hidden.lt\:flex.w-full.flex-row.gap-2.flex-wrap.justify-center.items-center
 .items-center.justify-center.flex-wrap.gap-2.flex-row.w-full.lt\:hidden.flex
@@ -386,6 +368,11 @@ zone
 .mmo
 .mzdal
 .ads-container
+#hots-btn
+.bn-popup-bottom-sdwdwxw
+[href="/top-nha-cai.html"]
+li.for-desktop-2>[href]
+li.for-mobile-2>[href]
 div[class$="_ads"]
 .zone-top
 [id^="pos-"]
@@ -403,6 +390,10 @@ div[class$="_ads"]
 .noname-left
 div[id^="adsMobile"]
 div[id^="adsWeb"]
+.css-d32i5r.MuiBox-root.-translate-x-1\/2.left-1\/2.max-w-\[720px\].w-full.fixed.md\:px-2.px-0
+.css-nlhufw.MuiStack-root>.whitespace-nowrap.transition.text-xs.text-black.font-medium.rounded-full.py-1\.5.px-4.shrink-0
+.items-end.justify-between.flex.gap-2.px-4.py-4.w-full>.whitespace-nowrap.transition.text-xs.text-black.font-medium.rounded-full.py-1\.5.px-4.shrink-0
+.no-underline.font-semibold.items-center.justify-start.flex.text-black.rounded-full.shrink-0.w-fit
 .ads-common-box
 .hidden-md>.main.jsx-2126301199
 .jsx-3569995709
@@ -549,7 +540,6 @@ a.news__item--action:nth-of-type(2)
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
-#vl-underplayer-adx
 .catfish-ad
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
@@ -565,6 +555,8 @@ div[id^="divFLR"]
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
 .body_wrapper1
+#ad-banner
+#phe-overlay-root
 .in.fade.modal-backdrop
 #mp-preload-popup-overlay
 .banner-play
@@ -626,8 +618,8 @@ body>.container>div
 #ads-wrapper
 #cashfit-spacer
 .ads-header
-.js-notices
 .float-contact2
+.js-notices
 #bannerIn
 #exoIMFrame
 #nativeAds_1505931906161

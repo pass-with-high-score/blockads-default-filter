@@ -4417,6 +4417,8 @@ div[class^="zajawka-"]
 .main .stackable.center > p > small:contains(/^REKLAMA$/):upward(2)
 div[id] > .stackable.center[style] > small:contains(/^REKLAMA$/):upward(1)
 .widget-area > aside[id^="block"]:matches-css(after, content: /^reklama$/)
+.c-hd-desktop__ad
+#main-content > .b-newest-posts::before
 main > section[class^="sc-"] > div:not([class]):has(> h2 ~ div[class^="sc-"] > pre:contains(/^Reklama$/))
 .portal-top-banner
 .portal-header + hr:empty
@@ -6509,6 +6511,7 @@ div[class^="DisplayAdvert"]
 div[class^="index-module_openwebAd_"]
 div[class^="TaboolaHomepageFeed_taboolaWrapper"]
 #fallbackTerms.fallback-term-holder
+.adbg
 #tdsAdContainer
 .wp-block-gamurs-ad
 a[href^="https://z.cdn.secured-ad.com/"]
@@ -7278,6 +7281,14 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+a[href^="https://www2.pornfidelity.com/track/"]
+a[href^="https://pawgpornstars.com/link/brazzers/"]
+.video-card-ad-wrapper
+.ad-slot-global-wrapper
+.container-lg > div.row:has(> section > div[data-cl-spot])
+#nav > ul > li:has(> a[rel="sponsored"])
+#nav:style(height: fit-content !important;)
+#nav > ul:style(margin-bottom: 0 !important;)
 .adfiller
 .boxads2
 #content > div[class]:has(> div[data-concert="desktop_leaderboard_variable"])
@@ -9987,14 +9998,3 @@ div[class^="UnifiedProductCardBody"]
 .mpp-ad-container
 .mpp-main-element-sponsor-container
 .recirculation__list > li.recirculation__item:not([data-tmdatatrack-index])
-a[href="https://streamwish.com/"] > img
-body .nts-ad
-#react-app > div > section + div:has(> div > div.nuk-ad-placeholder)
-.bottom-banner-container
-.StickyAd
-.ga-bot-map-on
-.adshide
-.advertising-link
-#AdPanelRight
-body > #Page:has(+ #AdPanelRight):style(right: 0 !important;)
-main > div.f:has(> div.zone > div.package div[data-block-type="ad"])
