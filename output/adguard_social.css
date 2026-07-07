@@ -148,12 +148,16 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.web-share-btn
+.uk-container > p:contains(シェアしよう！)
+div[class^="Article_inner-wrapper"] > section[class^="SocialFollowBar_wrapper"]
 .c-feat-post__social
 li:has(> a[title="Share"])
 .bnr
 .fixed.right-4
 div[data-tooltip="Share"]
 .social-btn-group
+.mat-divider + div:has(> div.mt-3 > div.text-center > button.sb-facebook)
 .share-button-b
 .rss-share
 .keepup-sharing
@@ -234,7 +238,6 @@ button[id^="shareBtn"]
 a[onclick="Common.share(this)"]
 .tg-banner-link
 .read-us-text
-div[class^="Article_inner-wrapper"] > section[class^="SocialFollowBar_wrapper"]
 .telegram-sub
 .sb-actions
 .b-aside-socials
@@ -9995,6 +9998,3 @@ ul.s-bar
 .base_middle .bookmark-container
 .reactions-item.tw
 .reactions-item.fb
-.reactions-item.dr
-#fbBOX
-.sp-share

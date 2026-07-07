@@ -2522,6 +2522,7 @@ div[id^="ad_"]:not(#style_important)
 .logoBandAdBox
 .advMasterSlot
 .mainBodyWrapper div[class*="adv"]
+.adblock-overlay:style(display: none !important;)
 #roadblocker-wrapper
 .tb-dt
 .prk1
@@ -4340,6 +4341,7 @@ div[style^="clear: both; display: block; margin: 0 auto 10px auto;"]
 .theiaStickySidebar > aside > .widget_block:has(> figure.wp-block-image > a[href^="https://silesion.pl/"] > img[srcset])
 .advertisement_holder_box
 .w2g-rodzic
+#content > .my-12:has(> #our-bread > .mb-4 > .w2g-rodzic)
 .ad__in
 .discounts-block
 .discounts--partner
@@ -7283,6 +7285,17 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[class^="Header_mastheadwebstrip-container"]
+div[data-testid^="commercial-"]
+header[data-testid="header"]:style(top: 0 !important;)
+div[data-testid^="ncu-within-group-"]
+div[data-testid^="ncu-within-group-"]:remove()
+.common_ads_container
+div[data-banner-ai-init]
+div[class^="top-"][class*="-add"]
+.swiper-wrapper > div.swiper-slide:has(> div[class*="adWrapOverlay"])
+div[class^="AD"] a[target="_blank"]
+.owl-stage > div.owl-item:has(> div[class*=" AD"] img[src*="/ads/"])
 .player-container-article:has(#bs-vod)
 .ast-builder-footer-grid-columns
 #adsterra-refresh-target
@@ -7702,7 +7715,6 @@ a[href^="https://surfshark.com/"]
 .jw-media > a[target="_blank"]
 .side_content.hidden-phone
 .fluid_html_on_pause
-div[data-testid^="ncu-within-group-"]
 .main-cams-wrap
 #topadspot
 section.section ~ div[style="max-width:100%;overflow-x:auto;"]
@@ -8110,6 +8122,7 @@ body div[id^="vibe-main-row"]:not(#style_important)
 .l-side-column .m-sidebar-widget:has(> .body > .standard > div[data-dest*="bannerid="])
 #gads
 .items-start.flex > div.ml-0 > .flex-wrap > li.box-border:has(> div[data-test="streamad"])
+.js-banner-ai-home
 .ads-contain-v2
 div.items-center:has(> div.mx-auto > div.border > div.relative > div[id^="bg-ssp-"])
 div[id]:has(> div.streamer-container2)
@@ -9149,7 +9162,6 @@ main > div[data-sentry-component="Ad"]
 div:not([id]):has(> center > a[href^="https://lkfjoiers.cfd/"])
 .module_home_rg
 #text-3:has(a[href*="rapidgator-premium"])
-div[data-testid^="commercial-"]
 header:style(top: 0 !important;)
 td > table:has(> tbody > tr a[href^="https://www.3cx.com/"])
 .grid__cell:not(:has(> .grid__module[data-analytics-name])):has(> .grid__module > .grid__module-sizer_name_ad)
@@ -9986,15 +9998,3 @@ div[class]:has(> div[id*="_slot_"]:only-child)
 .strawpoll-container .mx-auto[style*="min-height:"]:has(> .adsbygoogle)
 .block-sticky
 .stream-item:has(> .stream-item-size > .adsbygoogle)
-.stream-item:has(> .stream-item-size > .stream-item > .adsbygoogle)
-.stream-item-widget > .widget-title > .the-subtitle:contains(Advertisement)
-#dl-bbtn
-.affcoups
-.popup-overlay
-.sidebar-deals
-.sticky-bar
-section.widget_block:has(> div[id^="hwbus-"]:only-child:empty)
-.content-start > .row-start-1:has(> a[href="https://go.getmogu.chat"])
-.box.advertise
-div[class]:has(> div[id*="TF"][id*="-"]:empty)
-.bottom-adv1
