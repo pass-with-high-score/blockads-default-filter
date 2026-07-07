@@ -324,6 +324,9 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+#xheti-mobile-header-only
+#xheti-box-related:has(> div > iframe[src="https://xheti.net/300x250.html"])
+#fixed-ad-container
 .container-300x100
 #content > div[class]:has(> div[data-concert="mobile_leaderboard"] > div.m-ad)
 .wptouch-custom-ad

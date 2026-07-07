@@ -5342,6 +5342,7 @@ div[id^="google_ads_div_"]
 body .ad-container:style(display: block!important; height: 1px!important;)
 a[target="_blank"] > img[src$=".gif"]
 #main > .axv
+#countDownOverlay
 .adds:style(height: 1px!important;)
 iframe#doublebillboard-1:style(width: 1px !important;)
 html > body > div.pub_300x250.text_ads.ad_container[style]:not(#page):style(display: block!important;)
@@ -7282,6 +7283,16 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.player-container-article:has(#bs-vod)
+.ast-builder-footer-grid-columns
+#adsterra-refresh-target
+iframe[width="300"][height="250"]
+#snack-sidebar-outer
+.inblog_ad
+.a-snack-top
+.google-adsense
+#pc-sticky-wrapper:has(> div#pc-ad-frame)
+.posts-2cols > .col-m-6:not(.post-container):remove()
 a[href^="/link/out/b?"]
 .side-content-block
 div.flex.border:has(> div[class] > .ad-slot)
@@ -7353,6 +7364,7 @@ a[href*=".com/smartpop/"]
 #placement-header
 .wgg-netbar__deals-link
 .container-chapter-reader > div[class] > a[href^="https://flax.to/"]
+.adzone-above-latest
 #secondary div[id^="sidebar-"]
 #cw-brand-banner
 #fisher-funds-banner
@@ -7848,7 +7860,6 @@ a[href^="https://s.happyleafmotion.com/"]
 #video-promo---related
 iframe[src^="//syndication.traffichaus.com/"]
 .ad-zone-container-sidebar-first
-.adzone-above-latest
 .empower-ad
 #stakeNavbarAd
 #container > p > a[href]
@@ -9987,14 +9998,3 @@ section.widget_block:has(> div[id^="hwbus-"]:only-child:empty)
 .box.advertise
 div[class]:has(> div[id*="TF"][id*="-"]:empty)
 .bottom-adv1
-.hero-section ~ br
-.rightpanel_ipad > div:has(> center > [data-type="_mgwidget"])
-main > .row:has(> a[target="_blank"])
-#maincol > div.game_box:has(> a[href="https://www.mnfclub.com"])
-#pre-1adv
-.adv-block-top-player
-body .ad-holder
-.right-rail-content-wrapper > .rail-container:has(> .ad-callout-wrapper:only-child)
-div[class^="UnifiedProductCardBody"]
-.body__inner-container > p:contains(Shop Vogue)
-#sp-player
