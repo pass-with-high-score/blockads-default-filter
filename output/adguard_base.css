@@ -7282,6 +7282,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+a[href^="/link/out/b?"]
+.side-content-block
 div.flex.border:has(> div[class] > .ad-slot)
 .fake-downloads
 .partner-block
@@ -7688,7 +7690,6 @@ a[href^="https://surfshark.com/"]
 .jw-media > a[target="_blank"]
 .side_content.hidden-phone
 .fluid_html_on_pause
-.side-content-block
 div[data-testid^="ncu-within-group-"]
 .main-cams-wrap
 #topadspot
@@ -9997,4 +9998,3 @@ body .ad-holder
 div[class^="UnifiedProductCardBody"]
 .body__inner-container > p:contains(Shop Vogue)
 #sp-player
-.spots-horizontal-title
