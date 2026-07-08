@@ -148,6 +148,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.stripe-social-webshare ~ div
+.follow_btn
+.article_social_icons
 .web-share-btn
 .uk-container > p:contains(シェアしよう！)
 div[class^="Article_inner-wrapper"] > section[class^="SocialFollowBar_wrapper"]
@@ -9995,6 +9998,3 @@ ul.s-bar
 .social-item > li.icon-hatebu
 .social-item > li.icon-pocket
 .share-buttons-24
-.base_middle .bookmark-container
-.reactions-item.tw
-.reactions-item.fb

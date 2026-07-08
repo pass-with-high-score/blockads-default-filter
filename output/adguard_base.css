@@ -3556,10 +3556,13 @@ div[data-actirise-slot]:not(#style_important)
 div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
 div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
+.header:style(margin-top: 0 !important;)
+.banner-topline
 .zlokonieczne
 .google-ad-desktop
 .grid__ad
 .custom-html-box
+.grid__col > .card:has(> .box > .box__container > div[id^="bills_in_"])
 .baner
 .mr-ad-slot
 .ad-aside
@@ -5215,9 +5218,11 @@ span[style*="text-align: center;"][style*="margin: 15px auto 5px auto;"] + div[s
 .right-content > div[id] > div[style*="height:600"][style*="position:relative"]
 .interia-ad
 .news-slot-center
+.container > .justify-beewten > .relative:has(> ins[class^="staticpubads"])
 .TOPNewsB
 .topLayer
 .banner--toplayer
+.text-center:has(> .d-inline-block-not-important[data-ciid])
 .row div[class][style*="border-bottom"][style*="max-height:"] > div[style]:contains(REKLAM):upward(1)
 .bladbl
 .adsbox:style(display: block!important; height: 1px!important; position: absolute!important; left: -3000px!important;)
@@ -6515,6 +6520,7 @@ div[class^="DisplayAdvert"]
 div[class^="index-module_openwebAd_"]
 div[class^="TaboolaHomepageFeed_taboolaWrapper"]
 #fallbackTerms.fallback-term-holder
+.tbl-floating-unit
 .adbg
 #tdsAdContainer
 .wp-block-gamurs-ad
@@ -7285,6 +7291,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.pages > .notice-page
+a.zb
+body > a[href][target="_blank"][style*="z-index: 99999"]
 div[class^="Header_mastheadwebstrip-container"]
 div[data-testid^="commercial-"]
 header[data-testid="header"]:style(top: 0 !important;)
@@ -9989,12 +9998,3 @@ div[class*="SimpleIconsGoogleadsense"] > div[style] > a[href="https://store.hive
 .c-tvListingsSchedule_video:has(.c-adDisplay_container)
 .content:has(> div[class^="Splash__BucketWrapper"] > div > div[class^="Ad__Container"]):style(display: none !important;)
 main div.pt5:style(padding-top: 0px !important;)
-div.popup-box-ads:remove()
-li[style^="width: 300px; height: 250px;"]
-.alert-ad
-.nav-item:has(> a[rel*="sponsored"])
-a[id="startDownload"][target="_blank"]
-div[class]:has(> div[id*="_slot_"]:only-child)
-.strawpoll-container .mx-auto[style*="min-height:"]:has(> .adsbygoogle)
-.block-sticky
-.stream-item:has(> .stream-item-size > .adsbygoogle)
