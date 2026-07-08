@@ -324,6 +324,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.no-badge.video:has(> div.w-adsninja-video-player)
 #stories_html:has(> div#stories:empty)
 .c-single_post_inline_ad_box
 #xheti-mobile-header-only

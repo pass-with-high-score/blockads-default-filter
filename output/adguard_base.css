@@ -7291,6 +7291,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+a[href^="https://rocketstreams4k.com?ref="]
+a[rel="noopener sponsored"]
+a[href^="https://69pedia.com"]
+a[href^="https://69Search.com/"]
+.block-sticky-bar__element
+.transition--root-hidden
 .pages > .notice-page
 a.zb
 body > a[href][target="_blank"][style*="z-index: 99999"]
@@ -7801,8 +7807,6 @@ center:contains(/^Advertisement$/)
 div[class]:has(> small > em)
 #download + div:has(> a[rel="nofollow"])
 .duet--layout--rail > div:has(> div[class] > div[data-concert]:only-child)
-div[class]:has(> div[data-concert]:only-child)
-.duet--layout--rail > div[class^="_"]:has(div[data-concert]:only-child)
 #x27
 aside[aria-label="Notification Ad"]
 div[data-sentry-component="Box"]:has(> span[data-sentry-component="Box"] + div[data-sentry-component="Box"] > iframe[id^="google_ads"])
@@ -8923,7 +8927,6 @@ nav > div.item.header_link
 .tdm-popup-modal-over-screen:has(> .tdm-popup-modal > .tdm-pm-body:empty)
 .r-sections > div[v-pre]
 div[style="margin: 0 auto; min-height: 250px; max-height: 300px; width: 300px"]
-div[class*="Advertorial_advertorial"]
 div[class^="Search_adsWrapper"]
 .dkt-amz-head
 .entry-content > center
@@ -9995,6 +9998,3 @@ div[class*="SimpleIconsGoogleadsense"] > div[style] > a[href="https://store.hive
 #adareaVideo
 #adareaVideo + #mainarea[style*="margin-right:"]:style(margin-right: 0 !important;)
 .c-read-next:has(> div.jobbioapp)
-.c-tvListingsSchedule_video:has(.c-adDisplay_container)
-.content:has(> div[class^="Splash__BucketWrapper"] > div > div[class^="Ad__Container"]):style(display: none !important;)
-main div.pt5:style(padding-top: 0px !important;)
