@@ -44,6 +44,7 @@ body > div[class]:has(> a[href^="https://chpadblock.com/"])
 #bloghash-scroll-top + div[id][class*=" "]
 footer + script + div[id][class*=" "]
 .firework-consent-overlay-js
+body > #back-top + div[id][class*=" "]
 .banner-wrapper + div[id][class*=" "]
 body > #page > footer.site-footer + div[id][class*=" "]
 #back-to-top + div[id][class]
@@ -385,7 +386,6 @@ div[aria-describedby="antiaddialog"]
 #myTestAd:style(height: 1px !important;)
 body[style*="overflow: hidden;"]:style(overflow: auto !important;)
 div[name="trap-focus"] > div[aria-label="Ad blocker modal"][role="alertdialog"]:style(display: none !important;)
-#AntiAdblockcnmu
 .adblock-wrapper
 body > div[id][style="display: block;"]:has(> div[id]:only-child > div[style*="margin: clamp"])
 body > div[style^="position: fixed; top:"][style*="z-index:"][style*="display: flex;"]
@@ -590,7 +590,6 @@ body .textad:style(display: block !important;)
 #modal_blocker:style(display: none !important;)
 #wrapfabtest:style(height: 1px !important; display: block !important;)
 body > center[id]:has(> p:contains(Disable Your ad blocker)):remove()
-body > div[id^="\30"][class^="popup0"][class$="wrap"]:style(display: none !important;)
 div[id^="aub"]
 .slbElement
 body .adsbyvli:style(display: block !important; height: 30px !important;)
@@ -670,7 +669,6 @@ link[id][href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:
 .adsBox.pub_300x250m.pub_728x90.text-ad:style(display: block !important;)
 div[id^="bait-"][class][style]:style(display: block !important;)
 .blockerAlert
-#eazy_ad_unblocker_holder
 body .adsbox[style*="height"]:style(display: block !important;)
 body .adsbygoogle[style*="height"]:style(display: block !important;)
 #detect.ad-placement:style(display: block !important;)
@@ -687,7 +685,6 @@ div[id^="adngin-"]
 .fuckGitHUB_content
 .fuckGitHUB_blackoverlay
 body .google-ad:style(display: block !important;)
-#wrapfabtest:style(height: 1px!important;)
 #ad
 #ab-overlay
 .san_wrapper
@@ -707,6 +704,7 @@ body > div[style*="opacity:"][style*="position: fixed; width:"][style*="z-index:
 div[id^="vi_LN_sticky"][id*="-ad"]:style(visibility: hidden !important;)
 top.table0 .menubg .adsbyvli[data-ad-slot]:not([data-width]) { height: 250px !important; position: absolute !important; left: -3000px !important; }
 body #bottomAd.adsbox:style(display: block !important;)
+#wrapfabtest:style(height: 1px!important;)
 #koddostu-com-adblocker-engelleme
 #adBlockerOverlay
 #ctkiba-blanket
@@ -7966,9 +7964,6 @@ body > div.index-module-scss-module__SGgCpa__container:style(height: 10vh !impor
 .thumbs-list > div.container-side
 a[href^="https://as.fontheader.com/"]
 .native-container
-div[data-testid] div[class^="max-"] > div[data-ad-card-root]
-div[class]:has(> button[class] > span.text-nowrap > svg.icon-sm > use[href="/cdn/assets/sprites-core-fxfgsfqf.svg#d3876b"])
-div[class]:has(> div.flex > button[aria-label="Ad options"])
 send-intro .w-full.mb-2.text-orange-60
 .live-button-wrapper
 .single-video-4x4-ad-container
@@ -9998,3 +9993,8 @@ div[class*="SimpleIconsGoogleadsense"] > div[style] > a[href="https://store.hive
 #adareaVideo
 #adareaVideo + #mainarea[style*="margin-right:"]:style(margin-right: 0 !important;)
 .c-read-next:has(> div.jobbioapp)
+.c-tvListingsSchedule_video:has(.c-adDisplay_container)
+.content:has(> div[class^="Splash__BucketWrapper"] > div > div[class^="Ad__Container"]):style(display: none !important;)
+main div.pt5:style(padding-top: 0px !important;)
+div.popup-box-ads:remove()
+li[style^="width: 300px; height: 250px;"]

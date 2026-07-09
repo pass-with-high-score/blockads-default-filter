@@ -324,6 +324,11 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.wrapper > div[style="text-align: center;margin-bottom:50px;padding:5px"]
+.mobile-only-iframe
+.video-page__mobile-user
+.adv-list
+.spot_footer
 .no-badge.video:has(> div.w-adsninja-video-player)
 #stories_html:has(> div#stories:empty)
 .c-single_post_inline_ad_box
@@ -359,7 +364,7 @@ div[style="line-height: 55pt;"]
 div[style="line-height: 55pt;"] + div[align="center"]
 .custom-250.promo
 .jupiter-navbar-ads
-div[class^="sc-"]:has(> div div.section-mpu-container)
+.section-content > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="sc-"] > .section-mpu-container)
 .e-child > .elementor-element.e-con:has(> div.elementor-widget .code-block)
 .bi-bottom-ad
 body > div.items-center:has(> a[href^="https://pornhex.com/o/"][target="_blank"])
