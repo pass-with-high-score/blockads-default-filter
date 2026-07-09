@@ -802,6 +802,7 @@ body > div[style*="text-align: center; z-index: 90000;"]
 .ABD_display_adblock:style(display: none!important;)
 .ABD_display_noadblock:style(display: block!important;)
 .reklamcontainer:style(height: 1px!important;)
+body > div[class][id][style*="display"]:has(> div[class] > div[class] > img[src*="/ADS-ONLY-ONE"]):style(display: none !important;)
 .k2cd89-hide
 #body-wrapper:style(opacity: 1!important;)
 .adsbygoogle:style(height: 0!important;)
@@ -3554,6 +3555,7 @@ div[data-actirise-slot]:not(#style_important)
 div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
 div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
+div[class^="optad"]
 .header:style(margin-top: 0 !important;)
 .banner-topline
 .zlokonieczne
@@ -4881,6 +4883,7 @@ div[id^="atomsAds"]
 .pubs
 #sidebar > ul > li[id^="custom_html-"] > h2.widgettitle:contains(/^Reklama$/):upward(1)
 #ad-top-holder
+div[class*="content-['REKLAMA']"]
 .show-lg > a[target="_blank"] > img
 [class$="idebar"] #custom_html-3
 div[id^="custom_html-"]:has(ins.adsbygoogle)
@@ -5164,7 +5167,6 @@ div[class^="zpr_inside_"][class*="placement__lazy"]
 .video-player-container
 body > .rodo-popup ~ div[style*="position: absolute;"][style$="display: block;"]:not([class]):not([id])
 .art .lazyload-wrapper:has(> div[class] > div[class] > button.close + div[class] > a[href="/twoja-prywatnosc"])
-div[class^="optad"]
 div[class^="adslot"]
 .adsbygoogle + script + hr
 p[style="color:f2f3f3; font-size:14px; text-align:center; padding:0; margin-bottom: 20px;"]
@@ -5579,6 +5581,7 @@ div[data-index][data-slot][style]
 div[class*=" "]:has(> img[src*="://v.wpimg.pl/"] + div[class] > style:first-child + div:last-child)
 body:not(#bd):not([style*="background-image:"]):style(background-image:none!important;)
 body:style(pointer-events: auto !important;)
+div[data-prebid-slot]
 .ad-left + div[style="height: 250px;"]
 .ad-left + div:not([class], [id]) > div[style="position: absolute; font-size: 12px;"]
 .slot1
@@ -8121,12 +8124,12 @@ div[class*="bottomAd"]
 body > div[id^="mdb"]
 body > div[id^="mongo"]
 body > div[id^="at-bottom-"]
-body div[id][data-banner-name]:not(#style_important)
-body > div[id][data-mobile-name]:not(#style_important):has(> span.close + .linkrow)
-body > div[id][data-nosnippet]:has(> button[class*="-close"] + div[class*="sticky"])
-body > * > div[id][data-nosnippet]:has(> button[class*="-close"]+ div[class*="sticky"])
-div[id*="-coding-bar"]
-body div[id^="vibe-main-row"]:not(#style_important)
+body [id][data-banner-name]:not(#style_important)
+body > [id][data-mobile-name]:not(#style_important):has(> span.close + .linkrow)
+body > [id][data-nosnippet]:has(> button[class*="-close"] + div[class*="sticky"])
+body > * > [id][data-nosnippet]:has(> button[class*="-close"]+ div[class*="sticky"])
+[id*="-coding-bar"]
+body [id^="vibe-main-row"]:not(#style_important)
 .l-side-column .m-sidebar-widget:has(> .body > .standard > div[data-dest*="bannerid="])
 #gads
 .items-start.flex > div.ml-0 > .flex-wrap > li.box-border:has(> div[data-test="streamad"])
@@ -9995,6 +9998,3 @@ div[class*="SimpleIconsGoogleadsense"] > div[style] > a[href="https://store.hive
 .c-read-next:has(> div.jobbioapp)
 .c-tvListingsSchedule_video:has(.c-adDisplay_container)
 .content:has(> div[class^="Splash__BucketWrapper"] > div > div[class^="Ad__Container"]):style(display: none !important;)
-main div.pt5:style(padding-top: 0px !important;)
-div.popup-box-ads:remove()
-li[style^="width: 300px; height: 250px;"]

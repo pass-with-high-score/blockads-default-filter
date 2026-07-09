@@ -324,6 +324,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+iframe[src^="https://a.adtng.com/"]
+.vocab-builder-footer
 .wrapper > div[style="text-align: center;margin-bottom:50px;padding:5px"]
 .mobile-only-iframe
 .video-page__mobile-user
@@ -1145,7 +1147,6 @@ div:has(> div[data-adtype]:only-child)
 div[id][style^="left:"][style*="height:"]:style(height: auto !important;)
 .links-out__disclaimer
 .wrapper > aside[class]:has(> header.aan__header)
-iframe[src^="https://a.adtng.com/"]
 .first-ad-adp
 center > div[style^="width:300px;height:"]
 section[class*="section_ads"]
