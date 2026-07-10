@@ -4562,6 +4562,7 @@ div[class^="jss"][style^="margin-bottom:"] > div.MuiTypography-root:contains(/^r
 div[style="width:730px;height:75px;display:block;margin:0 auto;"]
 #prawa_kolumna > h1.header_kategorie:contains(/^Reklama$/)
 #prawa_kolumna > h1.header_kategorie:contains(/^Reklama$/) ~ br
+div[class^="inner-ads-header"]
 .g-dyn > a:not([href*="wpoznaniu.pl"]) > img
 .g-single > a:not([href*="wpoznaniu.pl"]) > img
 .johannes-custom-content > .wp-block-image > figure > a[href]:not([href*="wielkahistoria.pl"]) > img
@@ -7292,6 +7293,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.tp-vpn-banner
+div[id^="mobid-"]
+div[data-ips-ad]
 a[href^="https://rocketstreams4k.com?ref="]
 a[rel="noopener sponsored"]
 a[href^="https://69pedia.com"]
@@ -7326,6 +7330,7 @@ a[href^="/link/out/b?"]
 .side-content-block
 div.flex.border:has(> div[class] > .ad-slot)
 .fake-downloads
+#bbc-main > article[class] > div[data-testid="nested-navigation-container"]:has(> div[data-testid="new-inner-nested-navigation-container"] > div[class^="NestedNavigation-styles__"] > div[data-testid="ad-unit"])
 .partner-block
 a[href^="https://www2.pornfidelity.com/track/"]
 a[href^="https://pawgpornstars.com/link/brazzers/"]
@@ -7854,7 +7859,7 @@ div[class^="parent-ad-"]
 .article__sidebar
 #uphone-ban
 app-reddit-post-viewer > div.explore-post:has(> div > app-promo-post-random)
-.dk-banner-row
+div[class*="-banner-row"]
 pt-redirect-layer
 .hf-cake-banner
 .cls-prbn
@@ -9993,8 +9998,3 @@ div[style]:has(> div[class^="ad-widget-"])
 div[class*="SimpleIconsGoogleadsense"] > div[style] > a[href="https://store.hivetoon.com/"] > img
 #adareaVideo
 #adareaVideo + #mainarea[style*="margin-right:"]:style(margin-right: 0 !important;)
-.c-read-next:has(> div.jobbioapp)
-.c-tvListingsSchedule_video:has(.c-adDisplay_container)
-.content:has(> div[class^="Splash__BucketWrapper"] > div > div[class^="Ad__Container"]):style(display: none !important;)
-main div.pt5:style(padding-top: 0px !important;)
-div.popup-box-ads:remove()

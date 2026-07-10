@@ -148,6 +148,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+article > div.has-text-centered:has(> button[onclick="share()"])
+div[class^="astra-advanced-hook-"] > div.wp-block-uagb-container:has(> div.uagb-container-inner-blocks-wrap > div.wp-block-uagb-social-share)
+button[id^="elShareItem_"]
 .stripe-social-webshare ~ div
 .follow_btn
 .article_social_icons
@@ -157,6 +160,7 @@ div[class^="Article_inner-wrapper"] > section[class^="SocialFollowBar_wrapper"]
 .c-feat-post__social
 li:has(> a[title="Share"])
 .bnr
+div[class*="PostActions"]:has(> div[data-testid="share-tools-container"])
 .fixed.right-4
 div[data-tooltip="Share"]
 .social-btn-group
@@ -2321,7 +2325,6 @@ div.flex + aside.flex:has(> a[aria-label="Condividi su Email"])
 button[aria-label="article share"]
 .worldcup-share
 .self-center > div:has(> div >a[href^="https://twitter.com/intent/"])
-div[data-testid="share-tools-container"]
 #mainEntity + aside:has(> .sns-msg:first-child + aside:last-child)
 a[href^="https://x.com/intent/"]
 .css-1phrblb
@@ -9995,6 +9998,3 @@ ul.s-bar
 .actions--social
 .social_button
 .share-button-container
-.social-item > li.icon-hatebu
-.social-item > li.icon-pocket
-.share-buttons-24
