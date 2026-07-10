@@ -7870,10 +7870,8 @@ a[href="/ai"]
 footer ~ div.fixed:has(> a[href^="https://chromewebstore.google.com/"])
 .popup-ads-container
 .si_list > li.si_li:has(> div[style*="height:"])
-.content_store
 .row > div.portfolio-item:not(:has(> div.card > a[href^="https://www.elamigosgamez.net/"]))
 .container > h3.my-4:contains(Advertising)
-.iframeDiv
 a[href^="https://t.ajrkmx1.com/"]
 a[href^="https://t.mbjms.com/"]
 a[href^="https://t.acrsmartcam.com/"]
@@ -9998,3 +9996,5 @@ div[class*="SimpleIconsGoogleadsense"] > div[style] > a[href="https://store.hive
 .c-read-next:has(> div.jobbioapp)
 .c-tvListingsSchedule_video:has(.c-adDisplay_container)
 .content:has(> div[class^="Splash__BucketWrapper"] > div > div[class^="Ad__Container"]):style(display: none !important;)
+main div.pt5:style(padding-top: 0px !important;)
+div.popup-box-ads:remove()
