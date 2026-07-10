@@ -7293,6 +7293,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.text-nord14
+.bottom-2.fixed
+div.mx-auto:has(> iframe[src])
 .tp-vpn-banner
 div[id^="mobid-"]
 div[data-ips-ad]
@@ -9995,6 +9998,3 @@ form > center > a[target="_blank"]
 .admap
 div[id]:has(> div[class^="ad-widget-"])
 div[style]:has(> div[class^="ad-widget-"])
-div[class*="SimpleIconsGoogleadsense"] > div[style] > a[href="https://store.hivetoon.com/"] > img
-#adareaVideo
-#adareaVideo + #mainarea[style*="margin-right:"]:style(margin-right: 0 !important;)
