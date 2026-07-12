@@ -148,6 +148,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div[class^="container-"] > button:has(> span[class^="meta-"])
+div[class^="container-"] > button:has(> span[class^="xTwitter-"])
+div[class^="container-"] > button:has(> span[class^="whatsapp-"])
 article > div.has-text-centered:has(> button[onclick="share()"])
 div[class^="astra-advanced-hook-"] > div.wp-block-uagb-container:has(> div.uagb-container-inner-blocks-wrap > div.wp-block-uagb-social-share)
 button[id^="elShareItem_"]
@@ -9995,6 +9998,3 @@ ul.s-bar
 .vhb-share-social > a[title*="teilen"]
 .meetic-box
 .action--share
-.actions--social
-.social_button
-.share-button-container

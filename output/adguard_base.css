@@ -7293,6 +7293,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[style^="min-height: "]:has(> ins.adsbygoogle)
+.hayden-after-paragraph
 .insert-uplift
 .text-nord14
 .bottom-2.fixed
@@ -9996,5 +9998,3 @@ form > center > a[target="_blank"]
 .grid__rail_top:has(> .adWrapper)
 .grid__content_padded_bottom_border:has(> .adWrapper)
 .card > div:has(div.h5 > span[style="padding-bottom:5px;margin-top:-10px;font-size:.8rem;"])
-.admap
-div[id]:has(> div[class^="ad-widget-"])
