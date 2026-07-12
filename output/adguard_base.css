@@ -3555,6 +3555,7 @@ div[data-actirise-slot]:not(#style_important)
 div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
 div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
+.adcash-banner-wrapper
 div[class^="optad"]
 .header:style(margin-top: 0 !important;)
 .banner-topline
@@ -7293,6 +7294,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.discourse-custom-ad-component
 div[style^="min-height: "]:has(> ins.adsbygoogle)
 .hayden-after-paragraph
 .insert-uplift
@@ -9996,5 +9998,3 @@ section[id^="phxoutbrain-"]
 a[href^="https://s.click.aliexpress.com/"]
 form > center > a[target="_blank"]
 .grid__rail_top:has(> .adWrapper)
-.grid__content_padded_bottom_border:has(> .adWrapper)
-.card > div:has(div.h5 > span[style="padding-bottom:5px;margin-top:-10px;font-size:.8rem;"])
