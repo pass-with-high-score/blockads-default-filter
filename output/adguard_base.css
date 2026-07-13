@@ -667,6 +667,8 @@ link[id][href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:
 .ad.ads.Ad.Ads.googleAd.googleAds:style(display: block !important;)
 #adblock-warning
 .publicite.text-ad.adsbox:style(display: block !important;)
+body #abd-overlay:not(#style_important):style(display: none !important;)
+html > body:not(#style_important):style(overflow: auto !important; pointer-events: auto !important;)
 .adBlock-banner
 .adsBox.pub_300x250m.pub_728x90.text-ad:style(display: block !important;)
 div[id^="bait-"][class][style]:style(display: block !important;)
@@ -1972,6 +1974,7 @@ header.trim > div.container:style(margin-top: auto!important;)
 tbody#eml-list__tbody > tr[id^="row"] > td
 .kava_ad_chilli
 .adnm-html-topscroll-frame-wrapper
+.retail-media-ad-wrapper
 div[data-test="entry-list-container"] > article:not([data-test]):has(a[data-external="true"][variant="primary"])
 .kaupungin-tiedotteetsidebar
 .omamainos-products
@@ -3557,6 +3560,10 @@ div[data-actirise-slot]:not(#style_important)
 div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
 div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
+.post-ad-content
+.pcf-ad-slot-wrap
+.pcf-sidebar-ad-top
+div[class*="-ads-placement"]
 .adcash-banner-wrapper
 div[class^="optad"]
 .header:style(margin-top: 0 !important;)
@@ -3581,6 +3588,7 @@ a.nav-link[target="_blank"] > img
 #header_widget-6
 #header_widget-18
 aside > div.widget:has(> div > a[href^="/?ad="])
+.post__content > .wp-block-image:has(> a[target="_blank"] > img)
 a[href^="https://and.co.pl/"][rel*="sponsored"]
 .products-feed__tag
 .products-feed
@@ -5381,6 +5389,7 @@ div[class^="cool-stuff"]
 .ao-ad-wrapper
 .region-sidebar-second > .widget_text > .textwidget > center > div[id][style="width:300px;height:250px;"]:empty
 a[href="https://e-neko.pl/"] > img
+.single-post-top-ad:style(height: 52px !important; min-height: 52px !important;)
 #adSlotXL2
 #adSlotsSidebar
 #sponsor-special-section
@@ -5585,6 +5594,7 @@ div[data-index][data-slot][style]
 div[class*=" "]:has(> img[src*="://v.wpimg.pl/"] + div[class] > style:first-child + div:last-child)
 body:not(#bd):not([style*="background-image:"]):style(background-image:none!important;)
 body:style(pointer-events: auto !important;)
+div[class^="Header_container"] > a[target="_blank"]
 div[data-prebid-slot]
 .ad-left + div[style="height: 250px;"]
 .ad-left + div:not([class], [id]) > div[style="position: absolute; font-size: 12px;"]
@@ -7296,6 +7306,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.article-body-content > div.inline-content-module:has(div[class^="feature-version-"] .cx-flex-module)
 .innerContainer
 .discourse-custom-ad-component
 div[style^="min-height: "]:has(> ins.adsbygoogle)
@@ -9987,14 +9998,3 @@ img[alt="Advertisement"]
 a[href^="https://hive.arf.dev"]
 a[href^="https://quickdrop.link"]
 #wpsafe-link:style(display: block !important;)
-div[class^="file_browser_alt_ad_wrap__"]
-.colleft:style(height: fit-content !important;)
-.colright:style(height: fit-content !important;)
-.GoogleDfpAd-advertisement
-div[class*="adbox_"]
-.main > table > tbody > tr > td:has(> div[class] > div > div[style]:contains(From the developer of Online2PDF.com))
-#artist-meta
-.m-fixedbottom-ad--container
-section[id^="phxoutbrain-"]
-.skinner
-#banner-lead

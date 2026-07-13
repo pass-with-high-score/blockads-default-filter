@@ -324,6 +324,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.hasInGridAd > div.rowGroupSpacer
 div[style="padding:10px 0;"]
 div[style="text-align:center; margin-top: 76px; margin-bottom: -56px; height: 100px;"]
 iframe[src^="https://a.adtng.com/"]
