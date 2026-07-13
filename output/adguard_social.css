@@ -148,6 +148,10 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.shareBox_tit
+.share_x
+.share_fb
+.share_line
 div[class^="container-"] > button:has(> span[class^="meta-"])
 div[class^="container-"] > button:has(> span[class^="xTwitter-"])
 div[class^="container-"] > button:has(> span[class^="whatsapp-"])
@@ -9994,7 +9998,3 @@ ul.s-bar
 .story-sharing
 .post-body div[style="background-color: #ea141f; border: 2px solid #000000; padding: 5px; text-align: center;"]
 .tbn_horizontal_sharebar
-.vhb-share-button-footer.dropdown
-.vhb-share-social > a[title*="teilen"]
-.meetic-box
-.action--share

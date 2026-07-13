@@ -7294,6 +7294,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.innerContainer
 .discourse-custom-ad-component
 div[style^="min-height: "]:has(> ins.adsbygoogle)
 .hayden-after-paragraph
@@ -9997,4 +9998,3 @@ section[id^="phxoutbrain-"]
 #banner-lead
 a[href^="https://s.click.aliexpress.com/"]
 form > center > a[target="_blank"]
-.grid__rail_top:has(> .adWrapper)
