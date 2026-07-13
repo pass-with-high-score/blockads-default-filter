@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.social-horizontal-container
 a[class^="PlayerChannelSection__ShareSongWrapper-"]
 button.ds-cursor-pointer:has(> i.icon-share-outlined)
 .shareBox_tit
@@ -9997,4 +9998,3 @@ ul.s-bar
 .a2a_kit > a[class^="a2a_button_"]
 .ar-society-link
 .page-header > .content-social
-.story-sharing
