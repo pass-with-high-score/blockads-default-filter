@@ -577,8 +577,6 @@ div.ad-container
 .popup-overlay
 .preroll-content
 body>div[style^="position: fixed;"]
-#popup-ad-box
-.banner-ad
 .bbMediaWrapper-inner>.samCodeUnit
 .js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
 .p-footer
@@ -588,6 +586,8 @@ body>div[style^="position: fixed;"]
 .quangcaomobile
 div[style^="position:fixed;inset:0px;z-index:100000;"]
 #video_player ~ div[id]
+#popup-ad-box
+.banner-ad
 #AgeModal
 #backgroundPopupp
 #ds_top

@@ -275,6 +275,8 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+#adblockOverlay:style(display: none !important;)
+html, body:style(overflow: auto !important;)
 #abd-overlay
 #adblock-overlay
 #smellcheck:style(display: none !important;)
@@ -9996,5 +9998,3 @@ div[class*="adbox_"]
 section[id^="phxoutbrain-"]
 .skinner
 #banner-lead
-a[href^="https://s.click.aliexpress.com/"]
-form > center > a[target="_blank"]
