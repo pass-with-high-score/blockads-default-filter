@@ -7308,6 +7308,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div:has(> a[target="_blank"]:only-child > img:only-child)
+div[class^="ad-box"]
 div.border-b.overflow-visible:has(.mwd-inline-loaded)
 .ad-gpt-pro
 .tt-deals
@@ -9996,5 +9998,3 @@ div[data-vars-widget-name="taboola-below-article-carousel"]
 button#download + div:contains(advertisement)
 .maincontent div.contentbox:has(> div[style] > center > iframe[src^="https://a.adtng.com/"])
 .maincontent div.contentbox:has(> div[style] > center > table iframe[src^="https://a.adtng.com/"])
-#popupAdModal:style(display: none !important;)
-body.ad-modal-open:style(overflow: visible !important;)

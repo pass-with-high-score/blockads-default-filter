@@ -165,6 +165,7 @@ div[class^="container-"] > button:has(> span[class^="whatsapp-"])
 article > div.has-text-centered:has(> button[onclick="share()"])
 div[class^="astra-advanced-hook-"] > div.wp-block-uagb-container:has(> div.uagb-container-inner-blocks-wrap > div.wp-block-uagb-social-share)
 button[id^="elShareItem_"]
+.product-share-buttons
 .stripe-social-webshare ~ div
 .follow_btn
 .article_social_icons
@@ -9997,4 +9998,3 @@ ul.s-bar
 #facebookFixed
 .tooltipster-base
 .block_share
-.ignielShare
