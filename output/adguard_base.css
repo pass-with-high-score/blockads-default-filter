@@ -7306,6 +7306,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#detail-page > .mt-4 > .mt-4:has(> a.group.block[href^="https://gamixo.org/"])
 li:has(> div.sideads)
 #global-top-ad
 .article-body-content > div.inline-content-module:has(div[class^="feature-version-"] .cx-flex-module)
@@ -9997,4 +9998,3 @@ iframe[src^="//adserver.juicyads.com/"]
 img[alt="Advertisement"]
 .max-w-full > .group:has(> button[aria-label="Dismiss ad"])
 #wpfront-notification-bar
-a[href^="https://hive.arf.dev"]

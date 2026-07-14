@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+#detail-page > .justify-start.inline-flex div.flex.justify-start.items-center:has(> div[title="share to Facebook"])
 .social-horizontal-container
 a[class^="PlayerChannelSection__ShareSongWrapper-"]
 button.ds-cursor-pointer:has(> i.icon-share-outlined)
@@ -9997,4 +9998,3 @@ ul.s-bar
 .ignielShare
 .a2a_kit > a[class^="a2a_button_"]
 .ar-society-link
-.page-header > .content-social

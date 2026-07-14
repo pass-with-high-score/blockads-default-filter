@@ -254,6 +254,11 @@ div[style="margin: 10px 0 5px 0; min-height: 250px;"]
 .popup
 .sticky
 a.btn_fb:nth-of-type(2)
+#hots-btn
+.bn-popup-bottom-sdwdwxw
+[href="/top-nha-cai.html"]
+li.for-desktop-2>[href]
+li.for-mobile-2>[href]
 .text-muted
 [href$="/goout/lazada"]
 section.nh-section:nth-of-type(5)
@@ -316,6 +321,8 @@ div[id^="ads_"]
 .footer-banner
 .sk_balloon
 div[class^="adv-"]
+.adserver
+.mt-3.topics-line.topics-grid.topics-list
 .sspp-area
 .boxzilla-bottom-right-container
 [href^="https://gotrackecom.info"]
@@ -368,11 +375,6 @@ zone
 .mmo
 .mzdal
 .ads-container
-#hots-btn
-.bn-popup-bottom-sdwdwxw
-[href="/top-nha-cai.html"]
-li.for-desktop-2>[href]
-li.for-mobile-2>[href]
 div[class$="_ads"]
 .zone-top
 [id^="pos-"]
@@ -568,6 +570,8 @@ div[id^="divFLR"]
 #pc-preload-modal
 .quang-cao
 #popup
+#popup-ad-box
+.banner-ad
 .xx-ads
 .btm_bar
 div.ad-container
@@ -586,8 +590,6 @@ body>div[style^="position: fixed;"]
 .quangcaomobile
 div[style^="position:fixed;inset:0px;z-index:100000;"]
 #video_player ~ div[id]
-#popup-ad-box
-.banner-ad
 #AgeModal
 #backgroundPopupp
 #ds_top
