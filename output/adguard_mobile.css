@@ -324,6 +324,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.ai-viewports
+.progress-bar-container + div.trending-news:style(margin-top: 56px !important;)
 .hasInGridAd > div.rowGroupSpacer
 div[style="padding:10px 0;"]
 div[style="text-align:center; margin-top: 76px; margin-bottom: -56px; height: 100px;"]

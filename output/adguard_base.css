@@ -275,10 +275,10 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+#adblock-overlay
 #adblockOverlay:style(display: none !important;)
 html, body:style(overflow: auto !important;)
 #abd-overlay
-#adblock-overlay
 #smellcheck:style(display: none !important;)
 div[data-afuhost]
 #afu-ab
@@ -5405,6 +5405,8 @@ div[data-no-partner-ads] .font-moderat:has(> .flex > .items-center > .items-cent
 .mediafarm:style(height: 0 !important;)
 #left-con div[style="min-height: 280px; display: flex; align-items: center; justify-content: center;"]
 #left-con > .row > .columns > div[style="display: block; height: 330px; text-align:center;"]
+.money-ecommerce-container
+.wp-widget-stock .banner-container
 div[data-breakpoint] > div[class^="sc-"] > div[class^="sc-"] > div[class*="sc-"]:not([class^="sc-"]) > div[class^="sc-"]:matches-css(before, content: REKLAMA)
 iframe[src="https://direct.money.pl/promoted-offers-hp-money"]
 main > div[class]:has(> iframe[src="https://direct.money.pl/promoted-offers-hp-money"]):matches-css(before, content: REKLAMA)
@@ -7306,6 +7308,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.border-b.overflow-visible:has(.mwd-inline-loaded)
+.ad-gpt-pro
+.tt-deals
 #detail-page > .mt-4 > .mt-4:has(> a.group.block[href^="https://gamixo.org/"])
 li:has(> div.sideads)
 #global-top-ad
@@ -9993,8 +9998,3 @@ button#download + div:contains(advertisement)
 .maincontent div.contentbox:has(> div[style] > center > table iframe[src^="https://a.adtng.com/"])
 #popupAdModal:style(display: none !important;)
 body.ad-modal-open:style(overflow: visible !important;)
-body.ad-modal-open > .modal-backdrop:style(display: none !important;)
-iframe[src^="//adserver.juicyads.com/"]
-img[alt="Advertisement"]
-.max-w-full > .group:has(> button[aria-label="Dismiss ad"])
-#wpfront-notification-bar

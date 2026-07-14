@@ -148,6 +148,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.sns-share-area2
+.menus > div.soc_il
+.social-google-wrapper
 #detail-page > .justify-start.inline-flex div.flex.justify-start.items-center:has(> div[title="share to Facebook"])
 .social-horizontal-container
 a[class^="PlayerChannelSection__ShareSongWrapper-"]
@@ -995,7 +998,6 @@ button[data-tname="nonprofitShareButton"]
 .tab-content > article ~ .ct-print
 .tab-content > article ~ .ct-email
 div[data-testid="notification-setting-block"] > div > div:has(> div > div > button[data-testid="share-line-button"])
-.mobile-share-button-container
 .post-ufi > .post-ufi-button[href="javascript:void(0)"]
 div[class^="Post_post__"] > .-translate-x-1\/2
 .msnt-share
@@ -9996,5 +9998,3 @@ ul.s-bar
 .tooltipster-base
 .block_share
 .ignielShare
-.a2a_kit > a[class^="a2a_button_"]
-.ar-society-link
