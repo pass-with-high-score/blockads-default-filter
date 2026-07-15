@@ -278,6 +278,7 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 #adblock-overlay
 #adblockOverlay:style(display: none !important;)
 html, body:style(overflow: auto !important;)
+.dfx-shield-root:style(display: none !important;)
 #abd-overlay
 #smellcheck:style(display: none !important;)
 div[data-afuhost]
@@ -7308,6 +7309,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-t="bannerAd"]
 div:has(> a[target="_blank"]:only-child > img:only-child)
 div[class^="ad-box"]
 div.border-b.overflow-visible:has(.mwd-inline-loaded)
@@ -9996,5 +9998,3 @@ a[href^="https://gay0day.com/?action="]
 div[data-vars-widget-name="taboola-below-article-carousel"]
 .cHNI
 button#download + div:contains(advertisement)
-.maincontent div.contentbox:has(> div[style] > center > iframe[src^="https://a.adtng.com/"])
-.maincontent div.contentbox:has(> div[style] > center > table iframe[src^="https://a.adtng.com/"])
