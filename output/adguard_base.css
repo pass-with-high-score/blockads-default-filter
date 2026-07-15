@@ -7308,6 +7308,11 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[class*="_adContainer_"]
+.banner1
+div[style="width:300px;min-height:250px;"]
+.watch-sidebar > div.overflow-hidden:has(> div[class^="adsContainer"])
+.watch-sidebar > div.overflow-hidden:has(> div.shrink-0.flex)
 div[data-t="bannerAd"]
 div:has(> a[target="_blank"]:only-child > img:only-child)
 div[class^="ad-box"]
@@ -7670,7 +7675,8 @@ div.align-right.wrapper > div[class^="sc-"]:has(> div[id^="mpuS"]:only-child)
 div[id^="slot-"]:not(#style_important)
 iframe[src^="https://blazingserver.net/"]
 #__next > div[class*="__variable_"] > div:has(> div.ad-content)
-.featured
+body .featured:not(#style_important)
+.entry-content > div[class]:has(> div[data-fuse*="_incontent_"])
 .partners-element
 .max-w-5xl > a[href]:has(> img[alt*="Advertisement"])
 .max-w-3xl:has(> div.flex > span.font-semibold:contains(/^Continue reading$/i))
@@ -9992,9 +9998,3 @@ div[class] > center:has(> div.w-full > ins.adsbygoogle)
 .raw-html-component:has(> center div[id^="snack-"])
 .ipacrack_sidebar > section.border:has(> div[id][style] > div > a[target="_blank"])
 a[href^="https://gay0day.com/?action="]
-.block-video > .table:has(> div[id][style^="height:"] > iframe.na)
-div[data-vars-widget-name="taboola-below-article-carousel"]
-.cHNI
-button#download + div:contains(advertisement)
-.maincontent div.contentbox:has(> div[style] > center > iframe[src^="https://a.adtng.com/"])
-.maincontent div.contentbox:has(> div[style] > center > table iframe[src^="https://a.adtng.com/"])
