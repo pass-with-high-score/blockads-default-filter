@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.js-social-block-track
 .social-media-items
 .post-share-like__share-article
 .web_share
@@ -9997,4 +9998,3 @@ li[id^="snsbtn_"]
 ul.s-bar
 .sns_menu_bottom
 .snsBox > ul > li[class^="twitter"]
-.widget-share__social

@@ -7308,6 +7308,11 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.grid > div.grid-cols-1:has(> div.thumbnails-section div.inset-0 > span.tracking-widest)
+.help-wizard-cover
+#headerBanner
+section[class^="_"][style]:has(> div > a[href^="/en-ca/go/undefined/"] > img)
+article[class^="_"] > section[class^="_"]:has(> div[class^="_"] a[href^="/en-ca/go/undefined/sportsbook-bonus/"])
 div[class*="_adContainer_"]
 .banner1
 div[style="width:300px;min-height:250px;"]
@@ -9993,8 +9998,3 @@ a[href^="https://www.royalroad.com/"][href*="?campaign="][href*="&source="] > im
 .google-auto-placed
 div[style^="border-block-style: initial !important; border-inline: initial !important"]
 div[class] > center:has(> div.w-full > ins.adsbygoogle)
-.mmaAdCard
-#article-blocks > .raw-html-component:has(> center > #videoAd)
-.raw-html-component:has(> center div[id^="snack-"])
-.ipacrack_sidebar > section.border:has(> div[id][style] > div > a[target="_blank"])
-a[href^="https://gay0day.com/?action="]
