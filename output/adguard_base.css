@@ -476,7 +476,6 @@ body .sextb_700:style(display: none !important;)
 body .sextb_728:style(display: block !important;)
 body .sextb_728:not([id]):style(position: absolute !important; left: -9999px !important;)
 input#block-ad-blockers:remove()
-#overlay
 #anti-adblock:style(display: none !important;)
 ins.adsbygoogle[data-ad-slot]:style(display: block !important; height: 1px !important;)
 ab-detector
@@ -536,7 +535,6 @@ ins.adsbygoogle[data-ad-slot]:style(height: 0 !important;)
 .banner-inner:style(display: block; width: 0 !important;)
 .myads > a:style(visibility: hidden !important;)
 .textads.banner-ads.banner_ads.adsbox:style(display: block !important;)
-#wpsafe-snp:style(display: block !important;)
 .antiblock
 div[id][class^="popup"][class$="wrap"][style^="opacity"]
 .ad-zone.textads.banner-ads:style(display: block !important;)
@@ -547,6 +545,7 @@ a[href^="/"][target="_blank"][rel*="nofollow"].subrec:style(height: 48px !import
 .videoPremiumBlock
 #all-good:style(display: none !important;)
 #no-blocking:style(display: block !important;)
+#overlay
 .adblocker-popup
 .ad:style(height: 10px !important; position: absolute !important; left: -3000px !important;)
 .detectadb
@@ -7771,7 +7770,6 @@ a[href^="https://surfshark.com/"]
 .side_content.hidden-phone
 .fluid_html_on_pause
 .main-cams-wrap
-#topadspot
 section.section ~ div[style="max-width:100%;overflow-x:auto;"]
 #avc
 .package > .grid > div:has(> div[data-block-type="ad"])
@@ -9998,3 +9996,5 @@ a[href^="https://gay0day.com/?action="]
 div[data-vars-widget-name="taboola-below-article-carousel"]
 .cHNI
 button#download + div:contains(advertisement)
+.maincontent div.contentbox:has(> div[style] > center > iframe[src^="https://a.adtng.com/"])
+.maincontent div.contentbox:has(> div[style] > center > table iframe[src^="https://a.adtng.com/"])
