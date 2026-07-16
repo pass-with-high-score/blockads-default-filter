@@ -5722,6 +5722,7 @@ a[href^="/app/adclick.php?id="]
 #main_container:style(padding-top: 0!important;)
 body > div.m-auto[style="width: 1200px; height: 200px"]
 .parteneri > .inside > .boxuri-parteneri > .box-partener.custom
+.banner-list-item
 a[target="_blank"] > img[style="max-width: 100%;"]
 div.mx-auto:has(> div.wrapperAd)
 div.container:has(> div#Billboard_Desktop)
@@ -7309,6 +7310,11 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-tmdatatrack-type="commercial"]
+a[href^="https://s.pemsrv.com/"]
+.inline-carousel-ad
+.carouselAdWrapper
+iframe[style*="bottom: 70px; z-index: 5;"]
 #stickyAdZone
 div[class^="LeaderboardAdContainer"]
 div.grid > div.grid-cols-1:has(> div.thumbnails-section div.inset-0 > span.tracking-widest)
@@ -7532,7 +7538,6 @@ li[data-tid^="ad-slot-"]
 .bluesky-embed
 #app > div.hidden:has(> div.flex div[id^="optidigital-adslot"])
 .ai-dynamic > a[href^="https://my.asus.click/"]
-div[data-tmdatatrack-type="commercial"]
 div[class*="BoxStyles_commercial__"]
 header[class^="Header_header__"]:style(top: 0 !important;)
 div[data-testid="commercial-label-gpt"]
@@ -9993,8 +9998,3 @@ main > center > a[target="_blank"] > button
 .ads-list-two
 .dKKumhSnWiFq75vPUVtmTanQ:has(a[href^="https://www.royalroad.com/a/r?campaign="]:not([href*="&url=https%3A%2F%2Fwww.royalroad.com"]))
 .portlet:has(> .bold + a[target="_blank"])
-.portlet:has(> :is(span, div[style]) > a[target="_blank"])
-:is(.text-center, .wide):has(> div[id^="Content_Top_"]:first-child + div[id^="Content_Top_"]:last-child)
-a[href^="https://www.royalroad.com/"][href*="?campaign="][href*="&source="] > img
-.wp-block-image:has(> a[href^="https://www.amazon.com/iodd/"])
-.wp-block-image:has(> a[href="https://kon-boot.com"])

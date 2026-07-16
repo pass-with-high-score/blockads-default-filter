@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+button[data-tracking-id="social_share"]
+#article-body > p[class^="Paragraph_"]:has(> strong a[href="https://www.facebook.com/AFCFootball.London#"])
 #share-modal
 .js-c-article-share-comment-share
 .js-social-block-track
@@ -9996,5 +9998,3 @@ div[class^="story-sns"]
 li[id^="snsbtn_"]
 .ShareBar-wrapper
 .entry-share-btns
-.social_box
-ul.s-bar
