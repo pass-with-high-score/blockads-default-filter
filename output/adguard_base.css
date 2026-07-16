@@ -44,6 +44,7 @@ body > div[class]:has(> a[href^="https://chpadblock.com/"])
 #bloghash-scroll-top + div[id][class*=" "]
 footer + script + div[id][class*=" "]
 .firework-consent-overlay-js
+body > .modal-backdrop + div[id][class*=" "]
 body > #back-top + div[id][class*=" "]
 .banner-wrapper + div[id][class*=" "]
 body > #page > footer.site-footer + div[id][class*=" "]
@@ -7308,6 +7309,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#stickyAdZone
+div[class^="LeaderboardAdContainer"]
 div.grid > div.grid-cols-1:has(> div.thumbnails-section div.inset-0 > span.tracking-widest)
 .help-wizard-cover
 #headerBanner
@@ -9995,6 +9998,3 @@ main > center > a[target="_blank"] > button
 a[href^="https://www.royalroad.com/"][href*="?campaign="][href*="&source="] > img
 .wp-block-image:has(> a[href^="https://www.amazon.com/iodd/"])
 .wp-block-image:has(> a[href="https://kon-boot.com"])
-.google-auto-placed
-div[style^="border-block-style: initial !important; border-inline: initial !important"]
-div[class] > center:has(> div.w-full > ins.adsbygoogle)

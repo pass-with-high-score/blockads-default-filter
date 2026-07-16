@@ -324,6 +324,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+div.relative > div.flex > div.w-full:has(a[href^="https://pixon.ads-pixiv.net/click"])
 .header-billboard
 .ai-viewports
 .progress-bar-container + div.trending-news:style(margin-top: 56px !important;)
