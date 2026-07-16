@@ -254,11 +254,6 @@ div[style="margin: 10px 0 5px 0; min-height: 250px;"]
 .popup
 .sticky
 a.btn_fb:nth-of-type(2)
-#hots-btn
-.bn-popup-bottom-sdwdwxw
-[href="/top-nha-cai.html"]
-li.for-desktop-2>[href]
-li.for-mobile-2>[href]
 .text-muted
 [href$="/goout/lazada"]
 section.nh-section:nth-of-type(5)
@@ -375,6 +370,11 @@ zone
 .mmo
 .mzdal
 .ads-container
+#hots-btn
+.bn-popup-bottom-sdwdwxw
+[href="/top-nha-cai.html"]
+li.for-desktop-2>[href]
+li.for-mobile-2>[href]
 div[class$="_ads"]
 .zone-top
 [id^="pos-"]
