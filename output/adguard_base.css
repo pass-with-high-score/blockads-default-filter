@@ -7310,6 +7310,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.site-ad-banner
+.header_premium_bar
+.header_roulette_button
+.ID_live_cam_inner
+.footer-live-cam
+a[href^="https://mysteryvibe.com/"]
 div[data-tmdatatrack-type="commercial"]
 a[href^="https://s.pemsrv.com/"]
 .inline-carousel-ad
@@ -7414,7 +7420,6 @@ a[href^="https://www.effectivegatecpm.com/"]
 .thumb-link-rounded
 section > div.container:has(> div#spot_video_livecams)
 .cams-opener
-.header_premium_bar
 #spot_video_underplayer_livecams
 a[href^="https://go.xliiirdr.com/"]
 a[href^="https://fhgte.com/"]
@@ -9993,8 +9998,3 @@ a[href^="https://go.dzhjmp.com/?campaignId="]
 iframe[src*="/aff_ad?"]
 span[data-nosnippet] > .a_list > a[target="_blank"]
 main > center > a[target="_blank"] > button
-.entry-content div[style] > a[target="_blank"] > img
-.ww-cont-top-ban
-.ads-list-two
-.dKKumhSnWiFq75vPUVtmTanQ:has(a[href^="https://www.royalroad.com/a/r?campaign="]:not([href*="&url=https%3A%2F%2Fwww.royalroad.com"]))
-.portlet:has(> .bold + a[target="_blank"])
