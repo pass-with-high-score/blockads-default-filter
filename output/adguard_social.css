@@ -148,6 +148,11 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.social-wa
+.social-tg
+.social-fb
+.social-vk
+.social-x
 .whatsnew-key-updates-section__block-share
 button[data-tracking-id="social_share"]
 #article-body > p[class^="Paragraph_"]:has(> strong a[href="https://www.facebook.com/AFCFootball.London#"])
@@ -9993,8 +9998,3 @@ header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex x
 .snsbutton
 .sns-b__item
 .ShareButtons
-.ct-snsbar-holder
-.header-toolbar > .toolbar
-div[class^="story-sns"]
-li[id^="snsbtn_"]
-.ShareBar-wrapper

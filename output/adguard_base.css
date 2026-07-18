@@ -9977,8 +9977,6 @@ footer div.flex:has(> div.border > div > script[src^="https://a.magsrv.com/"])
 #masonry > div.thumbs:has(> center > noindex > div[style^="min-height:"])
 .grid-more > div.thumbs-more:has(> center > noindex > div[style^="min-height:"])
 div[class^="GoogleInArticleAdsenseContainer"]
-div[data-gtm-recommend-zone] > ul > li:has(> div > div[id^="adsdk-"])
-div[style="margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;"]
 div[class^="AdsBanner"]
 .sp-holder
 a[target="_blank"][onclick*="paysite_outgoing_click"]
@@ -9998,3 +9996,5 @@ iframe[src^="https://sex-picsxxx.name/"]
 a[href^="https://go.smljmp.com/smartpop/"]
 a[href^="https://go.dzhjmp.com/?campaignId="]
 iframe[src*="/aff_ad?"]
+span[data-nosnippet] > .a_list > a[target="_blank"]
+main > center > a[target="_blank"] > button
