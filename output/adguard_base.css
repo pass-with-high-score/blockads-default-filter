@@ -7310,6 +7310,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.module--1-billboard
 .shp-layer
 body > [id][class*=" "]:has(> a[target="_blank"])
 .site-ad-banner
@@ -9997,4 +9998,3 @@ a[href^="https://go.smljmp.com/smartpop/"]
 a[href^="https://go.dzhjmp.com/?campaignId="]
 iframe[src*="/aff_ad?"]
 span[data-nosnippet] > .a_list > a[target="_blank"]
-main > center > a[target="_blank"] > button
