@@ -3561,6 +3561,7 @@ div[data-actirise-slot]:not(#style_important)
 div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
 div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
+.sad
 .post-ad-content
 .pcf-ad-slot-wrap
 .pcf-sidebar-ad-top
@@ -3704,7 +3705,6 @@ aside > div[style*="height:"]:has(> .ad_d_small)
 .obser-target
 a[href*="_banner_ad"][target="_blank"] > img
 .font-normal:has(+ .hidden > a[href*="_banner_ad"][target="_blank"] > img)
-.sad
 .p-top
 .border-dotted-left > div:has(> .sticky-element > .reklama)
 .elementor-widget-container:has(> h2:contains(Reklama))
@@ -7312,6 +7312,8 @@ body .ad
 #dismiss-btn
 .stream-display-ad__wrapper + div > div[style^="position:"] > div[class^="Layout-sc-"]:has(video[src^="https://m.media-amazon.com"])
 .chat-shell > div[class^="Layout-sc-"]  > div[style^="transition:"]:has(video[src^="https://m.media-amazon.com"])
+a[href^="https://trustberrie.com/zn/"]
+div[id^="aad-footer"]
 .module--1-billboard
 .shp-layer
 body > [id][class*=" "]:has(> a[target="_blank"])
@@ -9996,5 +9998,3 @@ table:has(> tbody > tr > td[bgcolor="#F7C5F7"] > a[href][target="_blank"])
 a[href][onclick*="banner"]
 .block-t > div[style*="height:"]
 iframe[src^="https://sex-picsxxx.name/"]
-a[href^="https://go.smljmp.com/smartpop/"]
-a[href^="https://go.dzhjmp.com/?campaignId="]

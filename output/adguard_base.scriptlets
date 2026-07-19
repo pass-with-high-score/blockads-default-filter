@@ -727,7 +727,7 @@ crackshash.com##+js(abort-current-script, document.getElementsByClassName, wp-ad
 crast.net##+js(abort-current-script, document.createElement, adblock)
 crazygames.com,shellshock.io,minijuegos.com##+js(set-constant, COMPCHWBUBBLE, {})
 crazyporn.xxx,4kporn.xxx##+js(remove-node-text, script, initPopunder)
-crazyshit.com##+js(abort-current-script, jQuery, document.cookie)
+crazyshit.com##+js(abort-current-script, jQuery, window['open)
 crdroid.net##+js(set-constant, AdBlockChecker, noopFunc)
 crdroid.net##+js(set-constant, AdBlockChecker.checkAdBlock, noopPromiseResolve)
 cricfree.org,stream2watch.eu,sportlemon.net,amateurbusters.com,ilivestream.com,porn2dl.net,streamhunter.net,vipbox.biz,phimmup.net,firstrow.top,firstrows.net,sportlemons.net,firstsrowsports.eu,ilemi.co,wiziwigs.eu,sportlemons.org,goatd.me,firstsrow.eu,streamsport.eu,globaltravel.com,safelinking.net##+js(set-constant, BetterJsPop, noopFunc)
