@@ -7310,6 +7310,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.stream-display-ad__wrapper + div > div[style^="position:"] > div[class^="Layout-sc-"]:has(video[src^="https://m.media-amazon.com"])
+.chat-shell > div[class^="Layout-sc-"]  > div[style^="transition:"]:has(video[src^="https://m.media-amazon.com"])
 .module--1-billboard
 .shp-layer
 body > [id][class*=" "]:has(> a[target="_blank"])
@@ -9996,5 +9998,3 @@ a[href][onclick*="banner"]
 iframe[src^="https://sex-picsxxx.name/"]
 a[href^="https://go.smljmp.com/smartpop/"]
 a[href^="https://go.dzhjmp.com/?campaignId="]
-iframe[src*="/aff_ad?"]
-span[data-nosnippet] > .a_list > a[target="_blank"]
