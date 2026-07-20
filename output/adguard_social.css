@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.single-article ul.header-social-links
 button[aria-label="Xでシェア"]
 .article-share-x
 .article-share-mail
@@ -4577,8 +4578,7 @@ a[href^="javascript:Cyurl"]
 .brochures-actions
 .gms-share
 .detail-sns-box
-.header-social > a[aria-label^="Share"]
-.header-social > a[aria-label^="Share"] ~ *
+article .header-social
 .social-share-template-wrapper
 div[class^="shareButton"]
 .viewsubject > ul
