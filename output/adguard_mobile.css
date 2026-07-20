@@ -324,6 +324,10 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.more-examples-message
+.rca-no-ads-mobile
+iframe[src^="https://n2.clips4sale.com/a/"]
+.card2:has(> .cardBody2 > a[href^="https://static.elchorrillero.com/clk/"] img)
 li.list-group-item:has(a[href^="https://adhub.porcino-kinoko.workers.dev/"])
 #ntv_setAD_SP_300_250
 div.post > div.mt-3:has(> ins.adsbygoogle)
@@ -5997,6 +6001,7 @@ header > div[class]:has(> div[class*="rb-slot_plug"])
 data-banner-place-id
 div[id^="billboard_mobile_"]
 .js-sidebar-zone
+.ad:remove()
 .image-100
 .ads-container
 #c-videoAd--outer
