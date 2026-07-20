@@ -324,6 +324,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+li.list-group-item:has(a[href^="https://adhub.porcino-kinoko.workers.dev/"])
 #ntv_setAD_SP_300_250
 div.post > div.mt-3:has(> ins.adsbygoogle)
 .photo-items__interstitial-ad-content
