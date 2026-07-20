@@ -148,6 +148,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.article-share-x
+.article-share-mail
+.article-share-facebook
 .social-wa
 .social-tg
 .social-fb
@@ -9995,6 +9998,3 @@ header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex x
 #sidebarSocial
 #verticalSnsBar
 .horizontal-sns-bar
-.snsbutton
-.sns-b__item
-.ShareButtons

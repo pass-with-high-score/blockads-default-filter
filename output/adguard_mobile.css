@@ -334,7 +334,6 @@ div.relative > div.flex > div.w-full:has(a[href^="https://pixon.ads-pixiv.net/cl
 .hasInGridAd > div.rowGroupSpacer
 div[style="padding:10px 0;"]
 div[style="text-align:center; margin-top: 76px; margin-bottom: -56px; height: 100px;"]
-iframe[src^="https://a.adtng.com/"]
 .vocab-builder-footer
 .wrapper > div[style="text-align: center;margin-bottom:50px;padding:5px"]
 .mobile-only-iframe
@@ -407,7 +406,6 @@ section[data-testid="chapter"] > div[class*="TextElement"] > div:has(> div.items
 .champion-recommended-build > .media-query
 .c-banner-limited-offer
 .c-baaanners-custom
-div[style="height: 300px;"]
 #anchor-container
 #englishMobPr
 .video__header
@@ -425,6 +423,7 @@ header > div[class^="_spacer_"]
 main > div > .bs_hint[style^="height:"]
 #header_ad_text
 .adunit.detail-page[data-admap]
+div[style="height: 300px;"]
 #cnn-app > .d-block:has(> .ad-border:only-child)
 .col-lg-4 > .widget-card:has(> .banner300x600:only-child)
 .news__rectangle-ad--under-first
@@ -897,7 +896,6 @@ header + div.flex.lg\:hidden
 .entry-content > p.has-link-color[class*="wp-elements-"]
 .detail-renxin > div .dtl-video-nr .xc-con
 div:has(> iframe[src*="libaishuo.com"]:only-child)
-.in-content-recomendations-adv
 #ad-swipe
 #ad-swipe + br
 .tvadvertising
@@ -1215,6 +1213,7 @@ div[data-sticky-height="1px"]
 .free-area:has(> div > div > ul.link__list)
 div[id^="right_level_"]:empty:not(#style_important)
 .top-news-wrapper div.slider-left
+.in-content-recomendations-adv
 div[class^="m_headBanner"]
 .minHeightMobileAdd
 .HomeMobile_ads
@@ -1645,7 +1644,6 @@ div[style*="min-height:50px"][style$="overflow:hidden;"]
 div[class]:has(> div > div.ad-background)
 .article-top-smp-adnw-container
 .raytrace-ad-placeholder
-center > a[target="_blank"] > img
 .ads-align
 .adv_tag
 div[data-logger="PortalMenuPromo"]
@@ -1944,6 +1942,7 @@ img[src*=".dlsite.com/img/nijiyome/sp/bn_"][src*="_300_250_"]
 section[class^="p-ca-topic"] > div[style]:not([class])
 .c-sp-leaderboard-ad-overlay
 div[class^="Page-touch__root"] > div[id][class][style="visibility: visible;"]:empty
+center > a[target="_blank"] > img
 div[style="margin-top:15px; margin-bottom:15px; text-align:center;"]
 .substitute-show-area-on
 .stkadbtm
@@ -4663,6 +4662,7 @@ img[style="width: 100%"]
 .interstitial
 #int-over
 span[id="3Mm-Nat"]
+iframe[src^="https://a.adtng.com/"]
 #underPlayerPr
 .anchor_ad_wrapper
 .container > .row > .hidden-sm:not([class*="pos-"])
