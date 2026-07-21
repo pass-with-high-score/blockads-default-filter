@@ -7310,6 +7310,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+body > div.row:has(> div.d-flex > div > iframe[id^="google_ads_iframe_"])
+.d-flex:has(> div > iframe[id^="google_ads_iframe_"])
+div[data-identifier="exoclick-native-impression"]
+aside[aria-label="Sponsored content"]
+.bc_right_sidebar > div:has(> ul > li > a.spon_res)
+.spotlight
 a[aria-label^="Sponsored"]
 .product-wpshield-content-protector
 div[data-insertion-no-dbg]
@@ -8350,7 +8356,6 @@ aside[class] > div[class^="sc-"]:has(> div[class] > div[data-banner-position^="S
 .video > div#similar:has(> div:is(.cam, .game))
 div[data-testid="ContentFooterBottom"] > div[data-testid="RowWrapper"]:has(> .ad)
 .pb-las__label
-div[class^="widget-m__customWidgetWrapper"]
 div[style*="height:"][style*="z-index:"]
 .promo-top-new
 .special-promo-image
@@ -9993,8 +9998,3 @@ div[class^="GoogleInArticleAdsenseContainer"]
 div[class^="AdsBanner"]
 .sp-holder
 a[target="_blank"][onclick*="paysite_outgoing_click"]
-.video_player:has(> div.primis_wrapper)
-table:has(> tbody > tr > td[bgcolor="#F7C5F7"] > a[href][target="_blank"])
-.HomePage-content > div.Container:has(> div.Container-rows > div.Container-row > div.SingleColumnContainer > div.SingleColumnContainer-column > div.GoogleDfpAd-container)
-.box-f
-.view-aside > .small-title:contains(Advertisement)

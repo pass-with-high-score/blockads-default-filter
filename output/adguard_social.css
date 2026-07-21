@@ -148,6 +148,10 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div.pull-right:has(> div#w-i-socials-small)
+.youtube-bar
+button[class*="shareReaction"]
+.social__links
 .single-article ul.header-social-links
 button[aria-label="Xでシェア"]
 .article-share-x
@@ -9994,7 +9998,3 @@ header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex x
 #article_share
 .gn_detail_header_sns
 .sosyal-alan
-.detay-sosyal-alan
-#likeTool
-#sidebarSocial
-#verticalSnsBar

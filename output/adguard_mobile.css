@@ -324,6 +324,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+div[class$="-mod-map-toggler"] > div[class$="-inner"] > div:not([class*="-container"]):has(div[class$="-ad-marking"])
 .iqd-dynamic-slot
 .more-examples-message
 .rca-no-ads-mobile
@@ -609,7 +610,6 @@ section.qa_detail > div[style^="min-height:250px;"]
 .__adv
 #sp_all_header
 a[href^="https://sinparty.com/"]
-._ln-floater
 .video-page__info > div.headline:style(margin-top: 0 !important;)
 #TapatalkFooterMobileAds
 .flex.justify-center.lg\:my-8:has(> #adv_league)
@@ -5027,6 +5027,7 @@ div[id^="m_sub_bboom_"]
 .adfixWp
 .jeg_ad
 #advertisement-below-menu
+._ln-floater
 #mh-ad
 .MdAdBox01
 .ad_amp
@@ -5288,7 +5289,6 @@ center > a[rel="nofollow"] > img
 .taboola
 #outbrainmobile
 .article-list.compact > .ressort-divider
-style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 .section--normal > .section__panel.text-center:first-child
 .adv-top-header-mobile
 .wrapper-content > .quiz.clearfix > div[align="center"]
@@ -5354,6 +5354,7 @@ div[style="min-width:300px; min-height:250px; overflow: hidden; margin: 0 auto;"
 .b-list-item_advert
 #neogaf_mobile-header
 div[id^="taboola_mob"]
+style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 .mobileAd
 .adsection
 .mobile-fixed-ad
