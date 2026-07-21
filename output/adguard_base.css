@@ -7310,6 +7310,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#news-content > .news-item:has(> .news-item-promo > figure > a[href^="/deals/"])
 body > div.row:has(> div.d-flex > div > iframe[id^="google_ads_iframe_"])
 .d-flex:has(> div > iframe[id^="google_ads_iframe_"])
 div[data-identifier="exoclick-native-impression"]
@@ -9997,4 +9998,3 @@ footer div.flex:has(> div.border > div > script[src^="https://a.magsrv.com/"])
 div[class^="GoogleInArticleAdsenseContainer"]
 div[class^="AdsBanner"]
 .sp-holder
-a[target="_blank"][onclick*="paysite_outgoing_click"]

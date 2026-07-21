@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+a[href^="//x.com/intent/post"]
 div.pull-right:has(> div#w-i-socials-small)
 .youtube-bar
 button[class*="shareReaction"]
@@ -9997,4 +9998,3 @@ header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex x
 .share_list_wrap
 #article_share
 .gn_detail_header_sns
-.sosyal-alan

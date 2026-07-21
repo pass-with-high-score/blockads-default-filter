@@ -285,6 +285,7 @@ body > div[class*="has-ad-"] div.base-page__content:style(bottom: 0!important;)
 .ads:style(position: absolute!important; left: -3000px!important;)
 .mobile-pop-direct:style(display: none!important; height: 0!important;)
 div[class*="dp-ad-"]:style(height: 0!important; width: 0!important;)
+.ad-billboard:style(margin-top: -40px !important;)
 .owner_thumbnail:style(top: 20px !important;)
 div.comment-btn-s:style(float: initial !important; width: 90% !important;)
 .ad_overlay #footer_prelogin:style(margin-top: 150px !important; padding-bottom: 20px !important;)
@@ -324,6 +325,9 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+#homefeed > div > div[data-test-id="max-width-container"] > div > div[role="list"] > div[role="listitem"]:has(> div[data-grid-item-idx] > div[data-pin-id] div[data-test-id="related-pins-name"])
+#taboola-below-article-thumbanails-high
+.m-sponsord
 div[class$="-mod-map-toggler"] > div[class$="-inner"] > div:not([class*="-container"]):has(div[class$="-ad-marking"])
 .iqd-dynamic-slot
 .more-examples-message
@@ -3460,7 +3464,6 @@ div[id^="RECTNGL"]
 .colBoxIndexAD
 div[class^="align-items-center"][style^="height"]
 .width_300
-.m-sponsord
 .rtTaoolaElem
 div[style="min-height:280px;"]
 .ad-inarticle-banner
@@ -6003,7 +6006,6 @@ header > div[class]:has(> div[class*="rb-slot_plug"])
 data-banner-place-id
 div[id^="billboard_mobile_"]
 .js-sidebar-zone
-.ad:remove()
 .image-100
 .ads-container
 #c-videoAd--outer
