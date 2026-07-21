@@ -7310,6 +7310,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.product-wpshield-content-protector
 div[data-insertion-no-dbg]
 a[href^="https://vp.net/"]
 .mp-ad-slot
@@ -9997,4 +9998,3 @@ table:has(> tbody > tr > td[bgcolor="#F7C5F7"] > a[href][target="_blank"])
 .box-f
 .view-aside > .small-title:contains(Advertisement)
 .cs-link-holder
-.below-player-wrapper > noindex > a[target="_blank"]
