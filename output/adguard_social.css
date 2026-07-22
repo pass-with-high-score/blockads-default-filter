@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+#player_control_icon_share
+.share-cover
 li[class$="postMidiasShareItem"]:has(> button[title="Compartilhar matéria"])
 a[href^="//x.com/intent/post"]
 div.pull-right:has(> div#w-i-socials-small)
@@ -3881,7 +3883,7 @@ button[data-aut-id="btnShare"]
 nav.view > button[aria-label]
 ul[class^="footer-module--social-media"]
 .block--article-toolbar
-.telega__full
+.animego-online-telega__full
 .js-share-jobad
 .block1
 .article-block__share
@@ -9996,5 +9998,3 @@ header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex x
 *[onclick^="oShare.Go("]
 #socialShare
 .compartilhe-box
-.share_list_wrap
-#article_share
