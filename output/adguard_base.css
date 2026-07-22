@@ -39,6 +39,11 @@ body > div.demo-wrapper[style="display:none;"] + div[id][class]
 div.fadeInDown[id$="____equal"][class$="____equal"]
 #chp_branding
 a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
+body > div[id][class*="_"]
+body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""] + div[class*="_"]
+body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""]
+body > footer ~ h4[class*="_"] + div[class*="_"]
+body > footer ~ h4[class*="_"]
 #scrollToTop + div[id][class*=" "]
 body > div[class]:has(> a[href^="https://chpadblock.com/"])
 #bloghash-scroll-top + div[id][class*=" "]
@@ -7310,6 +7315,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+a[href^="https://rocketstreams4k.com"]
+div[role="tablist"] > button[id^="radix-"][id$="-trigger-iptv"]
 #news-content > .news-item:has(> .news-item-promo > figure > a[href^="/deals/"])
 body > div.row:has(> div.d-flex > div > iframe[id^="google_ads_iframe_"])
 .d-flex:has(> div > iframe[id^="google_ads_iframe_"])
@@ -9991,10 +9998,3 @@ a[aria-label="goto ads"]
 div[class]:has(> div > div > div[class^="netloop-ad-banner-"])
 div[class]:has(> a[href="https://pq.hosting/"])
 .grid-cols-1 > a.group ~ a[href="https://ultrahqporn.com"]
-footer div.flex:has(> div.border > div > script[src^="https://a.magsrv.com/"])
-.ad-placement
-#masonry > div.thumbs:has(> center > noindex > div[style^="min-height:"])
-.grid-more > div.thumbs-more:has(> center > noindex > div[style^="min-height:"])
-div[class^="GoogleInArticleAdsenseContainer"]
-div[class^="AdsBanner"]
-.sp-holder
