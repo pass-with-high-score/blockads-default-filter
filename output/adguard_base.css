@@ -3566,6 +3566,7 @@ div[data-actirise-slot]:not(#style_important)
 div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
 div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
+.art > div[style="white-space:pre-wrap"] > div:has(> a[href="https://innpoland.pl/ctaredirect"])
 .sad
 .post-ad-content
 .pcf-ad-slot-wrap
@@ -9997,4 +9998,3 @@ body .top_spot:not(#style_important)
 a[href^="https://pics-x.com/marketing/"]
 a[aria-label="goto ads"]
 .is-main > div[style="margin-bottom: 10px; max-height: 260px; min-height: 260px; overflow: hidden"]
-.ezoic_ad_unit
