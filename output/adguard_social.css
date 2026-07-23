@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.whatsnew-feature-block__button
+.share-block--left
 #player_control_icon_share
 .share-cover
 li[class$="postMidiasShareItem"]:has(> button[title="Compartilhar matéria"])
@@ -9996,5 +9998,3 @@ header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex x
 .pdb-share
 .km-shares-counter
 *[onclick^="oShare.Go("]
-#socialShare
-.compartilhe-box
