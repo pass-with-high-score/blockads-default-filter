@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.publication__social
+.subscribe-social
 .whatsnew-feature-block__button
 .share-block--left
 #player_control_icon_share
@@ -8256,7 +8258,6 @@ div[itemtype] > div#comment + div[class]
 .media-extra > div[role="button"][aria-label^="Share" i]
 .social-toolbar > .litem > .social-share-icon
 .publication-share
-.publication__social
 .index-social-box
 .pl-vid__like
 .assinatura-abertura .social-items
@@ -9997,4 +9998,3 @@ div[class^="af-social-share"]
 header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex xs:items-center xs:mb-8"] > *
 .pdb-share
 .km-shares-counter
-*[onclick^="oShare.Go("]

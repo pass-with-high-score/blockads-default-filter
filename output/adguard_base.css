@@ -7317,6 +7317,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.fco-sticky-wrapper__wrapper
 .home-global-ad
 .homepage-ad-desktop-bant
 the-ads
@@ -9997,4 +9998,3 @@ body .top_spot:not(#style_important)
 .player-schmad
 .schmad-container
 a[href^="https://pics-x.com/marketing/"]
-a[aria-label="goto ads"]
