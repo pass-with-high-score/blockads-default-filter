@@ -3567,6 +3567,11 @@ div[data-actirise-slot]:not(#style_important)
 div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
 div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
+.baner
+.row > div.box-margin:has(> div.baner)
+.pancernik__wrapper
+.l-sec--commercial-banner
+aside > div[style*="height:"]:has(> div > span.adTitle)
 .art > div[style="white-space:pre-wrap"] > div:has(> a[href="https://innpoland.pl/ctaredirect"])
 .sad
 .post-ad-content
@@ -3582,7 +3587,6 @@ div[class^="optad"]
 .grid__ad
 .custom-html-box
 .grid__col > .card:has(> .box > .box__container > div[id^="bills_in_"])
-.baner
 .mr-ad-slot
 .ad-aside
 #page-box-logotypes > .section-partners
@@ -7318,6 +7322,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.bg-card.text-card-foreground:has(> div.rounded:is(.max-w-\[400px\].h-\[170px\],.w-\[300px\].h-\[600px\]))
 div.w-full > div.grid > a[class][href^="/"]:has(> div > div[data-slot-id="ProductImageWrapper"] [data-slot-id="SponsorTag"])
 .smith-ad
 .fco-sticky-wrapper__wrapper
@@ -9993,8 +9998,3 @@ a[href^="https://guidepaper.website/"]
 body .top_spot:not(#style_important)
 .right-player-col
 .video-link:has(> b > a[href][rel="sponsored"])
-#footer-schmads
-#footer-video-desktop-banner
-#gallery-header-schmad
-#slider
-.navbar[aria-label="additional navigation"]
