@@ -7318,6 +7318,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.w-full > div.grid > a[class][href^="/"]:has(> div > div[data-slot-id="ProductImageWrapper"] [data-slot-id="SponsorTag"])
 .smith-ad
 .fco-sticky-wrapper__wrapper
 .home-global-ad
@@ -9997,4 +9998,3 @@ body .top_spot:not(#style_important)
 #gallery-header-schmad
 #slider
 .navbar[aria-label="additional navigation"]
-.player-schmad
