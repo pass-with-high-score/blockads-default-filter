@@ -198,6 +198,7 @@ div[class^="astra-advanced-hook-"] > div.wp-block-uagb-container:has(> div.uagb-
 button[id^="elShareItem_"]
 .product-share-buttons
 .stripe-social-webshare ~ div
+.slw-floating-discord
 .follow_btn
 .article_social_icons
 .web-share-btn
@@ -9997,4 +9998,3 @@ div[class^="af-social-share"]
 .sns_links
 header + div.flex > div[class="w-24 mr-8 text-center xs:w-full xs:mr-0 xs:flex xs:items-center xs:mb-8"] > *
 .pdb-share
-.km-shares-counter

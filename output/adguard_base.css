@@ -7322,6 +7322,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#inpage-ad-container
+.fixed.pointer-events-none
 .bg-card.text-card-foreground:has(> div.rounded:is(.max-w-\[400px\].h-\[170px\],.w-\[300px\].h-\[600px\]))
 div.w-full > div.grid > a[class][href^="/"]:has(> div > div[data-slot-id="ProductImageWrapper"] [data-slot-id="SponsorTag"])
 .smith-ad
@@ -9996,5 +9998,3 @@ div[class^="klvad"]
 a[href^="https://guidepaper.website/"]
 .game-sort-carousel-wrapper:has(> .game-sort-header-container > .container-header > a[href*="/Sponsored?"])
 body .top_spot:not(#style_important)
-.right-player-col
-.video-link:has(> b > a[href][rel="sponsored"])
