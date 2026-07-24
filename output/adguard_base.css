@@ -5334,6 +5334,7 @@ aside section[class*=" "]:has(> style + div[class] > img[src="https://std.wpcdn.
 footer > div[class] > section:has(div[id^="div-gpt-ad-"])
 div[style^="position:"] > a[target="_blank"] > div[style*="background-image: url"]
 div[style^="position:"] > a[target="_blank"] + div:contains(/^REKLAMA$/):not(:has(> *))
+body > div[class]:has(> div[class] > div[class] > div[class] > h1:contains(Wyłącz adblocka i zezwól na reklamy))
 body > div[class]:empty
 body > div > div[style^="height:"]:has(> a[href]:first-child ~ img[src^="https://v.wpimg.pl/"])
 body > div[id] > div[class]:empty
@@ -7317,6 +7318,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.smith-ad
 .fco-sticky-wrapper__wrapper
 .home-global-ad
 .homepage-ad-desktop-bant
@@ -9996,5 +9998,3 @@ body .top_spot:not(#style_important)
 #slider
 .navbar[aria-label="additional navigation"]
 .player-schmad
-.schmad-container
-a[href^="https://pics-x.com/marketing/"]
