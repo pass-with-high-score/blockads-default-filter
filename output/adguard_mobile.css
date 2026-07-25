@@ -328,7 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
-div.h-\[250px\]:has(> div[style^="display: block;"] > iframe[data-uid])
+div[class="h-\[50px\]"]
 #homefeed > div > div[data-test-id="max-width-container"] > div > div[role="list"] > div[role="listitem"]:has(> div[data-grid-item-idx] > div[data-pin-id] div[data-test-id="related-pins-name"])
 #taboola-below-article-thumbanails-high
 .m-sponsord
