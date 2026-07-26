@@ -186,7 +186,6 @@ center:has(.adsbygoogle)
 div[style^="position: fixed"]
 #avs-banner-overlay
 #avs-pause-ad
-.banner-fixed
 #top_addd
 .catfish-img
 #catfish
@@ -321,6 +320,7 @@ div[class^="adv-"]
 .sspp-area
 .boxzilla-bottom-right-container
 [href^="https://gotrackecom.info"]
+.banner-fixed
 #mobi-top
 .pc-bill
 [id^="admzone"]
@@ -528,8 +528,6 @@ a.news__item--action:nth-of-type(2)
 [id^="adm-slot"]
 .qc
 .banner-bottom
-#popup-ad-box
-.banner-ad
 ._9xtpcl.c1mnguco.c9pdtme.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cxngf0m.c199xq07.c1xtmnwt
 ._9xtpcl.c4je67d.c1qs0lzc.c1hrlkpu.cc2icwl.c1i0iccj.cfd18df
 ._9xtpcl.cxwrp3i.c1skg1w3.cxngf0m.c199xq07.c10dklm2.c1xtmnwt.cvk29a4.w-\[300px\]
@@ -544,6 +542,7 @@ a.news__item--action:nth-of-type(2)
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
+.xx-ads
 .catfish-ad
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
@@ -605,6 +604,8 @@ body>.container>div
 #f186fb23a33995d91ce3c2212189178c8
 #castfish
 .footer-fixed-br-container
+#popup-ad-box
+.banner-ad
 .hd-tube-desktop
 .hd-tube-mobile
 .adx1
@@ -628,6 +629,5 @@ div[id^="exo_slider_"]
 .sponsor
 .spot
 #content-ad-top-zone
-.xx-ads
 #cashfit-banner-host
 .ad-banner
