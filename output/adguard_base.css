@@ -1981,7 +1981,6 @@ header.trim > div.container:style(margin-top: auto!important;)
 tbody#eml-list__tbody > tr[id^="row"] > td
 .kava_ad_chilli
 .adnm-html-topscroll-frame-wrapper
-.retail-media-ad-wrapper
 div[data-test="entry-list-container"] > article:not([data-test]):has(a[data-external="true"][variant="primary"])
 .kaupungin-tiedotteetsidebar
 .omamainos-products
@@ -5191,6 +5190,7 @@ div[class^="zpr_inside_"][class*="placement__lazy"]
 .video-player-container
 body > .rodo-popup ~ div[style*="position: absolute;"][style$="display: block;"]:not([class]):not([id])
 .art .lazyload-wrapper:has(> div[class] > div[class] > button.close + div[class] > a[href="/twoja-prywatnosc"])
+.art div[class*="-"]:has(> a[data-analytics-name][target="_blank"])
 div[class^="adslot"]
 .adsbygoogle + script + hr
 p[style="color:f2f3f3; font-size:14px; text-align:center; padding:0; margin-bottom: 20px;"]
@@ -7322,6 +7322,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.slot-frame
 #inpage-ad-container
 .fixed.pointer-events-none
 .bg-card.text-card-foreground:has(> div.rounded:is(.max-w-\[400px\].h-\[170px\],.w-\[300px\].h-\[600px\]))
@@ -7849,7 +7850,7 @@ section.section ~ div[style="max-width:100%;overflow-x:auto;"]
 .grid > div.relative:not([data-slot]):has(> div.promotional-banner-border)
 div[data-noctua-shield][style^="position: absolute; inset: 0px;"][style*="z-index:"]
 a[href^="https://ad.stuffserve.me/"]
-a[href="javascript:clc();"]
+a[href^="javascript:"]
 section > .items-center > .justify-center:has(> .adsbygoogle)
 section > .shadow-sm:has(> .absolute + .w-full > .adsbygoogle)
 .header__top-txt
@@ -8457,6 +8458,8 @@ div[data-track-in-viewport-options*="Advertisements"] + div[data-funnel-fingerpr
 div[class*="BrPrMainShell"]
 div[class^="_"]:has( > a[id^="Image_benr_"])
 .section:has(> div[data-ndsp-widget="sponsors"])
+div[class*="_ads_box_"]
+div[class*=" TopBanner-"]
 #Readmore_height.contentheight:style(height: 100% !important;)
 #read_button:style(display: none !important;)
 a[href*="?key="]
@@ -9995,6 +9998,3 @@ div[data-testid="sticky-segment"]:has(> div[class^="stickyScroll_stickyBox"] > d
 main > div[class] >div[class]:has(> div[id^="rg_promoted_"])
 div[mode="grid"] > div:has(> div[class] > a[data-testid="content-listing-link"][href^="https://click.reelgood.com/"])
 div[class^="klvad"]
-a[href^="https://guidepaper.website/"]
-.game-sort-carousel-wrapper:has(> .game-sort-header-container > .container-header > a[href*="/Sponsored?"])
-body .top_spot:not(#style_important)
