@@ -956,7 +956,6 @@ div[id^="progressBarContainer"] > div[style^="margin-bottom:"]:has(> div[class]:
 .ad-native-top-strip
 .related-spot-wrap-mobile
 .link-offer
-.site-content div[class^="wrap"][style="overflow:auto;display:flex;gap:0px 2px;"]
 #topBannerMobileDiv:style(display: none !important;)
 .header-container > .q-mb-sm:style(display: none !important;)
 header.header-helper:style(min-height: 84px !important;)

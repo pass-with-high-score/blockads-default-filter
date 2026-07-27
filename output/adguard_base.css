@@ -7321,6 +7321,13 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.info-block-wrapper
+.side-content-block > div:contains(Advertisment)
+.info-wrap > .zn-label
+a[href^="https://go.janusaent.com/"]
+a[href^="https://www.boyfriend.tv/link/out/"]
+#top_links
+.community-promo
 .ds-flex-none > div.ds-mb-4:has(> div > div.ds-w-full div.ds-flex > a[href^="https://www.bet365.com/"])
 .widget_wphiveadvertiseflywpwidget
 .video-feed-inner > div[class="video-feed-item"][data-video-id=""]:has(> div.ad-slot)
@@ -8814,6 +8821,8 @@ div[class]:has(> div[data-visible] > div[data-qa-target="leaderboard-ad"])
 .advertextsize
 .not-prose
 #aog-adthrive-header
+.items-center:is([class*="h-["], [class*="w-["]):has(> span.font-open-sans)
+body > .min-h-screen > .justify-center:has(> .items-center:is([class*="h-["], [class*="w-["])> span.font-open-sans)
 .new-lhs-md-ads-res
 #ol_story_sticky
 a[href*="dogearbanner"]
@@ -9989,12 +9998,3 @@ main > div:has(> h1:contains(Live Cams)) + div.grid
 #sidebar > .widget_text:has(> .releases > h3:contains(Ads))
 div[data-qa="right-rail-item"]:has(> div[data-qa="right-rail-ad"])
 .superberb:style(display: none !important;)
-.navbar:style(margin-top: 0 !important;)
-#prtb
-.data-header-actions > li:has(> a.gtab)
-.theiaStickySidebar > div:not(.telegram-txt)
-div[class^="vip-banner"]
-.o-tease-list__item:has(> article > div > div[id^="adm-"])
-aside[id^="ezoic_sidebar_advertisement"]
-div[data-pogo-fallback="primis"]
-article > div.mb-12:has(> div > div.sponsorship-content)
