@@ -281,6 +281,7 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+#adBlockModal:style(display: none !important;)
 #adblock-overlay
 #adblockOverlay:style(display: none !important;)
 html, body:style(overflow: auto !important;)
@@ -3559,12 +3560,10 @@ body > .surround > .top-poster-wrap.align-center
 .col-full-width > .products-carousel.daily-offers
 .tv2-ad
 #player.pulse-isPauseAdVisible > .jw-overlays
+.w-full:has(> div[role="progressbar"])
 [data-ad]
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
-.igiCam
-div[spacing]:has(> div[flexwrap="nowrap"] > span[textcolor]:contains(تبلیغات))
-div[class^="sc-"]:has(> div[width="100%"][height="100%"])
 .video-top-wrap > .sb
 .baner
 .row > div.box-margin:has(> div.baner)
@@ -7322,6 +7321,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.ds-flex-none > div.ds-mb-4:has(> div > div.ds-w-full div.ds-flex > a[href^="https://www.bet365.com/"])
+.widget_wphiveadvertiseflywpwidget
+.video-feed-inner > div[class="video-feed-item"][data-video-id=""]:has(> div.ad-slot)
+ul.grid-cards[data-group="awards"] > li:not([class])
+.wrapper > .mx-auto:has(> a[rel*="sponsored"])
+#v-player_ima-ad-container
 .slot-frame
 #inpage-ad-container
 .fixed.pointer-events-none
@@ -9993,8 +9998,3 @@ div[class^="vip-banner"]
 aside[id^="ezoic_sidebar_advertisement"]
 div[data-pogo-fallback="primis"]
 article > div.mb-12:has(> div > div.sponsorship-content)
-.game-page-ad
-div[data-testid="sticky-segment"]:has(> div[class^="stickyScroll_stickyBox"] > div[class^="media-ui-BaseAd_"])
-main > div[class] >div[class]:has(> div[id^="rg_promoted_"])
-div[mode="grid"] > div:has(> div[class] > a[data-testid="content-listing-link"][href^="https://click.reelgood.com/"])
-div[class^="klvad"]
