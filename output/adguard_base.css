@@ -7321,6 +7321,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+aside > div[style="height: 200px;"]
+div.w-fit > div.relative:has([data-umami-event])
+.ad-card-natural
+.ad-strip-row
 .info-block-wrapper
 .side-content-block > div:contains(Advertisment)
 .info-wrap > .zn-label
@@ -8541,7 +8545,6 @@ div[class^="bottom-banner-module__container"]
 body > .items-center:has(> .super-reklame-header-holder)
 #sticky-reklame-header
 .block-widget
-.set_height_250
 .w-full > div[data-type="responsive-flexbanner"]
 .mod-ad-htl
 .section-inner:has(> .tag_ad_row)
@@ -9995,6 +9998,3 @@ main > div:has(> h1:contains(Live Cams)) + div.grid
 .related-videos > h4:contains(Advertisement)
 .adsdisclaimer
 .theiaStickySidebar .widget_media_image
-.elementor-widget-container > a[target="_blank"][rel]
-#sidebar > .widget_text:has(> .releases > h3:contains(Ads))
-div[data-qa="right-rail-item"]:has(> div[data-qa="right-rail-ad"])
