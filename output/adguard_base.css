@@ -190,7 +190,6 @@ center + div[id][class*=" "]
 #main-container + div[id][class*=" "]
 script + div[class][style="display:none;"] + div[id][class*=" "]
 #body_wrap + div[id][class*=" "]
-div[class*="sb-toggle-"] + div[id][class*=" "]
 .gmr-ontop + div[id][class*=" "]
 #dt_contenedor + div[id][class*=" "]
 .copyright ~ div[id][class*=" "]
@@ -516,7 +515,6 @@ body.modal-open:style(overflow: auto !important;)
 .adsbox.doubleclick.ad-placement:style(display: block !important;)
 #antiAdB
 .adblcr
-#abDetectorModal:style(display: none !important;)
 html:style(overflow: visible !important;)
 html > body:style(overflow: visible !important;)
 body .reading-content img:style(display: block !important;)
@@ -3565,6 +3563,7 @@ body > .surround > .top-poster-wrap.align-center
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+div.overflow-hidden:has(> div[style^="min-height:"] > .adsbygoogle)
 .baner
 .row > div.box-margin:has(> div.baner)
 .pancernik__wrapper
@@ -3712,6 +3711,7 @@ div[id^="crosscol-"] > .widget:has(> .widget-content > center > .adsbygoogle)
 aside > div[style*="height:"]:has(> .ad_d_small)
 .container > .row> .col-md-12[style]:has(> .adsbygoogle)
 .obser-target
+.pt-4 > aside:has(> .hidden > a[rel*="sponsored"])
 a[href*="_banner_ad"][target="_blank"] > img
 .font-normal:has(+ .hidden > a[href*="_banner_ad"][target="_blank"] > img)
 .p-top
@@ -8037,6 +8037,7 @@ div[align="center"] > iframe[data-src*="/apor/"]
 .adm-passback
 .relative.backdrop-blur-sm:has(a[href^="https://a.adtng.com/"])
 .home-ads-block
+.sspots
 #lcams2
 .privacy-box
 .butt1ns > span
@@ -9997,4 +9998,3 @@ main > div:has(> h1:contains(Live Cams)) + div.grid
 .elementor-widget-container > a[target="_blank"][rel]
 #sidebar > .widget_text:has(> .releases > h3:contains(Ads))
 div[data-qa="right-rail-item"]:has(> div[data-qa="right-rail-ad"])
-.superberb:style(display: none !important;)

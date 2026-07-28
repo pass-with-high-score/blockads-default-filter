@@ -328,6 +328,10 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.no-bullet > .p-articles-list-item:has(> a.gtm-recommend-alliance)
+li.p-articles-list-item:has(> .c-ad-rectangle)
+.c-ad-rectangle__indeed
+.block-recommend-list > ul > li.item:has(> a[href^="https://www.oricon.co.jp/pj/"] > div > div > p.text-s:contains(（PR）))
 .cd-bk
 .w-full[class*="hidden"][class*="empty"]
 div[class^="AdvertisingStickyMobile"]
