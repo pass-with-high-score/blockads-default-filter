@@ -7321,6 +7321,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#bg_wrap_88
 aside > div[style="height: 200px;"]
 div.w-fit > div.relative:has([data-umami-event])
 .ad-card-natural
@@ -9997,4 +9998,3 @@ main > div:has(> h1:contains(Live Cams)) + div.grid
 .content > div.headline:has(> h2 > span.badge-ad) + div.videos-slider-wrap
 .related-videos > h4:contains(Advertisement)
 .adsdisclaimer
-.theiaStickySidebar .widget_media_image

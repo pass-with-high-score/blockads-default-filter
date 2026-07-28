@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.widget_social
 div[href="#Share-moadl"]
 .items-center > button:has(> img[alt="share icon"])
 #citizen-share
@@ -9997,4 +9998,3 @@ div[class^="af-social-share"]
 .jeg_share_button
 .bs-sticky-item > .bs-social-box-wrapper
 #entry-content > .shariff
-.shareBox

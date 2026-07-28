@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.fox-main-mobile-banner
 .no-bullet > .p-articles-list-item:has(> a.gtm-recommend-alliance)
 li.p-articles-list-item:has(> .c-ad-rectangle)
 .c-ad-rectangle__indeed
