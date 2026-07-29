@@ -280,6 +280,7 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+#animehub-adblock-warning
 #adBlockModal:style(display: none !important;)
 #adblock-overlay
 #adblockOverlay:style(display: none !important;)
@@ -378,7 +379,6 @@ section[class^="BlockerPopUpAd_"]:style(display: none !important;)
 .modal-backdrop:style(display: none !important;)
 #aab-overlay:style(display: none !important;)
 .jconfirm-box-container:has(.jconfirm-buttons > .btn-blue.refresh)
-div.Ad-Container[id^="adblock-bait-element-"]:style(display: block !important;)
 ins.adsbygoogle[data-ad-slot]:style(position: absolute !important; left: -3000px !important;)
 body > div[class][id]:has(> .aao_box)
 div[id^="overlay_"]
@@ -3563,6 +3563,7 @@ body > .surround > .top-poster-wrap.align-center
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+.art .lazyload-wrapper:has(.close + div[class] > a[href="/twoja-prywatnosc"])
 div.overflow-hidden:has(> div[style^="min-height:"] > .adsbygoogle)
 .baner
 .row > div.box-margin:has(> div.baner)
@@ -3673,6 +3674,7 @@ div[id^="optad_"]
 div[style*="margin: 0 auto; text-align: center; position: relative;"]:has(> .targetDivClass:only-child > a[target="_blank"] > img)
 .fc-Card14:has(> a[href="https://www.plus.pl/5g"])
 a[href="https://www.plus.pl/5g"]
+.layout-top-banner
 div[class^="layout-"][class$="-banner"]
 .lk-ad-banner
 a[href^="https://clk.tradedoubler.com/"] > img
@@ -8415,7 +8417,7 @@ div[qa-test-id="article-cta"]
 aside.t-w-full:has(> div > .t-flex > .t-flex-col > .overline-small:contains(advertisement))
 .t-w-full:has(> span.t-text-xs:contains(Advertisement))
 p[style="margin-top: 20px; font-size: 15px;"]
-div[class^="custom-popup-overlay-"]
+body > div[id^="vp-"]
 div[style^="text-align:"][style*="width: 950px;"]
 #lj-container
 .butt1ns button[onclick*="href='/Link/"]
@@ -9996,5 +9998,3 @@ main > div:has(> h1:contains(Live Cams)) + div.grid
 #offerbtn
 .content > div.headline:has(> h2 > span.badge-ad)
 .content > div.headline:has(> h2 > span.badge-ad) + div.videos-slider-wrap
-.related-videos > h4:contains(Advertisement)
-.adsdisclaimer
