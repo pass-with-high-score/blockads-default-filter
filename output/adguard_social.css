@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.c-sns-2
+.tooltip-share-article-container
 li[onclick="HTJS.newsShare(this)"]
 .p-sns-box
 .widget_social
@@ -9996,5 +9998,3 @@ body > div.widget
 .article-full__infos > a[href*="/_share/"][data-social]
 .vhb-share-social-icon
 .socials-block > a[class^="fa-btn-"]
-div[class^="af-social-share"]
-.jeg_share_button

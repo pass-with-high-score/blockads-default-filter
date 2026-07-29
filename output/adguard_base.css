@@ -288,6 +288,7 @@ html, body:style(overflow: auto !important;)
 .dfx-shield-root:style(display: none !important;)
 #abd-overlay
 #smellcheck:style(display: none !important;)
+body > #footer ~ div[class][style*="position:"]:not([id]):style(display: none !important;)
 div[data-afuhost]
 #afu-ab
 .afu-banner
@@ -3413,6 +3414,7 @@ div[id^="google3"]
 #above-thumbnail
 #body_ads_0_0_3
 div[id$="-ad"]
+.banner-box
 [class*="banner"]
 .params > div.cnt_btn
 .toolsofthesaeson
@@ -5703,7 +5705,6 @@ div[style="min-height: 80px"]
 .add-hp-300x250
 div[data-banner]
 body > section.bn-lg
-.banner-box
 div[id^="dfpbillboard"]
 .topBranding
 .ad-in-artilce
@@ -7326,6 +7327,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+h3:has(> strong:only-child:contains(VPN))
+h3[style*="display: none !important;"] ~ p[style]
+div:not(.toolbox-main-wrapper) > a[href="https://troypoint.com/tpapplc-general-click"]
+.gb-element-7e49ad8b
 .L1aHm
 #bg_wrap_88
 aside > div[style="height: 200px;"]
@@ -7337,6 +7342,8 @@ div.w-fit > div.relative:has([data-umami-event])
 .info-wrap > .zn-label
 a[href^="https://go.janusaent.com/"]
 a[href^="https://www.boyfriend.tv/link/out/"]
+div[class]:has(> div[data-key="advertisement"])
+.sticky-placement-top:has(> div[class] > div[data-key="advertisement"])
 #top_links
 .community-promo
 .ds-flex-none > div.ds-mb-4:has(> div > div.ds-w-full div.ds-flex > a[href^="https://www.bet365.com/"])
@@ -9991,10 +9998,3 @@ div[id^="coosa-"]
 iframe[src^="/ad"][src$=".php"]
 body > div[style]:has(> #popinContentDiv)
 .full-text:has(> h2 > a[href][target="_blank"] img)
-.menu > ul > li:not(:has(> a[href^="https://www.foxhq.com/"]))
-.menu > ul > li:has(> a.sponsor)
-#push
-main > div:has(> h1:contains(Live Cams))
-main > div:has(> h1:contains(Live Cams)) + div.grid
-.primary--link
-.video-header
