@@ -3558,6 +3558,9 @@ body > .surround > .top-poster-wrap.align-center
 .col-full-width > .products-carousel.daily-offers
 .tv2-ad
 #player.pulse-isPauseAdVisible > .jw-overlays
+.fpad
+#sidebar > center
+a[href^="https://p30download.ir/page/id/"] img
 .w-full:has(> div[role="progressbar"])
 [data-ad]
 div[data-actirise-slot]:not(#style_important)
@@ -7323,6 +7326,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.L1aHm
 #bg_wrap_88
 aside > div[style="height: 200px;"]
 div.w-fit > div.relative:has([data-umami-event])
@@ -7699,7 +7703,6 @@ div[data-ad-container]
 [class^="AdSlot_"]
 div[style^="width:"][style*="height:"][style*="padding-top:"]:has(> ins[data-fluid-zoneid])
 .fs-ab-test-slot
-aside[aria-label="advertisement"]
 div[class]:has(> .ad-content)
 div[id^="advads_ad"]
 .raw-html-component:has(> div[id^="snack-"])
@@ -9995,6 +9998,3 @@ main > div:has(> h1:contains(Live Cams))
 main > div:has(> h1:contains(Live Cams)) + div.grid
 .primary--link
 .video-header
-#offerbtn
-.content > div.headline:has(> h2 > span.badge-ad)
-.content > div.headline:has(> h2 > span.badge-ad) + div.videos-slider-wrap

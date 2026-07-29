@@ -328,6 +328,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.FtYUO
+.story-grid div[class]:has(> div[class] > div[id^="display_"])
 #Billboard
 .fox-main-mobile-banner
 .no-bullet > .p-articles-list-item:has(> a.gtm-recommend-alliance)

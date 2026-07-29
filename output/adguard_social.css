@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+li[onclick="HTJS.newsShare(this)"]
 .p-sns-box
 .widget_social
 div[href="#Share-moadl"]
@@ -9997,4 +9998,3 @@ body > div.widget
 .socials-block > a[class^="fa-btn-"]
 div[class^="af-social-share"]
 .jeg_share_button
-.bs-sticky-item > .bs-social-box-wrapper
