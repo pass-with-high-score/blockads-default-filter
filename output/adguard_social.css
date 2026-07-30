@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+mandiner-social-share-modal
 .c-sns-2
 .tooltip-share-article-container
 li[onclick="HTJS.newsShare(this)"]
@@ -9489,7 +9490,6 @@ span[data-action="ssf-share-icon"]
 ._socials
 .b-article-activity__socials-wrapper
 .omb_login
-.sns-group-viral
 a[href^="https://linkedin.com/shareArticle"]
 li[class^="shareBar__social_"]
 .post-sharing-tp-1

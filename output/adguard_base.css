@@ -7327,6 +7327,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.questbanner
 h3:has(> strong:only-child:contains(VPN))
 h3[style*="display: none !important;"] ~ p[style]
 div:not(.toolbox-main-wrapper) > a[href="https://troypoint.com/tpapplc-general-click"]
@@ -9997,4 +9998,3 @@ div[id^="coosa-"]
 .widget_twqub
 iframe[src^="/ad"][src$=".php"]
 body > div[style]:has(> #popinContentDiv)
-.full-text:has(> h2 > a[href][target="_blank"] img)
