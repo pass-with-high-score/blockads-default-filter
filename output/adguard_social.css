@@ -148,6 +148,11 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.gg-share
+[data-social="tw"]
+[data-social="fb"]
+[data-social="wa"]
+[data-social="fbm"]
 mandiner-social-share-modal
 .c-sns-2
 .tooltip-share-article-container
@@ -9993,8 +9998,3 @@ ul#social_bkm_wrap_top
 body > div.widget
 #article-share-on-facebook
 .haber-share > ul
-.ism-website-display
-.sticky_social > .block_share
-.article-full__infos > a[href*="/_share/"][data-social]
-.vhb-share-social-icon
-.socials-block > a[class^="fa-btn-"]

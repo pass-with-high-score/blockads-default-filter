@@ -280,6 +280,7 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+#dpv-adblock-overlay
 #animehub-adblock-warning
 #adBlockModal:style(display: none !important;)
 #adblock-overlay
@@ -2910,6 +2911,7 @@ div[class^="semprotpokemon_"]
 #kiri
 .cp_adct
 img[alt="ads"]
+#rcsad_Bacheca1
 .adv-wrapper
 div.wnh__banner
 .post-content > div.box_read_also:has(> div > strong > a[href^="https://www.ebay.it/"])
@@ -5252,6 +5254,7 @@ span[style*="text-align: center;"][style*="margin: 15px auto 5px auto;"] + div[s
 .TOPNewsB
 .topLayer
 .banner--toplayer
+.container > .justify-beewten > .relative:has(> .idmnet-ad-slot)
 .text-center:has(> .d-inline-block-not-important[data-ciid])
 .row div[class][style*="border-bottom"][style*="max-height:"] > div[style]:contains(REKLAM):upward(1)
 .bladbl
@@ -7327,6 +7330,11 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.homePageAdMinHeight
+.h288:has(> .adHeight270)
+.swiper-slide:has(> .sponsorAd)
+.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_braze-signup)
+.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
 .questbanner
 h3:has(> strong:only-child:contains(VPN))
 h3[style*="display: none !important;"] ~ p[style]
@@ -7431,7 +7439,6 @@ div.mx-auto:has(> iframe[src])
 .tp-vpn-banner
 div[id^="mobid-"]
 div[data-ips-ad]
-a[href^="https://rocketstreams4k.com?ref="]
 a[rel="noopener sponsored"]
 a[href^="https://69pedia.com"]
 a[href^="https://69Search.com/"]
@@ -9991,10 +9998,3 @@ div[class="cja-btmimage cja-card"]:not(#style_important)
 iframe[src="https://porn3dx.com/iframe-ads"]
 .flex:has(> div > iframe[src^="https://adserver.juicyads.com/"])
 .widget_block:has(> a:only-child > img)
-.coosa-widget
-.widget_media_image:has( a > img)
-div[id^="coosa-"]
-.et_pb_code:has(> div[class]:only-child > a > img)
-.widget_twqub
-iframe[src^="/ad"][src$=".php"]
-body > div[style]:has(> #popinContentDiv)

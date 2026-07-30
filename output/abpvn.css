@@ -514,6 +514,8 @@ a.news__item--action:nth-of-type(2)
 .qc
 .banner-bottom
 .ads-gated
+#popup-ad-box
+.banner-ad
 ._1vguhxv.cosll6e._3yp41v.row-3.lgy>._1lbf8q9
 ._1vguhxv.cwzsl22.czdj0j5.c1skg1w3.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cjq7bud.c10dklm2.c1xtmnwt.dlnefd1
 ._9xtpcl.c1mnguco.c9pdtme.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cxngf0m.c199xq07.c1xtmnwt
@@ -570,11 +572,11 @@ body>div[style^="position: fixed;"]
 .js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
 .p-footer
 .samVideoOverlay
+.xx-ads
 .catfix
 .quangcaomobile
 div[style^="position:fixed;inset:0px;z-index:100000;"]
 #video_player ~ div[id]
-.xx-ads
 #AgeModal
 #backgroundPopupp
 #ds_top
@@ -592,8 +594,6 @@ body>.container>div
 #f186fb23a33995d91ce3c2212189178c8
 #castfish
 .footer-fixed-br-container
-#popup-ad-box
-.banner-ad
 .hd-tube-desktop
 .hd-tube-mobile
 .adx1
