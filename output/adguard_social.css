@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+#facebook div:has(> i ~ button[label="Share"])
+a[href^="/sharer/sharer.php?"]
 .gg-share
 [data-social="tw"]
 [data-social="fb"]
@@ -9996,5 +9998,3 @@ ul#social_bkm_wrap_top
 .modSocMedFix
 #fx-fb
 body > div.widget
-#article-share-on-facebook
-.haber-share > ul
