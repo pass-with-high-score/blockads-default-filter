@@ -3576,6 +3576,8 @@ div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
 .art .lazyload-wrapper:has(.close + div[class] > a[href="/twoja-prywatnosc"])
+.job-list__offers > li.job-list__offer:has(> a[href^="/advertising-banners/"])
+main > .section:has(> article > div > a[href^="/advertising-banners/"])
 div.overflow-hidden:has(> div[style^="min-height:"] > .adsbygoogle)
 .baner
 .row > div.box-margin:has(> div.baner)
@@ -7335,6 +7337,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[style^="opacity:"]:has(> section > div > div[data-ad-format])
 .ione-incontent-sticky-ad-wrapper
 #sticky
 .page-main-content-container > .secondary
@@ -9995,6 +9998,3 @@ ad-host
 #swiper1
 .second_avd_index_wrap
 footer > div.section:has(>div.container > script[src*="slimespell.com"])
-.models-wrap
-.contentbox:has(> div > center > a[href^="https://t.ajrkm3.com/"])
-.contentbox:has(> div > center > br:last-child)

@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.ad-unit-mmrect
 .FtYUO
 .story-grid div[class]:has(> div[class] > div[id^="display_"])
 #Billboard
@@ -5857,6 +5858,7 @@ a[class^="tag"][target="_blank"]
 div[class^="tag"] > a[href][target="_blank"]
 .header__item
 div[class^="links"] > [href][target="_blank"]
+[class^="nav"] > a[href][target="_blank"]
 .eudsaLink
 .ad-tabSplit
 .watchpageAd
