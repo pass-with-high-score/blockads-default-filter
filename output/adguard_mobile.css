@@ -328,6 +328,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.ad-geniee-rectangle
+.kyujin-box-article
 .ad-unit-mmrect
 .FtYUO
 .story-grid div[class]:has(> div[class] > div[id^="display_"])
@@ -5921,6 +5923,7 @@ div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
 #gws-product_ads__plalightbox
 .gws-product_ads__close-button
 .infinity-zen__content div.feed-item:has(div[data-statlog="directfeed.title"])
+div[id^="search-"] > div:has(> div.Root_inited > div[class*="Organic"] > div[class$="-Header"] > h2 + div > span)
 .DirectInline-Wrapper
 body > div.serp_js_inited.main .serp-list > .serp-item:has(span.organic__advLabel)
 body > div.serp_js_inited.main .serp-list > .serp-item:has(a[href^="http://yabs.yandex."] > div > div[class*="organic__path"]):remove()

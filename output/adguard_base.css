@@ -1792,6 +1792,8 @@ div[class] > span:empty
 #main > table[id][class*=" "]
 div[style="height: 1500px"] div[id][class*=" "] a[target="_blank"] > img
 div[id^="fix-block-"] div[id][class*=" "] a[target="_blank"] > img
+#art-text > div:has(> div[id] > div a[href^="https://servix.idnes.cz/data.aspx"])
+#art-text + div[id]:has(> div a[href^="https://servix.idnes.cz/data.aspx"])
 #disc-list > div[class]:not([data-reader], [id^="loader-"], [id="navbox"])
 #content div[id^="r-"]
 .col-a > div#test-form + div[id][class]
@@ -7337,6 +7339,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-sentry-element="Component"]:has(> span:contains(Advertisement))
+div[data-banner-location]
 div[style^="opacity:"]:has(> section > div > div[data-ad-format])
 .ione-incontent-sticky-ad-wrapper
 #sticky
@@ -9994,7 +9998,3 @@ td:has(> table > tbody > tr > td > a[href^="click.php"])
 div[class*="bg-secondary"]:has(> div[class] > div.relative > div[id^="div-gpt-ad-"])
 .fixed:has(> div[id^="div-gpt-ad-"])
 #single-post-right
-ad-host
-#swiper1
-.second_avd_index_wrap
-footer > div.section:has(>div.container > script[src*="slimespell.com"])
