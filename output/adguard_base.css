@@ -7339,6 +7339,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.lg\:block > div.w-full:has(> a[href*="?utm_source"] img)
 div[data-sentry-element="Component"]:has(> span:contains(Advertisement))
 div[data-banner-location]
 div[style^="opacity:"]:has(> section > div > div[data-ad-format])
@@ -9997,4 +9998,3 @@ td:has(> table > tbody > tr > td > a[href^="click.php"])
 .w-full:has(> div[class^="space-"] > div.flex > button:contains(Remove Ads))
 div[class*="bg-secondary"]:has(> div[class] > div.relative > div[id^="div-gpt-ad-"])
 .fixed:has(> div[id^="div-gpt-ad-"])
-#single-post-right

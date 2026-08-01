@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.nsb-link
 .social-media-share-block
 form[role="search"] + div > div[role="button"][data-sf][aria-label]
 .news-content-footer__soc
@@ -9997,4 +9998,3 @@ ul#social_bkm_wrap_top
 .au-item-page-reactions-shares
 #shareit_form
 .SocialTools
-#nzn-social-plugins > .toolbar-column > .toolbar-item > .button-social
