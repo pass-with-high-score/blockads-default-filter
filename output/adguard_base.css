@@ -8293,8 +8293,9 @@ body > div[id^="mongo"]
 body > div[id^="at-bottom-"]
 body [id][data-banner-name]:not(#style_important)
 body > [id][data-mobile-name]:not(#style_important):has(> span.close + .linkrow)
-body > [id][data-nosnippet]:has(> button[class*="-close"] + div[class*="sticky"])
-body > * > [id][data-nosnippet]:has(> button[class*="-close"]+ div[class*="sticky"])
+body > [id][data-region-m]:not(#style_important):has(> span.close + .linkrow)
+[id][data-nosnippet]:not(#style_important):has(> .row > .input-card > .vibe-glow)
+[id][data-nosnippet]:not(#style_important):has(> button:is([class*="-close"], [id*="close"]) + div[class*="sticky"])
 [id*="-coding-bar"]
 body [id^="vibe-main-row"]:not(#style_important)
 .l-side-column .m-sidebar-widget:has(> .body > .standard > div[data-dest*="bannerid="])
@@ -9997,4 +9998,3 @@ td:has(> table > tbody > tr > td > a[href^="click.php"])
 .all-flags > div[style="height:200px;"]
 .w-full:has(> div[class^="space-"] > div.flex > button:contains(Remove Ads))
 div[class*="bg-secondary"]:has(> div[class] > div.relative > div[id^="div-gpt-ad-"])
-.fixed:has(> div[id^="div-gpt-ad-"])
