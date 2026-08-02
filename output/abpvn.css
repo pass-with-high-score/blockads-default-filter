@@ -576,6 +576,7 @@ body>div[style^="position: fixed;"]
 .quangcaomobile
 div[style^="position:fixed;inset:0px;z-index:100000;"]
 #video_player ~ div[id]
+.xx-ads
 #AgeModal
 #backgroundPopupp
 #ds_top
@@ -597,7 +598,6 @@ body>.container>div
 .hd-tube-mobile
 .adx1
 #ab_ctl
-.xx-ads
 #bar_float_r
 .adspopupgiua
 .adspopupleft

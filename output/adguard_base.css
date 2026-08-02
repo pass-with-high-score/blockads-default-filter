@@ -2913,6 +2913,7 @@ div[class^="semprotpokemon_"]
 #kiri
 .cp_adct
 img[alt="ads"]
+.sponsor-strip
 #rcsad_Bacheca1
 .adv-wrapper
 div.wnh__banner
@@ -9997,4 +9998,3 @@ iframe[src^="https://mysexgames.com/pix/ads/"]
 td:has(> table > tbody > tr > td > a[href^="click.php"])
 .all-flags > div[style="height:200px;"]
 .w-full:has(> div[class^="space-"] > div.flex > button:contains(Remove Ads))
-div[class*="bg-secondary"]:has(> div[class] > div.relative > div[id^="div-gpt-ad-"])
