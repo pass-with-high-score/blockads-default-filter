@@ -164,6 +164,8 @@ mandiner-social-share-modal
 .tooltip-share-article-container
 li[onclick="HTJS.newsShare(this)"]
 .p-sns-box
+.et_social_pin_images_outer
+.post-footer:style(border-top: none !important; padding: 0 !important;)
 .widget_social
 div[href="#Share-moadl"]
 .items-center > button:has(> img[alt="share icon"])
@@ -9996,5 +9998,3 @@ ul#social_bkm_wrap_top
 .share-bar-container
 .SocialTools > ul > li[class]:not(.resizer)
 .au-item-page-reactions-shares
-#shareit_form
-.SocialTools

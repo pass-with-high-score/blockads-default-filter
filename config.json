@@ -171,6 +171,33 @@
     "category": "security"
   },
   {
+    "name": "Hagezi DoH/VPN/TOR/Proxy Bypass",
+    "id": "hagezi_doh_vpn_proxy_bypass",
+    "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
+    "description": "Blocks Encrypted DNS (DoH/DoT), VPNs, TOR, and Proxies to prevent privacy & security bypass",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "security"
+  },
+  {
+    "name": "Hagezi SafeSearch Not Supported",
+    "id": "hagezi_nosafesearch",
+    "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt",
+    "description": "Blocks search engines and services that do not support SafeSearch",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "security"
+  },
+  {
+    "name": "Hagezi Dynamic DNS",
+    "id": "hagezi_dyndns",
+    "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt",
+    "description": "Blocks dynamic DNS providers frequently used for malicious infrastructure",
+    "isEnabled": false,
+    "isBuiltIn": true,
+    "category": "security"
+  },
+  {
     "name": "URLhaus Malicious URL Blocklist",
     "id": "urlhaus_malware",
     "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
