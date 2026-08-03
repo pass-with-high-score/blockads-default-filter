@@ -300,6 +300,7 @@ body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
 #detect-block
 #kk-adblock-overlay
 #adblock:remove()
+a[href^="https://boostmania.gg/"]
 div.fixed.backdrop-blur-xl
 main > .hidden:has(> .shadow-lg > div[style] > iframe[title="Advertisement"]):style(display: none !important;)
 div[id^="adwall-"]:style(display: none !important;)
@@ -5752,6 +5753,7 @@ a[href^="/app/adclick.php?id="]
 #main_container:style(padding-top: 0!important;)
 body > div.m-auto[style="width: 1200px; height: 200px"]
 .parteneri > .inside > .boxuri-parteneri > .box-partener.custom
+.newsWrap + .v-slider
 .banner-list-item
 a[target="_blank"] > img[style="max-width: 100%;"]
 div.mx-auto:has(> div.wrapperAd)
@@ -7340,6 +7342,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
+.grid__module:has(> .grid__module-sizer_name_ad)
 a[rel="noopener noreferrer sponsored"]
 section[x-data*="sub_feed_shown"] + section > div.relative:has(> a[aria-label="AdChoices"])
 main > .relative.z-0.w-full[style="height:235px;min-height:235px;contain:layout paint size"]
@@ -7362,9 +7366,9 @@ a[href^="go/"]
 .homePageAdMinHeight
 .h288:has(> .adHeight270)
 .swiper-slide:has(> .sponsorAd)
-.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
-.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
 .questbanner
+#sticky-note
+.global-banner-wrapper
 h3:has(> strong:only-child:contains(VPN))
 h3[style*="display: none !important;"] ~ p[style]
 div:not(.toolbox-main-wrapper) > a[href="https://troypoint.com/tpapplc-general-click"]
@@ -7473,6 +7477,7 @@ a[href^="https://69pedia.com"]
 a[href^="https://69Search.com/"]
 .block-sticky-bar__element
 .transition--root-hidden
+.container > div[style^="margin: 0 auto 16px; display: inline-block;"]
 .pages > .notice-page
 a.zb
 body > a[href][target="_blank"][style*="z-index: 99999"]
@@ -9993,8 +9998,3 @@ main.h-full > div.mx-auto:has(iframe[src^="//bullionglidingscuttle.com/"])
 a[href="/livesex"]
 .mb-3[style^="height:250px;min-height:250px;"]
 html[style*="--top-banner:"] > body > .fixed[style^="top:"]:style(top: 0 !important;)
-html[style*="--top-banner:"] > body > .top-0:has(> button[aria-label="Close banner"]):style(display: none !important;)
-.rig
-td[valign="top"] > div[align="center"][style="margin-top:0px;"]
-iframe[src^="https://mysexgames.com/pix/ads/"]
-td:has(> table > tbody > tr > td > a[href^="click.php"])
