@@ -7342,6 +7342,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-testid="story-details-ad"]
+#main-content p.text-center.text-balance:has(> a[rel="sponsored noopener"])
 div.row > div.col:has(> div > a[href^="https://a.pur.agency/"])
 .carousal-item.min-w-fit div.items-center:has(> div#taboola-mid-home-carousel-text)
 .grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
@@ -7451,7 +7453,6 @@ article[class^="_"] > section[class^="_"]:has(> div[class^="_"] a[href^="/en-ca/
 div[class*="_adContainer_"]
 .banner1
 div[style="width:300px;min-height:250px;"]
-.watch-sidebar > div.overflow-hidden:has(> div[class^="adsContainer"])
 .watch-sidebar > div.overflow-hidden:has(> div.shrink-0.flex)
 div[data-t="bannerAd"]
 div:has(> a[target="_blank"]:only-child > img:only-child)
@@ -9014,6 +9015,9 @@ main > div.card:has(> div.card-body:contains(Ads can be a pain))
 div[style="position:absolute;z-index:200;width:100%;height:100%;background:rgba(0,0,0,0.7);"]
 div[style="width: 100%;text-align: center;display: scroll;position:fixed;bottom: 0;margin: 0 auto;z-index: 103;"]
 .announ
+section[aria-label="Sponsored banners"]
+.watch-sidebar > div.overflow-hidden:has(> div[class^="adsContainer"])
+.watch-sidebar > div[class*="sticky"] > div.overflow-hidden:has(> div[class^="adsContainer-"])
 .thanks
 .homepage-articles-ad-wrapper
 article h3:contains(Advertisement)
@@ -9994,7 +9998,3 @@ a[href^="https://uploadgig.com/premium"]
 .w3-main > div[style*="height:250px;"]
 #fotorAdWapper
 .goart_ad_btn
-div[data-qa$="Ads"]
-main.h-full > div.mx-auto:has(iframe[src^="//bullionglidingscuttle.com/"])
-.bg-rose-500:has(> a[href="/livesex"])
-a[href="/livesex"]

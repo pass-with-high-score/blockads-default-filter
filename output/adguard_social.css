@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div.b-news-item-info:has(> p > a[href="https://t.me/sudua"])
 .nsb-link
 .social-media-share-block
 form[role="search"] + div > div[role="button"][data-sf][aria-label]
@@ -9997,4 +9998,3 @@ ul#social_bkm_wrap_top
 .dm_article_text > .dm_ta960x--_html[data-id]
 .share-bar-container
 .SocialTools > ul > li[class]:not(.resizer)
-.au-item-page-reactions-shares
