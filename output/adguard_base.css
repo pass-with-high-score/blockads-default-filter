@@ -7342,6 +7342,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+aside.tc-ad-rail
 #invisiblePlayOverlay
 div[data-testid="story-details-ad"]
 #main-content p.text-center.text-balance:has(> a[rel="sponsored noopener"])
@@ -7676,7 +7677,6 @@ div[class^="GoogleAd_"]
 main > div.w-full:has(> div.items-center > div:empty)
 .custom-header:style(min-height: auto !important;)
 .grootes
-div[data-adbridg-ad-class]
 body:style(--recirc-bar--height: 0rem !important;)
 div[data-testid="affiliate-contents-embed"]
 .onSiteDFPReco_new

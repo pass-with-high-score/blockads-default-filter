@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+header.section-box > #ad
 a[href^="https://www.farsroid.com/ads/"]
 #site_header:style(top: 0 !important;)
 .site-middle-banners
@@ -370,7 +371,6 @@ li.list-group-item:has(a[href^="https://adhub.porcino-kinoko.workers.dev/"])
 #ntv_setAD_SP_300_250
 div.post > div.mt-3:has(> ins.adsbygoogle)
 .photo-items__interstitial-ad-content
-div.relative > div.flex > div.w-full:has(a[href^="https://pixon.ads-pixiv.net/click"])
 .header-billboard
 .ai-viewports
 .progress-bar-container + div.trending-news:style(margin-top: 56px !important;)
