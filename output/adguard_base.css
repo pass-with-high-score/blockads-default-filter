@@ -7342,6 +7342,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.row > div.col:has(> div > a[href^="https://a.pur.agency/"])
 .carousal-item.min-w-fit div.items-center:has(> div#taboola-mid-home-carousel-text)
 .grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
 .grid__module:has(> .grid__module-sizer_name_ad)
@@ -9997,4 +9998,3 @@ div[data-qa$="Ads"]
 main.h-full > div.mx-auto:has(iframe[src^="//bullionglidingscuttle.com/"])
 .bg-rose-500:has(> a[href="/livesex"])
 a[href="/livesex"]
-.mb-3[style^="height:250px;min-height:250px;"]
