@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.spot-block:has([data-zoneid])
 header.section-box > #ad
 a[href^="https://www.farsroid.com/ads/"]
 #site_header:style(top: 0 !important;)

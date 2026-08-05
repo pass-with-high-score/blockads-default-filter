@@ -3579,6 +3579,7 @@ a[href^="https://p30download.ir/page/id/"] img
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+#custom-main-ad
 .art .lazyload-wrapper:has(.close + div[class] > a[href="/twoja-prywatnosc"])
 .job-list__offers > li.job-list__offer:has(> a[href^="/advertising-banners/"])
 main > .section:has(> article > div > a[href^="/advertising-banners/"])
@@ -7342,6 +7343,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#main > div[data-bvs][data-identifier]
+.nina-final-layer
+#right1_ad
 aside.tc-ad-rail
 #invisiblePlayOverlay
 div[data-testid="story-details-ad"]
@@ -7586,7 +7590,6 @@ div[data-testid="sponsor"]
 #clickCounterText
 .ad-zone
 .col-sm-6 > div.l-container:has(> div.col-sm-12 div#gagadget_sidebar_premium_uk > iframe[id^="google_ads_iframe"])
-.nina-final-layer
 .header-ad-slot
 div[class*="sr-campaign"]
 .offers.buybox-selector
@@ -9995,6 +9998,3 @@ main > div[class*=" "] > div[class*=" "] > div[class*=" "]:has(> hr:first-child 
 a[href^="https://xsolla.com/release-notes/"]
 a[href^="https://uploadgig.com/premium"]
 .w3-main > div[style*="height:250px;"]
-#fotorAdWapper
-.goart_ad_btn
-div[data-qa$="Ads"]
