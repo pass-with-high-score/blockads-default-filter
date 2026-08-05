@@ -7343,6 +7343,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.top_nav_menu
 #main > div[data-bvs][data-identifier]
 .nina-final-layer
 #right1_ad
@@ -9997,4 +9998,3 @@ main > div[class*=" "] > div[class*=" "] > div[class*=" "]:has(> hr:first-child 
 .space-y-12> .w-full.py-6:not([data-testid])
 a[href^="https://xsolla.com/release-notes/"]
 a[href^="https://uploadgig.com/premium"]
-.w3-main > div[style*="height:250px;"]
