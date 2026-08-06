@@ -7343,6 +7343,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.homepage-layout__bg-container:has(> .u--box > .loop--fw > .html-layout > div[style="display: block; min-height: 250px;"])
+div[style="display: block; min-height: 250px;"]
 .adpos_rightD
 body > div.background-container ~ div.history_tooltip ~ [class]
 .top_nav_menu
@@ -9996,5 +9998,3 @@ a[href^="https://undress.app"]
 #content ~ div[style^="position: fixed; top: 50%;"][style*="opacity"]
 iframe[src*="/www/delivery/afr.php?zoneid="]
 .tns-slider > .item.hhz_nh:has(> .page-item-detail > ins)
-main > div[class*=" "] > div[class*=" "] > div[class*=" "]:has(> hr:first-child + .dianomi_context:last-child)
-.space-y-12> .w-full.py-6:not([data-testid])
