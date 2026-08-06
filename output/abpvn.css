@@ -97,6 +97,7 @@ a[target="_blank"][rel="nofollow"]
 .qh_qcbp
 .link-gold
 [id^="banner"]
+#scriptDiv:has(.adsbygoogle)
 div[id^="float"]
 div[id^="hide_float"]
 .header-fix-ads
@@ -107,7 +108,6 @@ li.special.parent
 .popunder-link
 .promotion-popup
 .video-ad-layer
-#scriptDiv:has(.adsbygoogle)
 #catfish-ad
 .blv-follow-btn
 .btn-primary.btn
@@ -185,7 +185,6 @@ center:has(.adsbygoogle)
 div[style^="position: fixed"]
 #avs-banner-overlay
 #avs-pause-ad
-.banner-fixed
 #top_addd
 .catfish-img
 #catfish
@@ -418,6 +417,7 @@ div#ad_info
 .col-lg-4.hidden-xs.d-flex.flex-column.address-wrap
 .float-right
 .catfish-bottom
+.banner-fixed
 .Flagrow-Ads-under-header
 .ibs-bet
 .for-mobile

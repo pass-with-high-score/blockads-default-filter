@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.whatsapp-promo
+#toggleShareBtn
 .shadowed-btn--telegram
 .shadowed-btn--instagram
 div.b-news-item-info:has(> p > a[href="https://t.me/sudua"])
@@ -9996,5 +9998,3 @@ ul#social_bkm_wrap_top
 .sharelist__items
 .avia_fb_likebox
 #haberler div[class*="socialButtonv"]
-#social-share-container > .social-share-single
-.dm_article_text > .dm_ta960x--_html[data-id]
