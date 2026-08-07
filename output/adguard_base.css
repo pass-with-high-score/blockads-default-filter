@@ -7343,6 +7343,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.ad-fixed-side
 .homepage-layout__bg-container:has(> .u--box > .loop--fw > .html-layout > div[style="display: block; min-height: 250px;"])
 div[style="display: block; min-height: 250px;"]
 .adpos_rightD
@@ -9997,4 +9998,3 @@ a[href^="https://undress.app"]
 #content > div[onclick^="window.open"]
 #content ~ div[style^="position: fixed; top: 50%;"][style*="opacity"]
 iframe[src*="/www/delivery/afr.php?zoneid="]
-.tns-slider > .item.hhz_nh:has(> .page-item-detail > ins)

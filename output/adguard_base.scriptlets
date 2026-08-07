@@ -2672,6 +2672,7 @@ pcoptimizedsettings.com,satisfactory-calculator.com##+js(abort-on-property-write
 pdfaid.com##+js(no-setTimeout-if, .offsetHeight)
 peachify.top##+js(addEventListener-defuser, click, _blank)
 peak.cz##+js(abort-current-script, $, adblock-modal)
+pearos.xyz##+js(abort-on-stack-trace, document.getElementById, mountWall)
 pearos.xyz##+js(prevent-fetch, adblockanalytics.com)
 pelishouse.*##+js(remove-attr, href, #clickfakeplayer)
 pelisplus-oficial.com,magnetdl.app,magnetdl.co##+js(no-window-open-if, /pub\.searchnova\.net|\?aID=/, 1)
