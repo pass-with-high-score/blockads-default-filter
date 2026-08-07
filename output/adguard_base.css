@@ -280,6 +280,7 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+.app > div[style*="adb-fadeIn"]
 #dpv-adblock-overlay
 #animehub-adblock-warning
 #adBlockModal:style(display: none !important;)
@@ -1907,6 +1908,7 @@ img[width="690"][height="90"]
 a[href^="http://go.cz.bbelements.com/"]
 body > a
 body:style(background: #333!important;)
+.site-campaignElement
 main > div.bg-grey-200:has(> div[class] > div[data-type=ad])
 div[class]:has(> div.text-\[\#323232\] + div[data-type=ad])
 div[data-ad-banner]
@@ -7343,6 +7345,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#mys-wrapper
+.ad-cont
+.ad-cont-second
+.map-logos > .row:has(> div > ins.adsbygoogle)
+.exco-video-player
+.wp-block-group-sticky.alignbottom
 .ad-fixed-side
 .homepage-layout__bg-container:has(> .u--box > .loop--fw > .html-layout > div[style="display: block; min-height: 250px;"])
 div[style="display: block; min-height: 250px;"]
@@ -8869,7 +8877,6 @@ div[id^="adsense-container-"]
 .promo-card
 .artiad
 #abgc
-#mys-wrapper
 #bglink
 .pointer-events-auto:has(> .ad-container:only-child)
 .script_manager_video_master
@@ -9991,10 +9998,3 @@ div[id^="shop-display-ad-"]
 .btn-dvd
 .adslot_buttom:has(> .adslot_buttom_inner > a[target="_blank"] img)
 .panel-wrapper:has(> div[style] > div[id^="advads"])
-app-header-ads
-.tinder
-a[href^="https://undress.app"]
-#strame
-#content > div[onclick^="window.open"]
-#content ~ div[style^="position: fixed; top: 50%;"][style*="opacity"]
-iframe[src*="/www/delivery/afr.php?zoneid="]
