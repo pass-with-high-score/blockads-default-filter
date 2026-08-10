@@ -529,11 +529,11 @@ a.news__item--action:nth-of-type(2)
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
+#popup-ad-box
+.banner-ad
 .catfish-ad
 .xx-ads
 [id$="bnr"]
-#popup-ad-box
-.banner-ad
 div#recent-content:nth-of-type(1)
 .cashfish
 .mini-player
@@ -561,6 +561,7 @@ div[id^="divFLR"]
 #popup
 .btm_bar
 div.ad-container
+#catfish-ad-banner
 .adace-slideup-slot-wrap
 .adace-slot
 .g1-advertisement

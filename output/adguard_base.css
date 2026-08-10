@@ -3577,6 +3577,7 @@ a[href^="https://p30download.ir/page/id/"] img
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+div[id^="globe-"]
 #custom-main-ad
 .art .lazyload-wrapper:has(.close + div[class] > a[href="/twoja-prywatnosc"])
 .job-list__offers > li.job-list__offer:has(> a[href^="/advertising-banners/"])
@@ -3597,11 +3598,13 @@ div[class*="-ads-placement"]
 div[class^="optad"]
 .header:style(margin-top: 0 !important;)
 .banner-topline
+#r_slide > .text-center:has(> div[id][style] > a[target="_blank"])
 .zlokonieczne
 .google-ad-desktop
 .grid__ad
 .custom-html-box
 .grid__col > .card:has(> .box > .box__container > div[id^="bills_in_"])
+.grid__row > .grid__col > .card--box:has(> .custom-html-box > .podawacz-spots)
 .mr-ad-slot
 .ad-aside
 #page-box-logotypes > .section-partners
@@ -3801,6 +3804,7 @@ div[id^="wtg_"]
 .sad24-target
 .adv-home
 div[style="min-height: 200px"]
+.page_wrap > .container[style^="min-height:"]:has(> ins[data-revive-zoneid])
 div[data-container="true"] > div:has(> div > div > img:not([alt]))
 .container--break-00
 div[id^="oa_placeholder"]
@@ -3825,11 +3829,21 @@ div[id^="nol24-"]
 .Home_categories_box > div.polecamy-slider > div[class*="poster-dnone-"]
 a[href^="https://milionymonet.onet.pl/"]
 #custom_html-8
+.item__side > a > img
+div[class^="position_"]:not(:has(> *))
+div[class^="position_"]:has(> .ad--pos)
 #m-adblock:style(display: none !important;)
 html.blurred:style(overflow: auto !important;)
 html.blurred > body > *:style(filter: none !important;)
+#adblock-info-overlay:style(display: none !important;)
+header > .container > font
 #sidebar > a > img
+#sidebar > center > a > img
+.container > left > font
+.container > a[target="_blank"] > img
+center:has(> font ~ a[target="_blank"])
 #sidebar #posts_custom_box > .content > a > img
+#revive-responsive-top:has(> a[target="_blank"])
 #jedynka
 .sidebar-widget-area > .widget_media_image:has(a > img)
 .entry-content > .also-box-wrapper:has(> .also-box-block > a[target="_blank"])
@@ -7344,6 +7358,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+main > div.mx-auto:has(> div[style*="height:"][style*="width:"])
+#ad_article_above_header:style(display: none !important;)
+#module_90:style(top: 0 !important;)
+#ads-gallery
 #contentWrapper ~ div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
 #headerSmall + div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
 .widget[class*="bookstores-recommend-plugin"]
@@ -8490,6 +8508,7 @@ aside.t-w-full:has(> div > .t-flex > .t-flex-col > .overline-small:contains(adve
 .t-w-full:has(> span.t-text-xs:contains(Advertisement))
 p[style="margin-top: 20px; font-size: 15px;"]
 body > div[id^="vp-"]
+body > div[id][style^="position: fixed; inset: 0px; z-index: 9999;"]
 div[style^="text-align:"][style*="width: 950px;"]
 #lj-container
 .butt1ns button[onclick*="href='/Link/"]
@@ -9979,22 +9998,3 @@ div[class*="AdDisplay_"]
 .top_cms_ads
 .resize > a[target="_blank"] > img
 .ScrollSpy_container > div[data-container="band"]:has(> div[class] > div.taboola)
-.ScrollSpy_container > div[data-container="band"]:has(> div[class] > div[data-box-type^="fitt-adbox-thinbanner"])
-.navigation__hulu
-.a-wrap:has(> .adsbygoogle)
-#mdl-register
-div[style*="margin:"][style*="text-align:"][style*="display:"]:has(> div[id^="div-gpt-"])
-div[data-testid="tabbed-article-section"] > div[class]:has(> aside[data-testid="sticky-inline-ad"])
-#pw-iab-leaderboard
-#article-footer > .container:has(> div[data-rc-widget]:only-child)
-#main-logo-container:style(margin-top: 0 !important;)
-.wtw-card--ad:remove()
-.search-banner-top-mbox
-shared-mbox:has(> div[data-mbox^="acs.w-s.web."])
-div[id^="shop-display-ad-"]
-.bigcrunch-ad-unit:not(html,body,article)
-.left-main-bodybox > .g:has(.OUTBRAIN)
-.left-main-bodybox > .g:has(ins.adsbygoogle)
-.stack__item:has(> .sticky-offset > .ad-slot)
-.adore-adver
-.btn-dvd
