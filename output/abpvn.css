@@ -530,7 +530,10 @@ a.news__item--action:nth-of-type(2)
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
 .catfish-ad
+.xx-ads
 [id$="bnr"]
+#popup-ad-box
+.banner-ad
 div#recent-content:nth-of-type(1)
 .cashfish
 .mini-player
@@ -542,8 +545,6 @@ div[id^="divFLR"]
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
-#popup-ad-box
-.banner-ad
 .body_wrapper1
 #ad-banner
 #phe-overlay-root
@@ -571,7 +572,6 @@ body>div[style^="position: fixed;"]
 .js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
 .p-footer
 .samVideoOverlay
-.xx-ads
 .catfix
 .quangcaomobile
 div[style^="position:fixed;inset:0px;z-index:100000;"]

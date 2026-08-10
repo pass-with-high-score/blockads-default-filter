@@ -389,6 +389,7 @@ div[id^="overlay_"]
 body > div[id$="_overlay"]
 #xcontent_container > div[id][style*="position: fixed"][style*="z-index:"]:has(> .modal-content > div > button[onclick="window.location.reload();"]):style(display: none !important;)
 #container > div[id][style*="display:"]:has(> div[class][style="z-index: 9999999;"])
+div[style^="position: fixed; inset: 0px; z-index: 10001;"]:style(display: none !important;)
 #AdbModel:style(display: none !important;)
 #rules-nontonx
 body > div[style]:has(> div[style] > button[onclick="location.reload()"])
@@ -3422,11 +3423,6 @@ div[id^="google3"]
 #above-thumbnail
 #body_ads_0_0_3
 div[id$="-ad"]
-div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"])
-div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"]) + div.cursor-pointer
-main > div.px-2 > div:not([class]):not([style]) > div.text-left > div.grid > div:has(a[href^="https://blog.naver.com/byolla/"])
-.post-contents > div.text-left > p > div[style="display: flex; justify-content: center; overflow: hidden;"]
-.aceplanet-coupang-banner
 .banner-box
 [class*="banner"]
 .params > div.cnt_btn
@@ -6113,6 +6109,10 @@ div[style^="position: absolute; bottom: 100%; right: 0px;"][style*="cursor: poin
 #catfish-ad-banner
 .sspp-area
 .sspp-modal
+.js-notices
+.float-contact
+.float-contact2
+.float-ck-center-lt
 div[class^="viewAds-"]
 .dcpd-eva
 .lady
@@ -6172,7 +6172,6 @@ div[class*=" size-"]
 .mct_-bet
 .main-left + .sidebar-right
 .c-banner-ovelay
-.float-ck-center-lt
 body > div[style^="position: fixed; bottom: 0px; z-index:"]
 #ads-preload
 .mp-adz
@@ -7345,6 +7344,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#contentWrapper ~ div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
+#headerSmall + div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
+.widget[class*="bookstores-recommend-plugin"]
 #mys-wrapper
 .ad-cont
 .ad-cont-second
@@ -9996,5 +9998,3 @@ div[id^="shop-display-ad-"]
 .stack__item:has(> .sticky-offset > .ad-slot)
 .adore-adver
 .btn-dvd
-.adslot_buttom:has(> .adslot_buttom_inner > a[target="_blank"] img)
-.panel-wrapper:has(> div[style] > div[id^="advads"])
