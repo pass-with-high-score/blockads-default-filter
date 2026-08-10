@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div[class^="social-media-headerstyled"] > div[class^="sharing-optionsstyled"]
 #floating-share-btn
 .whatsapp-promo
 #toggleShareBtn
@@ -9997,4 +9998,3 @@ ul#social_bkm_wrap_top
 .article-social > .twitter
 .fan-box
 .sharelist__items
-.avia_fb_likebox

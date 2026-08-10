@@ -6558,6 +6558,9 @@ topadblock
 #gads_middle
 .add_300x250
 .ContentAd
+.full-bns-block
+.video-brs
+.brs-block
 div[data-target="ad"]
 #inPlayerGGzone
 iframe[style="position: absolute; top: -1000px; left: -1000px; visibility: hidden; border: medium none; background-color: transparent;"]
@@ -6625,8 +6628,6 @@ a[href^="https://l.tapdb.net/"]
 a[href^="https://ad.22betpartners.com/redirect.aspx?"]
 .happy-player-beside
 .happy-inside-player
-.full-bns-block
-.video-brs
 a[href^="http://click.dtiserv2.com/"]
 div[data-e2e="advertisement"]
 .puFloatLine > #puFloatDiv
@@ -7358,6 +7359,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-uses-js="dfp-top-ad-fixed"]
+body > [class]:has(> a[rel="sponsored noopener nofollow"])
+.background-container > div > div[class]:has(> a[rel="sponsored noopener nofollow"])
 main > div.mx-auto:has(> div[style*="height:"][style*="width:"])
 #ad_article_above_header:style(display: none !important;)
 #module_90:style(top: 0 !important;)
@@ -9664,7 +9668,6 @@ iframe[data-link^="https://r.trackwilltrk.com/"]
 #sliderBox
 #overlayMod
 .article-row-container--right__article-display-page-only > div.article-row-container__column.mar-mb-4
-div[data-uses-js="dfp-top-ad-fixed"]
 .my-2:has(> div.border-top > div.bg-white:contains(partners videos))
 .my-2:has(> div.border-top > div.bg-white:contains(partners videos)) + div.row:has(> iframe)
 .free-support-top
@@ -9995,6 +9998,3 @@ div[class^="HeaderAd_"]
 div[class*="AdDisplay_"]
 .w-full.relative > div.pt-2:has(> div.w-full.flex.justify-center)
 .reader-container > div > div#images-reader-container ~ div.py-16:has(> div[id^="pubadx-"])
-.top_cms_ads
-.resize > a[target="_blank"] > img
-.ScrollSpy_container > div[data-container="band"]:has(> div[class] > div.taboola)
