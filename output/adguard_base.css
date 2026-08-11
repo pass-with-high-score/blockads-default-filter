@@ -1059,6 +1059,7 @@ a[href="http://www.oxbridge-apartments.com/"] > img
 .azd-top
 .ainsyndication
 .makerekframe
+a[rel="noopener nofollow sponsored"]
 #masthead-strip:remove()
 .banner-on-visible
 body > div[class$="t-iaz"]
@@ -7359,6 +7360,14 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.pcsl-inner > div.pcsl-item:has(> div.pcsl-itemin a[aria-label^="Ad :"])
+.thumb-list > div[class^="thumbContainer-"]:has(> div:only-child > a[target="_blank"]:not([href^="https://xhamster.com"]))
+a[href^="https://reatasesetitoefa.com"]
+#adx-interstitial
+.row > article.post-card:has(> a[href] > div.img-wrapper > div.badge:contains(/^AD$/g))
+menu > li:has(> a[href="/games/"])
+.overflow-hidden.w-full:has(> div.text-center:contains(Advertisement))
+div[style="min-height: 90px;"]
 a[href^="https://omg10.com/"]
 .a-wrap-base
 div[data-uses-js="dfp-top-ad-fixed"]
@@ -9989,12 +9998,3 @@ div[class^="homeLayoutWrapper_aside-contents-wrap"] > div[class^="homeLayoutWrap
 div[class^="wrap DetailTabool"]
 div[class^="homeLayoutWrapper"]:has(> div.wrap > div[class^="HomeTaboola"])
 div[class^="ad-large-"]
-div[data-testid="tpg-inline"]
-main > div[class^="jsx-"]:has(> div.nudgeModal > div.content > span > a[href^="https://oc.brcclx.com/"])
-div[class*="Article_featuredCard"]
-.theiaStickySidebar > .widget:has(:is(a[href^="https://www.tuxedocomputers.com/?refID="], .adblocked))
-.adArcl:remove()
-.spnsr
-.app-body > div[class] > div[class*="is-"]:has(> .htlad-header_top:only-child)
-.recirc-rail
-div[id^="adPlacement"]

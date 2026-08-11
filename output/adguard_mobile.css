@@ -329,6 +329,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.mobile_fox
 div[class^="publication-top-advertisement_publication-top-advertisement__"]
 div[class^="ptp-ad"]
 .spot-block:has([data-zoneid])
@@ -885,6 +886,8 @@ a[href^="https://cutt.ly/"]
 .ats-placeholder
 .fluct-overlay
 .footerNav-add
+.container > div[style*="min-height:"]:has(> .nts-ad)
+div[style*="height:"][style*="margin-bottom:"]:has(> .nts-ad)
 div.display-mobile:has(> div.empower-ad)
 .opt
 .comments > div[class^="display_container"]:not(.comment)

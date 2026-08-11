@@ -148,6 +148,10 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div.relative:has(> button > svg.lucide-share2)
+[class^="share-"]
+.oi-banner--telegram
+.js-share-line
 .justify-start.gap-2:has(path[d^="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99"])
 .pc-social-share
 #tc-join
@@ -9994,7 +9998,3 @@ body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
 .bookmark > .sns_box
 .sns-share-area
 .block-social-share
-.block-recommend-list.sns-box
-.information > span[style] > a[onclick^="socialAct("]
-ul#social_bkm_wrap_top
-.article-social > .wykop
