@@ -2035,6 +2035,7 @@ iframe[src*=".myvideo.ge/delivery/"]
 #banner
 #footerbanner
 .top-rek
+.content-area > div[id^="text-"]
 .row:has(> div.col-12 > div.billboardad)
 .property__deals__listing
 .phaistos_placeholder
@@ -7360,6 +7361,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#content-banner
+div[style="margin: 0px; height: 250px; width: 300px; overflow: hidden;"]
 .pcsl-inner > div.pcsl-item:has(> div.pcsl-itemin a[aria-label^="Ad :"])
 .thumb-list > div[class^="thumbContainer-"]:has(> div:only-child > a[target="_blank"]:not([href^="https://xhamster.com"]))
 a[href^="https://reatasesetitoefa.com"]
@@ -9995,6 +9998,3 @@ div[class^="adPlacement"]
 .fo-nttax-infobox > div:has(> .infobox-header:contains(Accommodation))
 .fo-nttax-infobox > div:has(> .infobox-center > div > a[href*="?aid="][target="_blank"][rel])
 div[class^="homeLayoutWrapper_aside-contents-wrap"] > div[class^="homeLayoutWrapper_aside-contents"] > div:has(> div[id^="div-gpt-ad"])
-div[class^="wrap DetailTabool"]
-div[class^="homeLayoutWrapper"]:has(> div.wrap > div[class^="HomeTaboola"])
-div[class^="ad-large-"]
