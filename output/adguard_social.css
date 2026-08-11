@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.justify-start.gap-2:has(path[d^="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99"])
+.pc-social-share
 #tc-join
 div[class^="social-media-headerstyled"] > div[class^="sharing-optionsstyled"]
 #floating-share-btn
@@ -9996,5 +9998,3 @@ body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
 .information > span[style] > a[onclick^="socialAct("]
 ul#social_bkm_wrap_top
 .article-social > .wykop
-.article-social > .twitter
-.fan-box
