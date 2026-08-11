@@ -7359,6 +7359,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+a[href^="https://omg10.com/"]
+.a-wrap-base
 div[data-uses-js="dfp-top-ad-fixed"]
 body > [class]:has(> a[rel="sponsored noopener nofollow"])
 .background-container > div > div[class]:has(> a[rel="sponsored noopener nofollow"])
@@ -7441,6 +7443,8 @@ ul.grid-cards[data-group="awards"] > li:not([class])
 .wrapper > .mx-auto:has(> a[rel*="sponsored"])
 #v-player_ima-ad-container
 .slot-frame
+.fnw-media[data-unavailable-src]
+.fnw-media[data-unavailable-src] ~ .fnw-source-layer
 #inpage-ad-container
 .fixed.pointer-events-none
 .bg-card.text-card-foreground:has(> div.rounded:is(.max-w-\[400px\].h-\[170px\],.w-\[300px\].h-\[600px\]))
@@ -9994,7 +9998,3 @@ div[class*="Article_featuredCard"]
 .app-body > div[class] > div[class*="is-"]:has(> .htlad-header_top:only-child)
 .recirc-rail
 div[id^="adPlacement"]
-div[class^="HeaderAd_"]
-div[class*="AdDisplay_"]
-.w-full.relative > div.pt-2:has(> div.w-full.flex.justify-center)
-.reader-container > div > div#images-reader-container ~ div.py-16:has(> div[id^="pubadx-"])
