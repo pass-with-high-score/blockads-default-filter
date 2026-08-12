@@ -329,6 +329,9 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.rated_box ~ .container
+.vpn-under-player
+.nav_premium_link
 .section-rss
 .mobile_fox
 div[class^="publication-top-advertisement_publication-top-advertisement__"]

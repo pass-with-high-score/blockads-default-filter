@@ -148,6 +148,11 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+#stkSocialToggle
+.share-btns-container
+.snsBtns > ul
+.item:has(> .share_button)
+.group\/card:has(> div.flex > a[href^="https://twitter.com/intent/tweet?"])
 .article_main_contents_sns
 #s_social_button
 div.relative:has(> button > svg.lucide-share2)
@@ -9993,8 +9998,3 @@ body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
 .material-icons-share
 .b-share-left
 .b-informer-social
-#facebook_slider_widget
-.whitelistPremium > #detail + div[data-run-module="autoswiat/main.addThisShareInit"] > .onet_ustPlugin_addthis
-.soc-buttons-glist
-.bookmark > .sns_box
-.sns-share-area

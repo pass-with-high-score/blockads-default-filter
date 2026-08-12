@@ -303,6 +303,8 @@ body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
 .acrp-adb-blur:style(overflow: auto !important; pointer-events: auto !important;)
 #detect-block
 #kk-adblock-overlay
+#ublock-detector-modal:style(display: none !important;)
+html > body:not(#style_important):style(overflow: auto !important; pointer-events: auto !important;)
 #adblock:remove()
 a[href^="https://boostmania.gg/"]
 div.fixed.backdrop-blur-xl
@@ -681,7 +683,6 @@ link[id][href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:
 #adblock-warning
 .publicite.text-ad.adsbox:style(display: block !important;)
 body #abd-overlay:not(#style_important):style(display: none !important;)
-html > body:not(#style_important):style(overflow: auto !important; pointer-events: auto !important;)
 .adBlock-banner
 .adsBox.pub_300x250m.pub_728x90.text-ad:style(display: block !important;)
 div[id^="bait-"][class][style]:style(display: block !important;)
@@ -1325,6 +1326,7 @@ body.modal-open:style(overflow: visible!important; padding-right: 0!important;)
 body.trans:style(margin-top:100px!important;)
 #content_block > .header:style(top: 0!important;)
 .wrapper:style(top: 0!important;)
+.lenta-btn
 #adslotPop
 .widget_text_inner div:not([class],[id]) a[target="_blank"]:not([href*="youtube.com"]) > img
 a[href^="https://www.bkash.com/"] > img
@@ -3586,6 +3588,8 @@ a[href^="https://p30download.ir/page/id/"] img
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+div[data-ads]
+div[class^="main-box"]:has(> .adsbygoogle)
 div[id^="globe-"]
 #custom-main-ad
 .art .lazyload-wrapper:has(.close + div[class] > a[href="/twoja-prywatnosc"])
@@ -7368,6 +7372,17 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#widgetarea-one > .widget_custom_html
+.cs-sidebar__inner > .block-widget
+#headerAdvertContainer:style(display: none !important;)
+#headerAdvertContainerHeightHide:style(height: 100px !important;)
+div[id^="primis"]
+div[data-lpos="more-from-toronto-com-partners"]
+#vb_rvt_2
+.wrapper_frame
+a[href*="drtuber.com/linkout/"]
+body .banner-container
+.cx-dash > div[style^="background:"]:has(> #ad_unit)
 div.list-none > div.w-full:has(ins.adsbygoogle)
 #content-banner
 div[style="margin: 0px; height: 250px; width: 300px; overflow: hidden;"]
@@ -7499,7 +7514,6 @@ div[id^="aad-footer"]
 .shp-layer
 body > [id][class*=" "]:has(> a[target="_blank"])
 .site-ad-banner
-.header_premium_bar
 .header_roulette_button
 .ID_live_cam_inner
 .footer-live-cam
@@ -7944,6 +7958,7 @@ a[href="/sponsor/"]
 .main-frame > section:has(> div.container > div#spot_video_livecams)
 .cams
 .navbar-pages > li.navbar-page:has(> a[href][target="_blank"][rel="nofollow"])
+.header_premium_bar
 .large-ad-space
 a[href="https://www.owingsautomotive.com/"]
 a[href^="https://www.princegeorgescountymd.gov/"]
@@ -8474,7 +8489,7 @@ a[href^="https://adtrack2.click/"]
 .r34-banner
 .r34-overlay
 .r34-in-content
-.mgtop_50
+hr.mgtop_50:empty
 .affix-top > #unit3
 iframe[src^="https://plx.porndig.com/"]
 .justify-center.flex:has(> div[id^="div-gpt-ad"])
@@ -9135,8 +9150,8 @@ div[id^="lcams"]
 .spots
 .row_content:has(> div:only-child > .spots:only-child)
 .aside_content > div.row_content:has(> div.wrap_container > div.spots)
-.spot-live-cam
 .twocolumns > div.wrapper_content:has(> div.row_container div.live_cams_iframe)
+.spot-live-cam
 main > div[class*=" "] > div[class^="sc-"]:first-child:empty
 main > div[class*=" "] > div[class^="sc-"]:has(> div:only-child > div[id^="nn_lb"])
 .raw-html-component:has(> script[src*="aniview.com/"])
@@ -9983,18 +9998,3 @@ div[id^="agora-article-below"]
 .media_spot
 .spot
 .grid-temp > li:has(> script)
-.d-none.d-md-flex.align-items-center
-.d-flex.d-sm-none.align-items-center
-div[id^="list_videos"] > .item:has(> iframe[src*="/widgets/v4/Universal?"])
-.side-block > #supporters:has(> a[target="_blank"])
-.entry-content > div.code-block:has(> ins.adsbygoogle)
-center > a[target="_blank"] > button
-#download-loading-vip > .text-center > a[target="_blank"]
-.geekmag-page-right > div[id^="text-"]:has(ins[data-revive-zoneid])
-div[id^="adb"]
-.sidebar > div.widget_custom_html:has(> div:only-child > div[id^="adb"])
-.hbanner
-div[data-testid="PostDesktopStickyFooter"]
-#modal1
-#screener
-.code-block-center
