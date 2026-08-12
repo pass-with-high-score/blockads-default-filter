@@ -280,6 +280,8 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+#mw-adblock-overlay
+.inset-0.fixed.backdrop-blur-sm
 #catch_message_window
 .app > div[style*="adb-fadeIn"]
 #dpv-adblock-overlay
@@ -2035,6 +2037,11 @@ iframe[src*=".myvideo.ge/delivery/"]
 #banner
 #footerbanner
 .top-rek
+.tdi_86
+.tdi_195
+#tdi_110
+#tdi_122
+a.tdm-inline-image-wrap:not([href*="youtube.com"],[href*="https://toedolio"])
 .content-area > div[id^="text-"]
 .row:has(> div.col-12 > div.billboardad)
 .property__deals__listing
@@ -7361,6 +7368,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.list-none > div.w-full:has(ins.adsbygoogle)
 #content-banner
 div[style="margin: 0px; height: 250px; width: 300px; overflow: hidden;"]
 .pcsl-inner > div.pcsl-item:has(> div.pcsl-itemin a[aria-label^="Ad :"])
@@ -9990,11 +9998,3 @@ div[data-testid="PostDesktopStickyFooter"]
 #modal1
 #screener
 .code-block-center
-header > a[href][target="_blank"]
-header > section.container > div.row.d-md-none
-.item:has(> article.movie-item > a[href][target="_blank"][rel="nofollow"])
-div[class^="adPlacement"]
-#modal
-.fo-nttax-infobox > div:has(> .infobox-header:contains(Accommodation))
-.fo-nttax-infobox > div:has(> .infobox-center > div > a[href*="?aid="][target="_blank"][rel])
-div[class^="homeLayoutWrapper_aside-contents-wrap"] > div[class^="homeLayoutWrapper_aside-contents"] > div:has(> div[id^="div-gpt-ad"])
