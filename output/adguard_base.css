@@ -7372,11 +7372,16 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-lpos="more-from-orangeville-com-partners"]
+div[data-lpos="more-from-ourwindsor-ca-partners"]
+div[id^="primis"]
+div[data-lpos="more-from-northumberlandnews-com-partners"]
+.topbar-ad
+.speedyads-container
 #widgetarea-one > .widget_custom_html
 .cs-sidebar__inner > .block-widget
 #headerAdvertContainer:style(display: none !important;)
 #headerAdvertContainerHeightHide:style(height: 100px !important;)
-div[id^="primis"]
 div[data-lpos="more-from-toronto-com-partners"]
 #vb_rvt_2
 .wrapper_frame
@@ -9389,6 +9394,9 @@ a[href^="https://www.pornoxo.com/link/out/"]
 li:has(> .ads-stripchat-link)
 li.media-item.no-popup
 #banner-overlay
+div[class^="banner_in_"]
+body > div[class] > a[target="_blank"]
+body > div[class^="lc-stage-gap-"][style^="height:"]:empty:style(height: 10px !important;)
 .backgr42
 .banner_in_news
 .adfshift
@@ -9990,11 +9998,3 @@ div[id^="ew-custom-html-"]
 div[id^="agora-article-below"]
 .stick-desktop-right
 .home_dt_mob_responsive_top_middle_container
-.panel-default > div[style]:has(> .adsbygoogle)
-.ad-listing
-.standalonead
-.columns.is-multiline > .column > .card.is-clmd:has(> a[href^="https://telegramchannels.me/goclimad/"]:only-child)
-.header-spot
-.media_spot
-.spot
-.grid-temp > li:has(> script)

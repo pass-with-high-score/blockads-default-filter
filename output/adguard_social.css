@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div.flex:has(> button:only-child > svg > path[d^="M4.40143"])
+.c-banner
 #stkSocialToggle
 .share-btns-container
 .snsBtns > ul
@@ -9996,5 +9998,3 @@ body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
 .socials_tab
 .wrapper-single-social_block_content_height
 .material-icons-share
-.b-share-left
-.b-informer-social
