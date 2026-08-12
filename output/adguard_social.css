@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.article_main_contents_sns
+#s_social_button
 div.relative:has(> button > svg.lucide-share2)
 [class^="share-"]
 .oi-banner--telegram
@@ -611,7 +613,6 @@ section > div.mt-4:has(> div.vue-target > div.flex > a > svg > use)
 button[aria-label="Compartir"]
 .sns-links
 div[id^="PersonalArticlePage-"] > div[class^="style-"] > div[class^="style-"] > button[aria-label]:has(> span.is-fill.material-symbols-outlined)
-.is-fill.material-symbols-outlined
 div[onclick="onShareVideo()"]
 footer div[class^="container-"]:has(> div[class*="shareStack-"])
 .question-detail-sns
@@ -9997,4 +9998,3 @@ body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
 .soc-buttons-glist
 .bookmark > .sns_box
 .sns-share-area
-.block-social-share

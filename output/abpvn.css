@@ -31,9 +31,6 @@ div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: aut
 [id^="ADS_"]
 #position_full_top_banner_pc
 .gc-header__wrapper + div[style]
-.btn-company
-.odds-comp-logo
-.xlz-ads-item
 #menubentrai
 .gnartyx-offads
 #fbox-background
@@ -500,6 +497,9 @@ a.news__item--action:nth-of-type(2)
 .banner-masthead
 .sticky_bottom
 .banner-bottom-1
+.btn-company
+.odds-comp-logo
+.xlz-ads-item
 #catfish-ads
 #ybox-H1>div[style]
 .td-container-wrap.td-logo-wrap-full.td-banner-wrap-full

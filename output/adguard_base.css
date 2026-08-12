@@ -501,7 +501,6 @@ button#download-hd[onclick="downloadHD(this);"]:style(display: block !important;
 .user-select-none > .alert:has(> .p-3:contains(/^Advertisement blockers/))
 .adsbygoogle.ads_above_banner:style(display: block !important; height: 1px !important;)
 .pagewidth > div.pcenter[id]:style(display: block !important;)
-div[id][class^="popup"][class$="wrap"][style]
 .advMenuTab:style(visibility: hidden !important;)
 .ad-block__overlay
 #adblocker-test-ad[class]:style(display: block !important;)
@@ -547,6 +546,7 @@ ins.adsbygoogle[data-ad-slot]:style(height: 0 !important;)
 .banner.banner-captcha:style(height: 25px !important;)
 .banner-inner:style(display: block; width: 0 !important;)
 .myads > a:style(visibility: hidden !important;)
+div[id][class^="popup"][class$="wrap"][style]
 .textads.banner-ads.banner_ads.adsbox:style(display: block !important;)
 .antiblock
 div[id][class^="popup"][class$="wrap"][style^="opacity"]
