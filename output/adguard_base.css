@@ -4867,6 +4867,7 @@ div[class^="col-md-"] > .row > div[class^="col"] > .widget-wrapper:has(> .widget
 .background-custom[style*="width:"][style*="height:"][style*="background-image:"]
 .collapse-container > .row > .col-lg-4:has(> a[target="_blank"] > .news-item > .news-image > .ads-info)
 .container > .row > .col-md-4 > .widget-wrapper:has(> .widget-wrapper__header > h3[title="Bukmacherzy"])
+.video-banner
 :not(.onnetwork-banner) > .placeholder:not(.onnetwork-banner):style(height: 0 !important; min-height: 0 !important; visibility: hidden !important;)
 .d-none > .sticky.margin > .box.margin[data-area-id]
 body .ejected-banner
@@ -7370,6 +7371,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#gpt-iframe-top_right-gam-display
+div[style^="padding:"] div[aria-hidden="true"]  div.mb-1.text-xs.font-medium
+article.article-content > div.post-footer:has(> div#ads-container-single)
 a[data-adv]
 .item:has(> a[rel="sponsored"])
 ul.primary > li:has(> a[rel="sponsored"])
@@ -9994,7 +9998,3 @@ div[class^="pub_"]
 .advertising-area
 .add-wrap
 div[class*="js_ad_"]
-div[id^="ew-custom-html-"]
-div[id^="agora-article-below"]
-.stick-desktop-right
-.home_dt_mob_responsive_top_middle_container

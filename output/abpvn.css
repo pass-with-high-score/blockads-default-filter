@@ -538,8 +538,6 @@ div#recent-content:nth-of-type(1)
 .fixed-banner-bottom
 div[id^="divFLR"]
 #ad_global_below_navbar
-#popup-ad-box
-.banner-ad
 .castfish-wrappe
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
@@ -558,7 +556,6 @@ div[id^="divFLR"]
 #pc-preload-modal
 .quang-cao
 #popup
-.xx-ads
 .btm_bar
 div.ad-container
 #catfish-ad-banner
@@ -598,6 +595,8 @@ body>.container>div
 .hd-tube-mobile
 .adx1
 #ab_ctl
+#popup-ad-box
+.banner-ad
 #bar_float_r
 .adspopupgiua
 .adspopupleft
@@ -618,4 +617,5 @@ div[id^="exo_slider_"]
 .spot
 #content-ad-top-zone
 #cashfit-banner-host
+.xx-ads
 .ad-banner
