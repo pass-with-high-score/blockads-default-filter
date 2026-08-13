@@ -805,7 +805,6 @@ body > div[id][class][style*="z-index: 9999"] + div[class][style*="z-index: 9999
 #msgblogheader:style(height: 1px!important;)
 body:style(overflow: visible!important;)
 #adBlock.blocker-interstitial:style(display: none!important;)
-.swal2-fade
 #adsense:style(display: block!important; height: 1px!important;)
 #adbWarnContainer
 .ui-widget-overlay
@@ -859,7 +858,6 @@ body > header:style(margin-top: 0!important;)
 #sfad-wrapper
 #sfad-greyback
 .adblock-notification-wrapper
-.downloadCountdown
 div[id="myTestAd"]:style(height: 1px!important;)
 #abAlert
 #adblock-detected
@@ -7372,6 +7370,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+a[data-adv]
+.item:has(> a[rel="sponsored"])
+ul.primary > li:has(> a[rel="sponsored"])
 div[data-lpos="more-from-orangeville-com-partners"]
 div[data-lpos="more-from-ourwindsor-ca-partners"]
 div[id^="primis"]
@@ -8060,7 +8061,6 @@ a[title="Fanatical bundle ad"]
 a[href^="https://go.gsrv.dev/"]
 .fluid_start_container
 .fluid_html_on_pause_container
-.footer-margin
 .text_link_holder
 a[href^="https://t.javhd-trk.com/"]
 #list_videos_related_videos_items > div[class]:has(a[href^="https://www.tckcandy.com/"])
