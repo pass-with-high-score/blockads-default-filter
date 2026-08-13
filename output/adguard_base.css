@@ -7371,6 +7371,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+article.promoted-card
+#btn-promoted
+a[onclick*="trackAdClick"]
 #gpt-iframe-top_right-gam-display
 div[style^="padding:"] div[aria-hidden="true"]  div.mb-1.text-xs.font-medium
 article.article-content > div.post-footer:has(> div#ads-container-single)
@@ -8169,7 +8172,6 @@ body > div.fullbar:has(> a.top-bar-porntn-static)
 div[class*="__sponsor"]
 a[href^="https://go.mavrtracktor.com"]
 .js_paidTab:has(> .js_tracking-link)
-.video-thumb[data-subscribable="false"]
 #playerOverlay
 .linkvideo
 #right-video
@@ -9996,5 +9998,3 @@ div[class$="Code"]:has(> iframe[data-src^="//a.magsrv.com/"])
 aside > div.widget_text:has(> div.custom-html-widget > center > a[href^="https://t.co/"])
 div[class^="pub_"]
 .advertising-area
-.add-wrap
-div[class*="js_ad_"]
