@@ -4985,6 +4985,7 @@ a[href^="https://webep1.com/"] > img
 html.hustle-no-scroll[class]:style(overflow: auto !important;)
 .text-center > span[class="font8 text-muted"]
 #js_MailsContainer > div[class^="go"]:has(> div:first-child + div[id^="onet-ad-"] + div[class^="go"]:last-child)
+.js_main-section-content > div[class^="go"]:has(> div:first-child + div[id^="slot-flat-"] + div[class^="go"]:last-child)
 .main-container > div[class^="go"]:only-child > nav + [class^="go"] > div[class^="go"]:first-child:has(> div[class^="go"]:only-child > div[class^="go"]:first-child + div[class^="go"]:last-child > .onet-ad:only-child)
 .main-container > div[class^="go"]:only-child > nav + [class^="go"] > div[class^="go"]:last-child:has(> div[class^="go"]:only-child > div[class^="go"]:first-child + div[class^="go"]:last-child > .onet-ad:only-child)
 .main-container > div[class^="go"]:only-child > nav + [class^="go"] > div[class^="go"]:first-child:has(> div[class^="go"]:first-child + div[class^="go"]:last-child > .onet-ad:only-child)
@@ -7371,6 +7372,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+aside[class] > div.mx-auto:has(> ins.adsbygoogle)
 #pen-ad
 .hdr-btm:style(display: none !important;)
 .hdr-btm ~ .main-nav:style(top: auto !important;)
@@ -7392,14 +7394,13 @@ ul.primary > li:has(> a[rel="sponsored"])
 div[data-lpos="more-from-orangeville-com-partners"]
 div[data-lpos="more-from-ourwindsor-ca-partners"]
 div[id^="primis"]
-div[data-lpos="more-from-northumberlandnews-com-partners"]
+div[data-lpos^="more-from-"][data-lpos*="-com-partners"]
 .topbar-ad
 .speedyads-container
 #widgetarea-one > .widget_custom_html
 .cs-sidebar__inner > .block-widget
 #headerAdvertContainer:style(display: none !important;)
 #headerAdvertContainerHeightHide:style(height: 100px !important;)
-div[data-lpos="more-from-toronto-com-partners"]
 #vb_rvt_2
 .wrapper_frame
 a[href*="drtuber.com/linkout/"]
@@ -9997,4 +9998,3 @@ a[href^="https://amzn.to/"] > img
 .header-ad-div
 .min-h-\[184px\]:not(#style_important):style(min-height: 0 !important;)
 #article-body > div.hawk-base[data-render-type="editorial"]
-#article-body > div.hawk-base[data-render-type="editorial"] + hr
