@@ -7371,6 +7371,13 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#pen-ad
+.hdr-btm:style(display: none !important;)
+.hdr-btm ~ .main-nav:style(top: auto !important;)
+body.sticky .hdr-btm ~ .main-nav:style(top: 0 !important;)
+header.hdr-top[role="banner"]:style(display: none !important;)
+article .paragraph--type--linked-image:has(> a[target="_blank"] > img)
+article > .content > div > p > a.paragraphCTA[target="_blank"]:has(> em > strong)
 .ads_video_overlay_iframe
 .spot_under
 article.promoted-card
@@ -9991,10 +9998,3 @@ a[href^="https://amzn.to/"] > img
 .min-h-\[184px\]:not(#style_important):style(min-height: 0 !important;)
 #article-body > div.hawk-base[data-render-type="editorial"]
 #article-body > div.hawk-base[data-render-type="editorial"] + hr
-main > div.has-neutral-silver-03-background-color:has(> div.o-section__wrapper div.c-broadstreet-ad)
-body > .promo
-div[style*="justify-content: center;"][style*="min-height:"]:has(> div[id^="snack-incontent-"])
-.no-top-radius > center > div[id] > div[style] > a > img
-div[class$="Code"]:has(> iframe[data-src^="//a.magsrv.com/"])
-.footer-box:has(ins[data-zoneid])
-aside > div.widget_text:has(> div.custom-html-widget > center > a[href^="https://t.co/"])
