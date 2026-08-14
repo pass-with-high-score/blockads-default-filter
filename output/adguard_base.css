@@ -7371,6 +7371,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.ads_video_overlay_iframe
+.spot_under
 article.promoted-card
 #btn-promoted
 a[onclick*="trackAdClick"]
@@ -9996,5 +9998,3 @@ div[style*="justify-content: center;"][style*="min-height:"]:has(> div[id^="snac
 div[class$="Code"]:has(> iframe[data-src^="//a.magsrv.com/"])
 .footer-box:has(ins[data-zoneid])
 aside > div.widget_text:has(> div.custom-html-widget > center > a[href^="https://t.co/"])
-div[class^="pub_"]
-.advertising-area

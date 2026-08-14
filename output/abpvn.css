@@ -242,6 +242,8 @@ div[style="margin: 10px 0 5px 0; min-height: 250px;"]
 .ads-tags
 .img_side_bar
 .poka-image
+.modal-backdrop
+.sspp-modal
 .bet-btn-8423
 .btn_betnow_632132
 .highlight
@@ -542,6 +544,8 @@ div[id^="divFLR"]
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
+#popup-ad-box
+.banner-ad
 .body_wrapper1
 #ad-banner
 #phe-overlay-root
@@ -595,8 +599,6 @@ body>.container>div
 .hd-tube-mobile
 .adx1
 #ab_ctl
-#popup-ad-box
-.banner-ad
 #bar_float_r
 .adspopupgiua
 .adspopupleft
