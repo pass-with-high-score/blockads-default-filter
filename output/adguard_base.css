@@ -7372,6 +7372,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.viafoura > div.mx-auto > #story-comment-container:has(> div[class] > span:contains(Ad))
+.fixed.z-\[9981\]
+.fixed.z-\[9980\]
+.question-pill.sponsored
 aside[class] > div.mx-auto:has(> ins.adsbygoogle)
 #pen-ad
 .hdr-btm:style(display: none !important;)
@@ -7394,7 +7398,7 @@ ul.primary > li:has(> a[rel="sponsored"])
 div[data-lpos="more-from-orangeville-com-partners"]
 div[data-lpos="more-from-ourwindsor-ca-partners"]
 div[id^="primis"]
-div[data-lpos^="more-from-"][data-lpos*="-com-partners"]
+div[data-lpos^="more-from-"][data-lpos*="-partners"]
 .topbar-ad
 .speedyads-container
 #widgetarea-one > .widget_custom_html
@@ -9994,7 +9998,3 @@ div[class^="bpalka"]
 .pol-wrap
 div[id^="imaContainer"]
 .banner > span
-a[href^="https://amzn.to/"] > img
-.header-ad-div
-.min-h-\[184px\]:not(#style_important):style(min-height: 0 !important;)
-#article-body > div.hawk-base[data-render-type="editorial"]

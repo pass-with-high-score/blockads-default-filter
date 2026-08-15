@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div[class^="detail_shareIcons"]
 .items-start > div.flex:has(> svg > path[d^="M714.163"])
 button[data-testid="tool-page-share-button"]
 .share-dropdown-wrapper
@@ -9997,4 +9998,3 @@ ul[data-bfa="@l:Article-Top-Share;"]
 .md-sharethis-toolbox_floatingbuttons > .md-sharethis-toolbox-floatingbutton_fb
 .md-sharethis-toolbox_floatingbuttons > .md-sharethis-toolbox-floatingbutton_wykop
 #fbFixed
-body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
