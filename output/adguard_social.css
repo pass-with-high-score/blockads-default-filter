@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+main[id] > div.MuiBox-root:has(> ul > li > button.react-share__ShareButton)
 div[class^="detail_shareIcons"]
 .items-start > div.flex:has(> svg > path[d^="M714.163"])
 button[data-testid="tool-page-share-button"]
@@ -9997,4 +9998,3 @@ ul[data-bfa="@l:Article-Top-Share;"]
 .fb-panel
 .md-sharethis-toolbox_floatingbuttons > .md-sharethis-toolbox-floatingbutton_fb
 .md-sharethis-toolbox_floatingbuttons > .md-sharethis-toolbox-floatingbutton_wykop
-#fbFixed
