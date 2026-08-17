@@ -465,6 +465,7 @@ section[data-testid="chapter"] > div[class*="TextElement"] > div:has(> div.items
 .article__inline-banner-divider
 .article__sidebar-sticky
 #js-mnsp_inread
+.mobile-top-banner
 div.elementor[data-elementor-post-type="page"] > section[data-settings]:has(div.elementor-widget ins.adsbygoogle)
 header > div[class^="_spacer_"]
 #sticky-container
