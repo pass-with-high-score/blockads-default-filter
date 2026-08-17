@@ -117,9 +117,6 @@ div.ad.chat-message
 #layer-popup-link3
 #transparentLayer
 #virtualLayer
-.btn-company
-.odds-comp-logo
-.xlz-ads-item
 #subiz_wrapper
 .ad-embed
 .mb-4>[style="min-height: 350px;"]
@@ -502,6 +499,9 @@ a.news__item--action:nth-of-type(2)
 .banner-masthead
 .sticky_bottom
 .banner-bottom-1
+.btn-company
+.odds-comp-logo
+.xlz-ads-item
 #catfish-ads
 #ybox-H1>div[style]
 .td-container-wrap.td-logo-wrap-full.td-banner-wrap-full
@@ -530,6 +530,7 @@ a.news__item--action:nth-of-type(2)
 .global-sticky-ads
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
+.xx-ads
 #custom_html-42
 .catfish-ad
 [id$="bnr"]
@@ -619,5 +620,4 @@ div[id^="exo_slider_"]
 .spot
 #content-ad-top-zone
 #cashfit-banner-host
-.xx-ads
 .ad-banner

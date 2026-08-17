@@ -291,7 +291,6 @@ body > div[class*="has-ad-"] div.base-page__content:style(bottom: 0!important;)
 div[class*="dp-ad-"]:style(height: 0!important; width: 0!important;)
 .ad-billboard:style(margin-top: -40px !important;)
 .owner_thumbnail:style(top: 20px !important;)
-div.comment-btn-s:style(float: initial !important; width: 90% !important;)
 .ad_overlay #footer_prelogin:style(margin-top: 150px !important; padding-bottom: 20px !important;)
 .sticky-ads-position
 #ad_iframe

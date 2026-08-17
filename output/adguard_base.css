@@ -6145,6 +6145,7 @@ div[class^="viewAds-"]
 .lady
 #gv_sponsor
 .video-ad-layer
+.spot
 div[class^="catfish-"]
 .btn-bet:style(display: none !important;)
 .chat-spr:style(display: none !important;)
@@ -7372,6 +7373,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-testid="column"] > div[data-testid="item"]:has(> div[class^="AIGCShared_container"])
+#all-opinions > div[style="padding-bottom: 24px; min-height: 144px; margin-top: 22px;"]
+.AnnouncementBar
+.topNav-wrap button.aTab
 div.viafoura > div.mx-auto > #story-comment-container:has(> div[class] > span:contains(Ad))
 .fixed.z-\[9981\]
 .fixed.z-\[9980\]
@@ -7542,7 +7547,6 @@ div[id^="aad-footer"]
 body > [id][class*=" "]:has(> a[target="_blank"])
 .site-ad-banner
 .header_roulette_button
-.ID_live_cam_inner
 .footer-live-cam
 a[href^="https://mysteryvibe.com/"]
 div[data-tmdatatrack-type="commercial"]
@@ -8291,8 +8295,8 @@ center:has(> div.gallery2-container)
 .pagination-image:style(min-height: auto !important;)
 #onPauseAdContainer
 #spot_player_start
-a.ID_live_cam_inner
 .desc-animated-banner3-wrap
+.ID_live_cam_inner
 div[data-ad-injected]
 #menu-menu > li.menu-item:has(> a[href][target="_blank"][rel="nofollow noopener sponsored"])
 a[href^="https://landing.candynetwork.ai/"]
@@ -9994,7 +9998,3 @@ div[id*="-Ads"]
 #native
 div[class^="bpalka"]
 #side_content:has(div.bpalka_banner)
-#thumbs:has(> div.con > ul > li > a[href^="https://faphouse.com/"])
-.pol-wrap
-div[id^="imaContainer"]
-.banner > span
