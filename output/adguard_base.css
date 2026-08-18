@@ -7376,6 +7376,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#bot_container
+#top_container
 .rt-ad-slot
 .rt-player-ad-slot
 div.w-full:has(> div.mx-auto > div.relative > span:contains(Ad))
@@ -9996,5 +9998,3 @@ div[data-placement-id="revbid-square"]
 div[class^="TwoColumnContainer"]:has(> div[class^="TwoColumnContainer"][class$="-container"] > div > div#taboola-below-homepage-thumbnails)
 aside[id]:has(> div[class]:only-child > .adsbyexoclick)
 .ads-wrap-qqq
-.border-bottom:has(> div.layout__region > div.block > p.advertisement_label)
-.underplayer:style(min-height: 0 !important;)
