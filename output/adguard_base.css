@@ -7374,6 +7374,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[style="min-height:280px"]
+div[class*="-banner-container"]
+div[id^="therootads-"]
+.top_ad_slideshow_desktop
 .grid-row > figure:has(> div.item > div.wc-ad)
 #res-com-block > div.visible-lg-block:has(> center > ins)
 .extlinkn
@@ -9994,7 +9998,3 @@ aside[id]:has(> div[class]:only-child > .adsbyexoclick)
 .shortcode-banner
 .posts-grid > div.posts-grid-item:has(> div.pgi-wrapper a[href] > img[src^="https://hentaijuggs.com/uploads/banners/"])
 .header-image:style(min-height: 0 !important;)
-.VideoPlayer + div[style]
-div[class^="google-sticky-adv-"]
-div[style^="min-height: 250px;"]
-.block-by
