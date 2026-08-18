@@ -148,6 +148,14 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+a[href^="/bannerclick/"]
+.article-share-bot
+.seatCta
+.h5-social-share
+.pc-social-icon
+.addthis-tools
+article > div[class]:has(> div > a[href="https://www.instagram.com/kapital.kz"])
+a[href="https://discord.gg/pszHD6GWTF"]
 .search-2__share-button
 #tp-social-icons
 main[id] > div.MuiBox-root:has(> ul > li > button.react-share__ShareButton)
@@ -9990,11 +9998,3 @@ span.s > span.sh
 .newsstand-social-share
 .wrp > .shr
 .twitterTweet__button
-.facebookShare__button
-.module-social-share-container
-.global-sharebar-plugin
-.socialArea
-.sharebtn
-ul[data-bfa="@l:Article-Top-Share;"]
-#panel > #facebook
-.fb-panel

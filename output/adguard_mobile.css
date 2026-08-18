@@ -328,6 +328,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+div[style^="text-align:center;"]:has(> script[src][referrerpolicy="no-referrer-when-downgrade"])
+.mmsssbox
 #photo_cta
 .rated_box ~ .container
 .vpn-under-player
