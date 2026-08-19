@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+[id^="webook_social_"]
 button[title="Social links"]
 .p-post-content__sns
 .mt-10 > button.group:has(> div[class] > svg.lucide-share2)
@@ -156,7 +157,6 @@ a[href^="/bannerclick/"]
 .article-share-bot
 .seatCta
 .h5-social-share
-.pc-social-icon
 .addthis-tools
 article > div[class]:has(> div > a[href="https://www.instagram.com/kapital.kz"])
 a[href="https://discord.gg/pszHD6GWTF"]

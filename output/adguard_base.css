@@ -2523,6 +2523,7 @@ body:style(background-image: none!important; background: #06203d!important;)
 .xabre-responsive-970px-90px
 .xabre-responsive-300px-60px
 body > main#allt:style(margin-top: 0 !important;)
+.vdo-player__wrapper:style(display: block !important;)
 .entry-content > p > span[style] > a[href^="https://urthindia.com/"]
 .inArticleAdCarouselWrapper
 .mrb-banners-wrapper
@@ -7376,6 +7377,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.grid > div.mx-auto:has(> iframe[id^="google_ads_"])
 iframe[title^="ad-slot-"]
 .sbac_header_top
 .sabc_ad_web_section:style(visibility: hidden !important;)
@@ -7384,6 +7386,8 @@ div[data-id="related_links_container"]
 div[data-id="content_rsoc_container"]
 #bot_container
 #top_container
+.black-friday-ads
+section[aria-labelledby="adobe-stock-photos-heading"]
 .rt-ad-slot
 .rt-player-ad-slot
 div.w-full:has(> div.mx-auto > div.relative > span:contains(Ad))
@@ -9994,7 +9998,3 @@ span[id*="Native-Ad"]
 #billboard-wrapper
 .paris
 .luanda
-.britain
-.spanish
-.bucharest
-div[data-placement-id="revbid-square"]
