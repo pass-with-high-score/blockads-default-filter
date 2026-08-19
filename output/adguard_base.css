@@ -7376,6 +7376,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+iframe[title^="ad-slot-"]
+.sbac_header_top
+.sabc_ad_web_section:style(visibility: hidden !important;)
+.vp-sidebar
 div[data-id="related_links_container"]
 div[data-id="content_rsoc_container"]
 #bot_container
@@ -9994,7 +9998,3 @@ span[id*="Native-Ad"]
 .spanish
 .bucharest
 div[data-placement-id="revbid-square"]
-#banner_ad
-.fixed.bottom-0
-.Advertisement
-div[class^="TwoColumnContainer"]:has(> div[class^="TwoColumnContainer"][class$="-container"] > div > div#taboola-below-homepage-thumbnails)

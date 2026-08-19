@@ -70,6 +70,9 @@ div[class*="ads"]
 .monkey-section-tinnoibat
 div.monkey-qc
 .bottom-right-ads
+.btn-company
+.odds-comp-logo
+.xlz-ads-item
 .b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 .b_algo:has(.rms_img[src*="=AdsPlus"])
 .button-dangkyngay
@@ -278,9 +281,6 @@ div[data-widget-id]
 .adv_home_300_250
 .nqc-zone
 #top-adv
-.btn-company
-.odds-comp-logo
-.xlz-ads-item
 .olm-ads
 .LBktY>.GssDD
 div[data-viewport-type="element"] .Ogt7j
@@ -532,8 +532,6 @@ a.news__item--action:nth-of-type(2)
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
-#popup-ad-box
-.banner-ad
 .catfish-ad
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
@@ -547,6 +545,8 @@ div[id^="divFLR"]
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
+#popup-ad-box
+.banner-ad
 .body_wrapper1
 #ad-banner
 #phe-overlay-root

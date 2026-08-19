@@ -148,6 +148,10 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+button[title="Social links"]
+.p-post-content__sns
+.mt-10 > button.group:has(> div[class] > svg.lucide-share2)
+.author-social > ul:has(> span.subscribe)
 a[href^="/bannerclick/"]
 .article-share-bot
 .seatCta
@@ -9994,7 +9998,3 @@ span.s > span.sh
 .share_area_item
 .lite-share
 .wrap_social
-.mc-comment-share
-.newsstand-social-share
-.wrp > .shr
-.twitterTweet__button
