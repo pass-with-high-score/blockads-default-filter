@@ -212,9 +212,6 @@ iframe.aspect-video.z-30 {pointer-events:auto! important}
 [id^="idpvn-"]
 .ad-left
 .ad-right
-.btn-company
-.odds-comp-logo
-.xlz-ads-item
 .ads-sponsor
 .khw-adk14-wrapper
 .banner_list
@@ -281,6 +278,10 @@ div[data-widget-id]
 .adv_home_300_250
 .nqc-zone
 #top-adv
+.btn-company
+.odds-comp-logo
+.xlz-ads-item
+.olm-ads
 .LBktY>.GssDD
 div[data-viewport-type="element"] .Ogt7j
 div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
@@ -409,6 +410,7 @@ div[style="width:320px;height:100px"]
 #floating-banner-right
 .text_ads
 div#ad_info
+span[style="display: flex;flex-direction: column;align-items: center; color: white; padding-bottom: 10px"]
 #ad_info_top
 .footer-info
 #topbanner
@@ -530,7 +532,6 @@ a.news__item--action:nth-of-type(2)
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
-.xx-ads
 #popup-ad-box
 .banner-ad
 .catfish-ad
@@ -588,6 +589,7 @@ body>.container>div
 .w1e48c4420b7073bc11916c6c1de226bb
 #shoppe_ads_fly
 .sticky-footer
+.xx-ads
 #hide_float_right
 .vailo-sticky
 .vailo-under-navbar
