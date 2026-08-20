@@ -2745,6 +2745,7 @@ play.discoveryplus.com##+js(xml-prune, xpath(//*[name()="MPD"]/@mediaPresentatio
 play.discoveryplus.com,play.hbomax.com,play.max.com##+js(json-prune, adtech-brightline adtech-google-pal adtech-iab-om)
 play.discoveryplus.com,play.hbomax.com,play.max.com##+js(json-prune, ssaiInfo fallback.ssaiInfo manifest.url)
 play.doramasplus.net##+js(set-constant, openUp, noopFunc)
+play.hbomax.com##+js(no-xhr-if, brightline.tv)
 play.iporngay.com##+js(no-setTimeout-if, hasPopupBlocker)
 play.iporngay.com##+js(no-window-open-if, !download)
 play.nova.bg##+js(no-xhr-if, /adsbygoogle|googima\.js/)

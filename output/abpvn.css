@@ -70,9 +70,6 @@ div[class*="ads"]
 .monkey-section-tinnoibat
 div.monkey-qc
 .bottom-right-ads
-.btn-company
-.odds-comp-logo
-.xlz-ads-item
 .b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 .b_algo:has(.rms_img[src*="=AdsPlus"])
 .button-dangkyngay
@@ -503,6 +500,9 @@ a.news__item--action:nth-of-type(2)
 #banner1ab
 .banner-masthead
 .sticky_bottom
+.btn-company
+.odds-comp-logo
+.xlz-ads-item
 #catfish-ads
 #ybox-H1>div[style]
 .td-container-wrap.td-logo-wrap-full.td-banner-wrap-full
@@ -533,6 +533,7 @@ a.news__item--action:nth-of-type(2)
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
 .catfish-ad
+.xx-ads
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
 .cashfish
@@ -545,8 +546,6 @@ div[id^="divFLR"]
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
-#popup-ad-box
-.banner-ad
 .body_wrapper1
 #ad-banner
 #phe-overlay-root
@@ -587,9 +586,10 @@ div[style^="position:fixed;inset:0px;z-index:100000;"]
 .hidden-md.right.col-3
 body>.container>div
 .w1e48c4420b7073bc11916c6c1de226bb
+#popup-ad-box
+.banner-ad
 #shoppe_ads_fly
 .sticky-footer
-.xx-ads
 #hide_float_right
 .vailo-sticky
 .vailo-under-navbar
