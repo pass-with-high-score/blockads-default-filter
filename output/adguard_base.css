@@ -7378,6 +7378,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.top-ads-separator-enabled
+main > div[class]:has(div.ad-wrapper)
+#w_banner
+.pointer-events-auto:has(> a[target="_blank"] > img)
 #homepage-container > div.row-unit-container
 #omc-top-banner
 #omc-sidebar > ul > li.omc-widget:has(> .textwidget > a[target="_blank"] > img)
@@ -9994,7 +9998,3 @@ span[id*="Native-Ad"]
 .primary > li.pignu
 .breadcrumbsAdsWrapper
 .partner-center
-#main > div > .chakra-container > div > div:has(> div > div > .ad-slot)
-.chakra-slide:has(> .chakra-offset-slide > div > .chakra-offset-slide + div > div > .ad-slot)
-#loading-container
-.c-adv-branding__top

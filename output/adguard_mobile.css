@@ -488,7 +488,6 @@ div[style="height: 300px;"]
 .ad__under-article-content
 .pc-info-box__clickad
 .top-banner--mobile
-main > div[style^="margin-bottom:"]:has(> div > ul.scroll-snap-slider button[aria-label="Акция"] > div > img[src*="get-market-adv"]):remove()
 .mobile-ad-space
 .navigation-container > a[href][rel="nofollow"][target="_blank"]
 .gn-scroll-catch-ad
@@ -5951,6 +5950,7 @@ div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
 #gws-product_ads__plalightbox
 .gws-product_ads__close-button
 .infinity-zen__content div.feed-item:has(div[data-statlog="directfeed.title"])
+main > div[style^="margin-bottom:"]:has(> div[class] div[class] > img[src*="get-market-adv"])
 div[id^="search-"] > div:has(> div.Root_inited > div[class*="Organic"] > div[class$="-Header"] > h2 + div > span)
 .DirectInline-Wrapper
 body > div.serp_js_inited.main .serp-list > .serp-item:has(span.organic__advLabel)
