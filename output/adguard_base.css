@@ -7378,6 +7378,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#homepage-container > div.row-unit-container
+#omc-top-banner
+#omc-sidebar > ul > li.omc-widget:has(> .textwidget > a[target="_blank"] > img)
 .grid > div.mx-auto:has(> iframe[id^="google_ads_"])
 iframe[title^="ad-slot-"]
 .sbac_header_top
@@ -9888,7 +9891,6 @@ body .c-ad
 hr + div[style]:has(> a[rel="sponsored noopener"])
 hr + div[style]:has(> a[rel="sponsored noopener"]) + div[style]
 tbody[id^="threadbits_forum_"] > tr:has(> td.alt2 > span[style="float:right"] > img[alt^="advert"])
-button[data-openuri*="https://"][data-open="_blank"]
 #portfolio-items > div:has(> div.tac > i.xxx-banner)
 a[href^="/out.cgi?"]
 div[id^="Ad"]
@@ -9996,5 +9998,3 @@ span[id*="Native-Ad"]
 .chakra-slide:has(> .chakra-offset-slide > div > .chakra-offset-slide + div > div > .ad-slot)
 #loading-container
 .c-adv-branding__top
-#billboard-wrapper
-.paris

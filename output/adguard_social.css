@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.cat-soc-share
+#pch-social-share-container
 .social-btn-list_mini
 [id^="webook_social_"]
 button[title="Social links"]
@@ -9996,5 +9998,3 @@ div[data-tip="Репост в соцсети"]
 .total-share-count-container
 span.s > span.sh
 .social.article
-.share_area_item
-.lite-share
