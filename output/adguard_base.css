@@ -7378,6 +7378,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.tui-ad-slate
 div[data-dev="MovableAd"]
 .u4dl-spotcol
 .top-ads-separator-enabled
@@ -7396,8 +7397,6 @@ div[data-id="related_links_container"]
 div[data-id="content_rsoc_container"]
 #bot_container
 #top_container
-.black-friday-ads
-section[aria-labelledby="adobe-stock-photos-heading"]
 .rt-ad-slot
 .rt-player-ad-slot
 div.w-full:has(> div.mx-auto > div.relative > span:contains(Ad))
@@ -8952,7 +8951,6 @@ body > div.wrapper:has(> div.rounded-md > div.mx-auto > p:contains(Advertisement
 div[id*="adsense"]
 div[id*="-amazondeals"]
 #adarea
-section[data-meta="search-results-list"] li.is-mobile-hide
 #s1c
 #s2c
 #b2c
@@ -9493,7 +9491,6 @@ div[style] > a[target="_blank"][data-wpel-link="external"] > img
 #homepage-breakingnews-section > .stories > div:has(> .sticky > .ad-placeholder)
 #sidebaradcontainer
 .ad-pss
-div[data-meta="placeholder-slot"]
 .promo-box
 div[class^="d"] > div[class^="d"]:has(> ins.adsbygoogle)
 iframe[src="/ad-test.html"]
@@ -9559,7 +9556,6 @@ a[href="https://porn00.org/best-casino/"]
 .vrazka
 h2.tracking-tight
 button._button-now:style(display: none !important;)
-#pdp-bundle.sponsored
 .logo-bar
 #prakModal
 #sidebar-footer > .doSpecial
@@ -9998,3 +9994,7 @@ span[id*="Native-Ad"]
 .pignu.item
 .bottom-alp
 .primary > li.pignu
+.breadcrumbsAdsWrapper
+.partner-center
+#main > div > .chakra-container > div > div:has(> div > div > .ad-slot)
+.chakra-slide:has(> .chakra-offset-slide > div > .chakra-offset-slide + div > div > .ad-slot)

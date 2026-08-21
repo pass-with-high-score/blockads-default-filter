@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.homepage-socialbar
+.flex > div.inline-flex:has(> div.items-center > a[href^="https://www.facebook.com/sharer/"])
 .sharelink-noticia
 section[data-block-id="B.Z. folgen"]
 #thb_social_links_widget-4
@@ -6804,7 +6806,6 @@ app-share-socials
 .o-share-control
 button[on="tap:share"]
 .addthis-holder
-ul.spi_area > li:nth-child(3)
 .soci-link
 button[aria-describedby="share_tooltip"]
 #_shareArea
@@ -9856,7 +9857,8 @@ img[onclick="shareinverter()"]
 #share-text
 a[href^="https://m.me/"]
 a[href="javascript:void(0);"][onclick^="gigya.services.socialize"]
-.spi_area > li:not([class])
+ul.spi_area > li:has(> a.ico_facebook)
+ul.spi_area > li:has(> a.ico_twitter)
 ul.sharebtn
 .btn-ms
 .social-share__wrapper
@@ -9996,5 +9998,3 @@ div[data-tip="Репост в соцсети"]
 #fbSlider
 .mol-related-videos-panel-social
 .button-share-twitter
-#bossbyte_slide
-.socialLeftPopup
