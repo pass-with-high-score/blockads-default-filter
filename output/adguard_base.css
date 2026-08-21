@@ -7378,6 +7378,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-dev="MovableAd"]
+.u4dl-spotcol
 .top-ads-separator-enabled
 main > div[class]:has(div.ad-wrapper)
 #w_banner
@@ -9996,5 +9998,3 @@ span[id*="Native-Ad"]
 .pignu.item
 .bottom-alp
 .primary > li.pignu
-.breadcrumbsAdsWrapper
-.partner-center

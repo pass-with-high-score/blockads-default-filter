@@ -328,6 +328,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+html[data-smartbanner] body:style(padding-top: 0 !important;)
+html[data-smartbanner] header:style(top: 0 !important;)
 div[style="min-height:500px"]
 div[style^="text-align:center;"]:has(> script[src][referrerpolicy="no-referrer-when-downgrade"])
 .mmsssbox

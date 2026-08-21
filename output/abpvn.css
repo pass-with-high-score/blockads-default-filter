@@ -144,6 +144,9 @@ a[rel="noopener noreferrer"]
 .sys-ads
 div[id^="adsbg"]
 .ad-pin-right-bottom
+.btn-company
+.odds-comp-logo
+.xlz-ads-item
 .top-right
 .line-ads
 .ad-container
@@ -500,9 +503,6 @@ a.news__item--action:nth-of-type(2)
 #banner1ab
 .banner-masthead
 .sticky_bottom
-.btn-company
-.odds-comp-logo
-.xlz-ads-item
 #catfish-ads
 #ybox-H1>div[style]
 .td-container-wrap.td-logo-wrap-full.td-banner-wrap-full
@@ -541,6 +541,8 @@ div#recent-content:nth-of-type(1)
 #iklan-atas-wrapper
 .fixed-banner-bottom
 div[id^="divFLR"]
+#popup-ad-box
+.banner-ad
 #ad_global_below_navbar
 .castfish-wrappe
 .pum-overlay
@@ -586,8 +588,6 @@ div[style^="position:fixed;inset:0px;z-index:100000;"]
 .hidden-md.right.col-3
 body>.container>div
 .w1e48c4420b7073bc11916c6c1de226bb
-#popup-ad-box
-.banner-ad
 #shoppe_ads_fly
 .sticky-footer
 #hide_float_right
