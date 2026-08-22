@@ -7381,6 +7381,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+center:has(> ins[style^="display:inline-block;"][style*="width:"][style*="height:"]:first-child + script:last-child)
 .w-full > div.flex:has(> div#ad-banner-placement)
 #player-wrap > #main-video ~ *
 div[data-test-id="virtual-list"] > ul > li > div > a[rel="noreferrer"]
@@ -9997,4 +9998,3 @@ a[href^="https://"][href*="realxxx.com/"]
 .downloadLink
 .download-section-box > .row > .col:has(> .download-type > a > i.fa-ad)
 span[id*="Native-Ad"]
-.pignu.item
