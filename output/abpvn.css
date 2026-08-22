@@ -97,6 +97,8 @@ a[target="_blank"][rel="nofollow"]
 .qh_qcbp
 .link-gold
 [id^="banner"]
+.p-4.bg-black\/65.justify-center.items-center.flex.z-\[90\].inset-0.fixed
+.pointer-events-none.justify-center.flex.z-\[80\].bottom-0.inset-x-0.fixed
 #scriptDiv:has(.adsbygoogle)
 div[id^="float"]
 div[id^="hide_float"]
