@@ -533,9 +533,10 @@ a.news__item--action:nth-of-type(2)
 .global-sticky-ads
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
+#popup-ad-box
+.banner-ad
 #custom_html-42
 .catfish-ad
-.xx-ads
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
 .cashfish
@@ -543,8 +544,6 @@ div#recent-content:nth-of-type(1)
 #iklan-atas-wrapper
 .fixed-banner-bottom
 div[id^="divFLR"]
-#popup-ad-box
-.banner-ad
 #ad_global_below_navbar
 .castfish-wrappe
 .pum-overlay
@@ -564,6 +563,7 @@ div[id^="divFLR"]
 #pc-preload-modal
 .quang-cao
 #popup
+.xx-ads
 .btm_bar
 div.ad-container
 #catfish-ad-banner
@@ -591,8 +591,8 @@ div[style^="position:fixed;inset:0px;z-index:100000;"]
 body>.container>div
 .w1e48c4420b7073bc11916c6c1de226bb
 #shoppe_ads_fly
-.sticky-footer
 #hide_float_right
+.sticky-footer
 .vailo-sticky
 .vailo-under-navbar
 .vailo-under-navbar-mobile
