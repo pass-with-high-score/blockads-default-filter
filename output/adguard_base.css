@@ -352,6 +352,7 @@ body > div[style^="background:"][style*="position: fixed; display: flex;"][style
 body > div[class*=" "][style^="background:"]
 .swal2-container
 body > div[style^="position: fixed;"][style*="backdrop-filter: blur"][style*="z-index:"]:style(display: none !important;)
+#adblock-dialog
 body > div > div[style*="position:"][style*="z-index:"][style*="font-family:"]
 #sitiene:style(display: none !important;)
 #notiene:style(display: block !important;)
@@ -1461,6 +1462,7 @@ div[class^="css-"]:has(> span.Slot_title:first-child + .Slot_content:last-child)
 .noa-banner > a
 #billboard_ad_container
 .side_banner
+.container div[class]:has(> div.ad--align)
 div[style^="width:100%;min-height:"]
 div[data-e2e="ogm-branding"] > div[class]:has(> div:only-child > div:only-child > div[data-e2e="mol-advert"])
 div[data-e2e="mol-advert"]
@@ -7381,6 +7383,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.tp-ad-lead
 center:has(> ins[style^="display:inline-block;"][style*="width:"][style*="height:"]:first-child + script:last-child)
 .w-full > div.flex:has(> div#ad-banner-placement)
 #player-wrap > #main-video ~ *
@@ -9995,6 +9998,3 @@ div[data-test-id="Display-Ad-Container"]
 .spots:has(> div > div[data-banner])
 .center_banner__head
 a[href^="https://"][href*="realxxx.com/"]
-.downloadLink
-.download-section-box > .row > .col:has(> .download-type > a > i.fa-ad)
-span[id*="Native-Ad"]
