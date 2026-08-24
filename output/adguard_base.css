@@ -7383,6 +7383,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div.sidebar:has(> div.ad-unit)
+div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
+div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])
 .tp-ad-lead
 center:has(> ins[style^="display:inline-block;"][style*="width:"][style*="height:"]:first-child + script:last-child)
 .w-full > div.flex:has(> div#ad-banner-placement)
@@ -9995,6 +9998,3 @@ div[class*="_adContainer"]
 .lead-gen__action-link
 div[data-test-id="Display-Ad-Container"]
 .advertisings
-.spots:has(> div > div[data-banner])
-.center_banner__head
-a[href^="https://"][href*="realxxx.com/"]
