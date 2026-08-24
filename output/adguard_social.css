@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.hd-meta-share
+div[class^="_slotwrapper_"] > button:has(> div[align="center"] svg[data-icon^="ShareOutline"])
 div[class^="styles_share"]
 .homepage-socialbar
 .flex > div.inline-flex:has(> div.items-center > a[href^="https://www.facebook.com/sharer/"])
@@ -9996,5 +9998,3 @@ div[data-tip="Репост в соцсети"]
 .share-bl
 .article-footer__social
 .social-w
-#fbSlider
-.mol-related-videos-panel-social

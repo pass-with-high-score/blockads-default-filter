@@ -5560,6 +5560,7 @@ div[style*="min-height:"] > div[class*=" "] > section[class*=" "] > div[class*="
 div:not([class]):not([id]):has(> div[class] > div[class*=" "] > div:not([class]):not([id]):contains(/^REKLAMA$/))
 .teasers > div[class=" display"]:has(> div[class] > div[class] > div:not([class]):not([id]) > div:not([class]):not([id]):contains(/^REKLAMA$/))
 .wp-placeholder
+.wp-section-placeholder-container
 #app-content > .relative > .flow-root > div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class] + script:last-child)
 .relative >.relative > .items-center[style]:has(> img[src^="https://v.wpimg.pl/"][alt]:first-child + img[src^="https://v.wpimg.pl/"][alt] + div[class]:last-child)
 .relative > :is(div[class^="sc"], .wp-bg-transparent) > div[class^="sc"]:has(> img[src^="https://v.wpimg.pl/"][alt]:first-child + img[src^="https://v.wpimg.pl/"][alt] + div[class^="sc-"]:last-child)
@@ -7384,8 +7385,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[id^="rightRailAds"]
+.colCon > div > aside > a[href^="/out2/"]
+body > div[style] > div[data-sveltekit-reload] > header + div.w-full
 .Grid-column > div[id^="Col-Child-"]:has(> div.fast-grid-ad)
 div[data-ad-name]:remove()
+.ladder__item--sportsbet-cell
 .g1-row:has(#g1-secondary-nav)
 .affiliate-grid
 .partners-title
@@ -8123,7 +8128,6 @@ div[id^="wrapper-"][id*="-ad"]
 #ad-footer
 #video-right.mobile-hide
 #main-content > section.py-6 > .border:has(> div.text-center > a[href="mailto:sponsorships@every.to"])
-#ud-root > div[class*="print:hidden"]:has(> .justify-center > div[class*="leaderboard:"])
 .die-ad-bar
 .die-sidebar-ad
 .die-single-content > p:has(> ins.adsbygoogle)
@@ -9994,7 +9998,3 @@ div[id^="next-tv"]
 div.heading:has(> h2:contains(/^AD$/))
 .bottom-content
 .items-container > div.items-box:has(> span.ad-title)
-.popup--sticky:has(img[class^="HeaderImage_"][src*="-ads.png"])
-.popup--sticky:not(:has(:is(div.login_popup_box, button[class^="PrimaryCloseButton_"])))
-#home-intro-ad
-.desktop-leaderboard-ad-wrapper
