@@ -7383,6 +7383,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.affiliate-grid
+.partners-title
 div.sidebar:has(> div.ad-unit)
 div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
 div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])
@@ -9996,5 +9998,3 @@ a[id^="adLink"]
 div[class*="_adContainer"]
 .text-ads
 .lead-gen__action-link
-div[data-test-id="Display-Ad-Container"]
-.advertisings
