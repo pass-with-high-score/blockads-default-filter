@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.flex > div.block:has(> div.flex svg > path[d^="M444.7"])
 .article__byline-share
 .el-share-image-link
 .hd-meta-share
@@ -9997,4 +9998,3 @@ div[data-tip="Репост в соцсети"]
 .button-share
 .leftsharebtn
 .data-social
-.share-bl
