@@ -6157,6 +6157,12 @@ div[class^="viewAds-"]
 .lady
 #gv_sponsor
 .video-ad-layer
+div[id^="nc-"][id*="-ad"]
+.nc-ad-container
+#nc-tvc-player
+#nc-tvc-overlay
+#nc-tvc-countdown
+#nc-tvc-skip-btn:style(display: block !important;)
 .spot
 div[class^="catfish-"]
 .btn-bet:style(display: none !important;)
@@ -9992,9 +9998,3 @@ div[id^="showin"][style^="text-align: center;"]
 a[href^="https://aichattings.com"]
 .chapter-content > div[align="center"] > div[class*=" "]:has(> div[id^="pf-"])
 div[class^="HomePageContainer-module_empty"]
-.sidebar-end > div.section-wrapper:has(> div.ad-wrapper-small)
-button[data-qa="media-solution-button"]
-div[id^="next-tv"]
-div.heading:has(> h2:contains(/^AD$/))
-.bottom-content
-.items-container > div.items-box:has(> span.ad-title)
