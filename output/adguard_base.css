@@ -7391,6 +7391,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.rs-ad-slot
+.inarticle-ad
+div.mx-auto > div.relative:has(> span.tracking-wide)
 div[id^="rightRailAds"]
 .colCon > div > aside > a[href^="/out2/"]
 body > div[style] > div[data-sveltekit-reload] > header + div.w-full
@@ -8858,7 +8861,7 @@ div[class^="MuiBox-root"]:has(> div[class^="MuiBox-root"]:first-child + div[clas
 .publift-ad
 #leaderboard_area
 #gcont
-.col-md-12:has(a[href^="https://landing.brazzersnetwork.com/"])
+.col-md-12:has(a[href*="//landing.brazzersnetwork.com/"])
 .ad-body:remove()
 .temporary-real-extra-block
 a[href^="https://golovehub.com/"]
@@ -9995,6 +9998,3 @@ div[style="margin-bottom: 16px; position: relative; z-index: 1; min-height: 250p
 div[id^="showin"][style^="text-align: center;"]
 .sb > div.textwidget:has(> p > ins)
 .wraps > div.pict2:has(> a[href^="https://a.candyai.love/"])
-a[href^="https://aichattings.com"]
-.chapter-content > div[align="center"] > div[class*=" "]:has(> div[id^="pf-"])
-div[class^="HomePageContainer-module_empty"]

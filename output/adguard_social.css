@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.article__byline-share
+.el-share-image-link
 .hd-meta-share
 div[class^="_slotwrapper_"] > button:has(> div[align="center"] svg[data-icon^="ShareOutline"])
 div[class^="styles_share"]
@@ -9996,5 +9998,3 @@ div[data-tip="Репост в соцсети"]
 .leftsharebtn
 .data-social
 .share-bl
-.article-footer__social
-.social-w
