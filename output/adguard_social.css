@@ -148,6 +148,10 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div[data-component="a-share"]
+.ShareList
+.sidebar__social-box
+div[class^="ArticleActions_article_detail__share_buttons"]
 section[data-type="headline"]:has(> h3#h3-fitbook-folgen)
 section[data-type="headline"]:has(> h3#h3-fitbook-folgen) + section[data-type="rich-text"]
 .flex > div.block:has(> div.flex svg > path[d^="M444.7"])
@@ -9994,7 +9998,3 @@ div[data-tip="Репост в соцсети"]
 .essb-viralpoint
 .multimedia_utils > .toolBar
 .scrollToolBar > .toolBar > ul > li[class]:not(.showComment)
-.docs-buttons-share
-.socialslideout
-.share-handler-wrap
-.button-share

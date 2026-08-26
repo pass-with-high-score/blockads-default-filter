@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+#yahoo_ad
 .blogroll_ads
 .section-header.widgets-title-mobile
 html[data-smartbanner] body:style(padding-top: 0 !important;)
