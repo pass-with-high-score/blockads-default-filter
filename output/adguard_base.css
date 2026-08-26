@@ -7394,6 +7394,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#sticky-728x90-ad
+.penci-container__content > .widget-area:has(> .theiaStickySidebar)
 #clickgate
 .jwplayer-wrapper
 .thumb-list > div:not(.video-thumb, [data-block])
@@ -9996,5 +9998,3 @@ a[href^="/out.php?"]:style(display: none !important;)
 .candySides:style(display: none !important;)
 .alertHolder:style(display: none !important;)
 .a-th:has(a[href^="/out.php?"]):remove()
-div[style="margin-bottom: 16px; position: relative; z-index: 1; min-height: 250px;"]
-#sponsored-content
