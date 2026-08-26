@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+section[data-type="headline"]:has(> h3#h3-fitbook-folgen)
+section[data-type="headline"]:has(> h3#h3-fitbook-folgen) + section[data-type="rich-text"]
 .flex > div.block:has(> div.flex svg > path[d^="M444.7"])
 .article__byline-share
 .el-share-image-link
@@ -9996,5 +9998,3 @@ div[data-tip="Репост в соцсети"]
 .socialslideout
 .share-handler-wrap
 .button-share
-.leftsharebtn
-.data-social

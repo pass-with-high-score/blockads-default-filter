@@ -548,6 +548,8 @@ div[id^="divFLR"]
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
 .body_wrapper1
+#popup-ad-box
+.banner-ad
 #ad-banner
 #phe-overlay-root
 .in.fade.modal-backdrop
@@ -591,8 +593,6 @@ body>.container>div
 #shoppe_ads_fly
 #hide_float_right
 .sticky-footer
-#popup-ad-box
-.banner-ad
 .vailo-sticky
 .vailo-under-navbar
 .vailo-under-navbar-mobile

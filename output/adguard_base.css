@@ -1513,6 +1513,9 @@ div[class^="AdBanner"]
 .r-head + div.r-body
 div[class^="c-premium-gam"]
 .l-header-container__section--banner
+#head_a:has(> div[style="max-width:750px;max-height:100px"]):style(display: none !important;)
+#head:style(height: auto !important;)
+#brds
 #head > div[style^="margin: auto; width: "]:style(max-height: 20px !important;)
 a[href="/internetova-reklama/"]
 head { height: 70px !important; }
@@ -7391,6 +7394,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.jwplayer-wrapper
 .thumb-list > div:not(.video-thumb, [data-block])
 .rs-ad-slot
 .inarticle-ad
@@ -7778,9 +7782,6 @@ div[class*="sr-campaign"]
 div[class^="ym-p"][class*="-server-"]
 .mezgopv-zone
 section[aria-label^="Sponsored"]
-div[data-ad-slot]
-sticky-footer-ad
-.prose > div.has-data-empty\:hidden
 .raptive-video-player
 a.q1-line
 ul.detail-info-links > li:has(> .ads-stripchat-link)
@@ -9997,4 +9998,3 @@ div[style="margin-bottom: 16px; position: relative; z-index: 1; min-height: 250p
 #sponsored-content
 #id\/community > div.MuiBox-root:has(> div.br-ad)
 div[id^="showin"][style^="text-align: center;"]
-.sb > div.textwidget:has(> p > ins)
