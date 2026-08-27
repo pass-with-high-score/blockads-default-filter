@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+main > div.flex > div[class]:has(> div[class] > a[href^="https://t.me/share/"])
 .container > .wrp:has(> .js-sns)
 div[data-component="a-share"]
 .ShareList
@@ -9997,4 +9998,3 @@ body .share-block__list
 div[data-tip="Репост в соцсети"]
 .social-group-list
 .essb-viralpoint
-.multimedia_utils > .toolBar

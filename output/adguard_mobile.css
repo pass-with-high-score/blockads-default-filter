@@ -1219,7 +1219,7 @@ div[id][style^="left:"][style*="height:"]:style(height: auto !important;)
 .links-out__disclaimer
 .wrapper > aside[class]:has(> header.aan__header)
 .first-ad-adp
-center > div[style^="width:300px;height:"]
+header + div[style] > div > div:has(script[data-ts-spot])
 section[class*="section_ads"]
 a[target="_blank"][class="blue_btn"]
 .block-player:style(padding-top: 0 !important;)
