@@ -5356,7 +5356,7 @@ div[class*=" "]:has(> img[src^="/staticfiles/wm-placeholder.png"]:first-child + 
 body > #root > div[class]:empty
 .wp-billboard
 div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]):first-child + div[class*=" "] + div[class*=" "] + script:last-child)
-div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]):first-child + div[class*=" "] + script:last-child)
+div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]):first-child + div:is([class*=" "], [class*="-"]) + script:last-child)
 style + div[class*=" "]:has(> img:is([src^="https://v.wpimg.pl/"], [src*="/images/adv/placeholder"]) + div:last-child)
 #root > div[class] > div[class]:only-child:has(> style:first-child + div[class*=" "]:last-child)
 article aside > .flex-none > div[class*=" "]:has(> div[class*=" "]:first-child + script:last-child)
@@ -7394,6 +7394,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+aside.sticky:has(> a[href="/advertise#placements"])
 #sticky-728x90-ad
 .penci-container__content > .widget-area:has(> .theiaStickySidebar)
 #clickgate
@@ -9997,4 +9998,3 @@ div[class*="Content"]:has(> center > ins[id])
 a[href^="/out.php?"]:style(display: none !important;)
 .candySides:style(display: none !important;)
 .alertHolder:style(display: none !important;)
-.a-th:has(a[href^="/out.php?"]):remove()

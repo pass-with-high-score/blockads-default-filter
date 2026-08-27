@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.container > .wrp:has(> .js-sns)
 div[data-component="a-share"]
 .ShareList
 .sidebar__social-box
@@ -9997,4 +9998,3 @@ div[data-tip="Репост в соцсети"]
 .social-group-list
 .essb-viralpoint
 .multimedia_utils > .toolBar
-.scrollToolBar > .toolBar > ul > li[class]:not(.showComment)

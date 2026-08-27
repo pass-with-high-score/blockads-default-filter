@@ -328,6 +328,9 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.sp-break-ad-text
+.overlay_container
+#main ~ div[data-block] .gspb_button_wrapper > a[href="#popup"]
 #yahoo_ad
 .blogroll_ads
 .section-header.widgets-title-mobile
