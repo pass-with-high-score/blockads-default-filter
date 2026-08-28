@@ -148,6 +148,11 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+section.l-contents__section:has(> ul.c-list-sns--lg)
+.spc-social-follow-inline
+.post-share-float
+.post-share-bot
+button:has(> svg > path[d^="M17.75"])
 main > div.flex > div[class]:has(> div[class] > a[href^="https://t.me/share/"])
 .container > .wrp:has(> .js-sns)
 div[data-component="a-share"]
@@ -9993,8 +9998,3 @@ body .share-block__list
 .social.share.column
 .article-footer__sharing
 .social-network
-.newsShareIcons
-.sbm
-div[data-tip="Репост в соцсети"]
-.social-group-list
-.essb-viralpoint

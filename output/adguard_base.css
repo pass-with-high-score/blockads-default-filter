@@ -6428,6 +6428,7 @@ div[class^="banner-style-"]
 div[class^="adv_"]
 div[id^="ad_"]:not([id*="_poster"])
 .adv (should be in specific.txt)
+.pm-ad
 .adthrive-placeholder-content
 .addbanner
 #inlinead
@@ -7396,6 +7397,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.bs-header > .code-block
+.smartmag-widget-codes
+#popupAd
+#sticky-image-ad
 main > .sticky-container:has(> div[class^="advert"])
 .current-post .body-description p:nth-of-type(3):style(margin-bottom: 0 !important;)
 .blockcont
@@ -9993,8 +9998,3 @@ a[href^="https://xbabe.com/go/"]
 a[target="_blank"]:not([href*="bravoporn.com"])
 div[style*="z-index: 2147483647;"][style*="position: fixed;"]
 .video > div[style*="z-index:"]:not([class])
-.bloglo-sidebar-inner > div[id^="custom_html-"]
-.content > span[data-nosnippet] > div[style^="min-height:"]
-#r-ad-banner
-.widget-adxx
-body .add_container
