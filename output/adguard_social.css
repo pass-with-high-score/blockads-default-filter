@@ -148,6 +148,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div.port-container > div.before\:h-px:has(> p.text-medium + button)
+#in-the-news > .social
+a[href="https://t.me/nudemoonz"]
 section.l-contents__section:has(> ul.c-list-sns--lg)
 .spc-social-follow-inline
 .post-share-float
@@ -9995,6 +9998,3 @@ body .share-block__list
 .adi-share-flyout
 .share-info
 .news-container > div.left+div.right
-.social.share.column
-.article-footer__sharing
-.social-network

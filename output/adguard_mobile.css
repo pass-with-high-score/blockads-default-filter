@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+body > .mobile-only
 .sp-break-ad-text
 .overlay_container
 #main ~ div[data-block] .gspb_button_wrapper > a[href="#popup"]
@@ -380,7 +381,6 @@ div[class="h-\[50px\]"]
 div.h-\[250px\]:has(> div[style^="display: block;"] > iframe[data-uid])
 #homefeed > div > div[data-test-id="max-width-container"] > div > div[role="list"] > div[role="listitem"]:has(> div[data-grid-item-idx] > div[data-pin-id] div[data-test-id="related-pins-name"])
 #taboola-below-article-thumbnails-high
-.m-sponsord
 div[class$="-mod-map-toggler"] > div[class$="-inner"] > div:not([class*="-container"]):has(div[class$="-ad-marking"])
 .iqd-dynamic-slot
 .more-examples-message
@@ -411,12 +411,10 @@ div[style="text-align:center; margin-top: 76px; margin-bottom: -56px; height: 10
 #fixed-ad-container
 .container-300x100
 #content > div[class]:has(> div[data-concert="mobile_leaderboard"] > div.m-ad)
-.wptouch-custom-ad
 [src^="https://data.sports-widgets.com/"]
 .mt-ad-link
 .player > div[class*=" "][id]
 .b-sync-banner
-.mobile-banner
 center[style="height:300px"]
 center[style="height:510px"]
 .__inst-container
@@ -445,7 +443,6 @@ body > div.items-center:has(> a[href^="https://pornhex.com/o/"][target="_blank"]
 .MSK_VIDEO
 div.adsense_bajomenu
 section div[class^="css-"]:not([data-theme-key], [data-vars-cta]):has(> .ad-container)
-.post-content-ad
 div[data-testid="marketing-hbo-max-block"]
 .gStickyAd
 header:style(--mobile-header-ad--height: 0 !important;)
@@ -471,7 +468,6 @@ section[data-testid="chapter"] > div[class*="TextElement"] > div:has(> div.items
 .c-baaanners-custom
 #anchor-container
 #englishMobPr
-.video__header
 #banner_mobile
 .article__inline-banner-divider
 .article__sidebar-sticky
@@ -522,7 +518,6 @@ main > div > div.justify-center[style="min-height:280px;"]
 div[class^="BannerAd"]
 .entry-content > div[data-format="isvideo"]
 div[class^="ad-mobile-"]
-.top
 a[href^="https://www.tckcandy.com/"]
 .epp-blinds:style(display: none !important;)
 body.anchoradtop:style(margin-top: 0 !important;)
@@ -534,8 +529,6 @@ div[data-testid="serp-core-scrollablelistview-testid"] > div[class^="css-"]:has(
 aside[id*="-1"]
 .js-inview-myplace
 .js-inview-realestate
-.fxs_bgHeader:style(top: 0 !important;)
-.fxs_stickyAd-mobile
 .main > section.dmenu-non:has(> div[id^="div-gpt-ad"])
 .s-billboard
 div:has(> ins[data-rmax-space-id])
@@ -606,7 +599,6 @@ div[style="margin-top:60px; width:300px; margin-inline:auto;"]
 .appBottomBtn ~ .ant-carousel
 .ant-modal-root:has(> .tuia-modal-wrap)
 .ad-control-left
-.page_bottom_fixed_ad_wap
 .RecruitmentBoxNew
 .db-ads
 #im_interstitial_b:style(display: none !important;)
@@ -1466,7 +1458,9 @@ section[data-vars-block-curation] > div[class*=" "]:has(> #gpt-ad-vertical-top)
 iframe[src*="//brow2ing.up.seesaa.net/image/loopadspone.html"]
 #area-footer:style(bottom: 0 !important;)
 #gigafilefly-slot-ol:style(display: none !important;)
+.fxs_stickyAd-mobile
 .fxs_header_sponsor:style(display: none !important;)
+.fxs_bgHeader:style(top: 0 !important;)
 .bg-adContainerHeaderMobile:style(display: none !important;)
 .bg-adContainerHeaderMobile ~ header[class*="top-"][class*="px"]:style(top: 0 !important;)
 div[data-test-id="article-content"] > div[class*=" "]:has(> aside[style*="min-height:"]:only-child > div[class]:contains(/^Advertisement$/))
@@ -2487,6 +2481,7 @@ body .listicle-ad
 #content_old > div[style*="padding-bottom:"]:not([id])
 div[style*="margin-top:"]:not([id]) div[style*="padding-bottom:"]
 div[style="text-align: center; display: block; margin: 0px 0px 10px;"]
+.top
 .mobile_nav.pignr
 .video-page > div > div > div:empty
 .adMmon
@@ -2586,6 +2581,7 @@ div[id^="xds-"]
 #empire-unit-footer-close-btn
 div[id^="empire-unit-sticky_footer__mobile"]
 section > div[class*="css"]:has(> div.ad-container)
+.post-content-ad
 body .dtads-mobile
 #Top-Billboard
 .adtech-copy
@@ -3193,7 +3189,6 @@ div[class^="bnr_w3"]
 .header-bottom-wrapper
 .widget-text
 .player_premium_bar
-.partner_text_link
 .livecams_main
 .lcb
 #mobile-header-1
@@ -3517,6 +3512,7 @@ div[id^="RECTNGL"]
 .colBoxIndexAD
 div[class^="align-items-center"][style^="height"]
 .width_300
+.m-sponsord
 .rtTaoolaElem
 div[style="min-height:280px;"]
 .ad-inarticle-banner
@@ -4197,6 +4193,7 @@ aside[class*="ClapLv3SubList_Chie-SubList__ListItem--Ad__"]
 #information > div[style="height:200px!important;overflow:hidden"]
 .pAd-mold
 .pAd-banner
+.page_bottom_fixed_ad_wap
 .add_masthead
 .sponsored
 div[style*="display: flex; height:250px;"]
@@ -5199,6 +5196,7 @@ div[data-bem*="\"ad\":true"]
 .mob-banner
 .reklamAlan
 .reklam-ortala
+.mobile-banner
 li[class^="b-banners-"]
 .stTwo > a > img[data-original*="Advertorial"]
 .stTwo > a > img[data-original*="Advertorial"] ~ p
@@ -5291,6 +5289,7 @@ p[style="font-size:10px; color:#8d8d8d; margin-bottom:10px; padding:0px 15px 0px
 a[data-newscategory="Advertorial"]
 div[style$="width:320px; height:100px;"]
 .yorumlar > div.ondabir > div.gorsel
+.partner_text_link
 .articleList > .cardContainer + .onlyMobile[style^="margin:"]
 aside.container > .onlyMobile + .LazyLoad[style="min-height: 250px; min-width: 336px;"]
 .bottomAdWrapper
@@ -5490,6 +5489,7 @@ div[id^="banner_"]
 .sticky_ad
 .threadbit + li.ui-body-null
 .top-tabs
+.wptouch-custom-ad
 [id^="TaboolaNativerecommendAd"]
 [width="240"][height="300"]
 a[class][style][onclick$="JpgClick();"]
@@ -5887,6 +5887,7 @@ div[data-id-module="col-width-watcher"] > div.id-Container--hasHeadline:has(> h3
 .visible-xs[style^="background-color: rgb"]:has([id^="lifehack_m_"][id*="TF"])
 body > .list__header:contains(Sponsored Section)
 .top-ad-padding:style(padding-top: 15px !important;)
+.video__header
 .video__wrapper > div.header__item
 .video-conten > div[class] > div[class]:has(> div[class] > div[style="height: 100px;"])
 .content > [class$="wrapper"] > section

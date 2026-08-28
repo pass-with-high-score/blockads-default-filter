@@ -5671,6 +5671,7 @@ div[data-index][data-slot][style]
 div[class*=" "]:has(> img[src*="://v.wpimg.pl/"] + div[class] > style:first-child + div:last-child)
 body:not(#bd):not([style*="background-image:"]):style(background-image:none!important;)
 body:style(pointer-events: auto !important;)
+.onnetwork-video-player
 div[class^="Header_container"] > a[target="_blank"]
 div[data-prebid-slot]
 .ad-left + div[style="height: 250px;"]
@@ -6714,6 +6715,8 @@ div[id^="M"][id*="Composite"]
 .topbannerad
 .widget-sidebar-right-banner
 #rek (should be in specific.txt)
+body > div[class="flexrow app"] + div[style^="padding-top: 10px; overflow: hidden; padding-left: 0px; z-index: 0;"]:empty:style(display: none !important;)
+body > div[class="flexrow app"] + div[style^="padding-top: 10px; overflow: hidden; padding-left: 0px; z-index: 0;"]:has(> a[href*="/photopea-says-i-am-blocking-ads-but-i-am-not/"]):style(display: none !important;)
 .steps:style(display: none !important;)
 form#go_d2:style(display: inline-block !important;)
 [id^="droplink-step-"]:style(display: none !important;)
@@ -7397,6 +7400,11 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.px-4 > .mx-auto:has(> div.text-center:contains(Advertisement))
+.elementor-element > .elementor-widget-container:has(> a[href][target="_blank"] img)
+.kenos-entity-placement:has(> div.kenos-adlabel)
+[aria-label="Advertisement"]
+div[style="padding-top: 0; padding-bottom: 250px;"]
 .bs-header > .code-block
 .smartmag-widget-codes
 #popupAd
@@ -7725,7 +7733,8 @@ a[href^="https://pawgpornstars.com/link/brazzers/"]
 #nav > ul:style(margin-bottom: 0 !important;)
 .adfiller
 .boxads2
-#content > div[class]:has(> div[data-concert="desktop_leaderboard_variable"])
+#content > div[class] > div[class*=" "]:has(> div[data-concert="desktop_leaderboard_variable"]:only-child)
+.duet--layout--rail > div[class*=" "]:has(> div[class*=" "]:only-child > div[class*=" "][data-concert]:only-child)
 .div-gpt-ad-post
 div[class$="billboard"]
 div[data-ad-slot-path]
@@ -9989,12 +9998,3 @@ div[class^="roshy-"]
 .sidebar-content > div.shortcode_widget:has(div[class^="roshy-"])
 .col-md-12:has(> a[target="_blank"] > .adbanner)
 .ui-advert
-.sdc-site-outbrain
-div[class^="smartfeed-ad-"]
-div[data-font] > div:has(> div[id^="div-gpt-"]:only-child)
-div:has(> ins.adsbytrafficjunky)
-.network-links
-a[href^="https://xbabe.com/go/"]
-a[target="_blank"]:not([href*="bravoporn.com"])
-div[style*="z-index: 2147483647;"][style*="position: fixed;"]
-.video > div[style*="z-index:"]:not([class])
