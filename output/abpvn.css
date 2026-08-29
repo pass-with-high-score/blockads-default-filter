@@ -31,9 +31,6 @@ div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: aut
 [id^="ADS_"]
 #position_full_top_banner_pc
 .gc-header__wrapper + div[style]
-#menubentrai
-.gnartyx-offads
-#fbox-background
 div.py-2.md\:py-6.mx-auto.w-full.max-w-screen-3xl>div.relative
 #qc_clgt
 #swiper-wrapper
@@ -43,6 +40,9 @@ div.py-2.md\:py-6.mx-auto.w-full.max-w-screen-3xl>div.relative
 [src*=".gif"]
 body>div[style^="position: fixed"]
 div[style="position: fixed; bottom: 0px; z-index: 98; width: 100%; text-align: center; box-sizing: border-box;"]
+#menubentrai
+.gnartyx-offads
+#fbox-background
 #mobile-ads
 .gnarty-offads
 #_preload-ads-1
