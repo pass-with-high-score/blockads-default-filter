@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+aside[data-announcement-key="telegram-v1"]
 div.port-container > div.before\:h-px:has(> p.text-medium + button)
 #in-the-news > .social
 a[href="https://t.me/nudemoonz"]
@@ -9997,4 +9998,3 @@ body .share-block__list
 .js-footer-social-widget
 .adi-share-flyout
 .share-info
-.news-container > div.left+div.right
