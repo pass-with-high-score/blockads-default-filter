@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+header div.container-fixed:style(position: static !important;)
 body > .mobile-only
 .sp-break-ad-text
 .overlay_container
