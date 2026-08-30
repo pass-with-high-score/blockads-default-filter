@@ -7400,6 +7400,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[align="center"] > a[href*="?key="][target="_blank"]
 a[href^="/resource-session/?go="][rel*="sponsored"]
 aside.ecom-root
 .px-4 > .mx-auto:has(> div.text-center:contains(Advertisement))
@@ -9997,4 +9998,3 @@ div[style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;"
 .rel:has(> a[href^="https://animeamigos.org/"])
 .banner[class*="bookmakers-"]
 div[class^="roshy-"]
-.sidebar-content > div.shortcode_widget:has(div[class^="roshy-"])
