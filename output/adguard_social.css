@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div[class^="Share"]
+.social-media-promo
 section:has(> div#x-post)
 section:has(> div#social-profiles)
 .fix-soc-link-wrapper
@@ -9996,5 +9998,3 @@ body .social_box
 figure > a[data-pin]
 ul[class="share "]
 .addtoany_shortcode
-body .share-block__list
-.js-footer-social-widget

@@ -517,8 +517,6 @@ a.news__item--action:nth-of-type(2)
 .qc
 .banner-bottom
 .ads-gated
-#popup-ad-box
-.banner-ad
 ._1vguhxv.cosll6e._3yp41v.row-3.lgy>._1lbf8q9
 ._1vguhxv.cwzsl22.czdj0j5.c1skg1w3.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cjq7bud.c10dklm2.c1xtmnwt.dlnefd1
 ._9xtpcl.c1mnguco.c9pdtme.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cxngf0m.c199xq07.c1xtmnwt
@@ -536,7 +534,6 @@ a.news__item--action:nth-of-type(2)
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
-.xx-ads
 .catfish-ad
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
@@ -550,6 +547,8 @@ div[id^="divFLR"]
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
+#popup-ad-box
+.banner-ad
 .body_wrapper1
 #ad-banner
 #phe-overlay-root
@@ -564,6 +563,7 @@ div[id^="divFLR"]
 #pc-preload-modal
 .quang-cao
 #popup
+.xx-ads
 .btm_bar
 div.ad-container
 .adace-slideup-slot-wrap

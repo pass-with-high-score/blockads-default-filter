@@ -7400,6 +7400,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#vz_im_ad
+.vyska-sense
+div[style^="height:"]:has(> div.vyska-sense)
+.video-ad-slot
 .cta[data-eventcategory="banner-cta-rhs"]
 main > div[style]:has(> div[data-stn-player])
 .my-3:has(> div.mx-auto > div.rounded-md > button[aria-label="Sponsored"])
@@ -7422,6 +7426,7 @@ main > .sticky-container:has(> div[class^="advert"])
 .contntblock
 #ggd-container
 #blocks-code
+a[href="/advertise#placements"]
 aside.sticky:has(> a[href="/advertise#placements"])
 #sticky-728x90-ad
 .penci-container__content > .widget-area:has(> .theiaStickySidebar)
@@ -8299,11 +8304,8 @@ div[class*="__sponsor"]
 a[href^="https://go.mavrtracktor.com"]
 .js_paidTab:has(> .js_tracking-link)
 #playerOverlay
-.linkvideo
 #right-video
 li > a[href][target="_blank"]
-.header:has(> h2:contains(/Kati AI Porn|Kinky Webcam/i))
-.header:has(> h2:contains(/Kati AI Porn|Kinky Webcam/i)) + div#similar
 div[data-testid="verified-creators"]
 .nav-wrapper > li.ls
 a[data-testid="header-live-cam-link"]
@@ -9996,5 +9998,3 @@ a[class$="_premium_bar"]
 #block-39
 center > a[href^="https://folynexartho.pro/"]
 div[style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;"]
-.header__content > a.header__hotlink
-.wrapper:has(> h2:contains(Advertisement))
