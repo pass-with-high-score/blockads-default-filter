@@ -517,6 +517,8 @@ a.news__item--action:nth-of-type(2)
 .qc
 .banner-bottom
 .ads-gated
+#popup-ad-box
+.banner-ad
 ._1vguhxv.cosll6e._3yp41v.row-3.lgy>._1lbf8q9
 ._1vguhxv.cwzsl22.czdj0j5.c1skg1w3.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cjq7bud.c10dklm2.c1xtmnwt.dlnefd1
 ._9xtpcl.c1mnguco.c9pdtme.c1q1n9rc.c1f8a55r.c2wbcgy.c1qs0lzc.cq980mc.cosll6e.cxngf0m.c199xq07.c1xtmnwt
@@ -529,18 +531,18 @@ a.news__item--action:nth-of-type(2)
 .luq51lg.a13wihj
 .pointer-events-auto.block
 .zbgpvb19.zbgpvb16.zbgpvbj.zbgpvbh.zbgpvbg.zbgpvbf.zbgpvbe.zbgpvb1
+#catfish-ad-banner
 .global-sticky-ads
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
+.xx-ads
 .catfish-ad
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
 .cashfish
 .mini-player
 #iklan-atas-wrapper
-#popup-ad-box
-.banner-ad
 .fixed-banner-bottom
 div[id^="divFLR"]
 #ad_global_below_navbar
@@ -564,7 +566,6 @@ div[id^="divFLR"]
 #popup
 .btm_bar
 div.ad-container
-#catfish-ad-banner
 .adace-slideup-slot-wrap
 .adace-slot
 .g1-advertisement
@@ -578,7 +579,6 @@ body>div[style^="position: fixed;"]
 .samVideoOverlay
 .catfix
 .quangcaomobile
-.xx-ads
 div[style^="position:fixed;inset:0px;z-index:100000;"]
 #video_player ~ div[id]
 #AgeModal

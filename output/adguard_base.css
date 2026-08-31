@@ -7403,6 +7403,7 @@ body .ad
 div[align="center"] > a[href*="?key="][target="_blank"]
 a[href^="/resource-session/?go="][rel*="sponsored"]
 aside.ecom-root
+button[aria-label="Play video and view sponsor"]
 .px-4 > .mx-auto:has(> div.text-center:contains(Advertisement))
 .elementor-element > .elementor-widget-container:has(> a[href][target="_blank"] img)
 .kenos-entity-placement:has(> div.kenos-adlabel)
@@ -9997,4 +9998,3 @@ div[style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;"
 .masonry-layout__panel:has(> .masonry-layout__panel-content > .sponsored-post)
 .rel:has(> a[href^="https://animeamigos.org/"])
 .banner[class*="bookmakers-"]
-div[class^="roshy-"]
