@@ -148,6 +148,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+section:has(> div#x-post)
+section:has(> div#social-profiles)
+.fix-soc-link-wrapper
 aside[data-announcement-key="telegram-v1"]
 div.port-container > div.before\:h-px:has(> p.text-medium + button)
 #in-the-news > .social
@@ -4442,7 +4445,6 @@ yg-web-share
 .redes-container
 .headersticky__social
 .socal_button_big_tokusetsu
-.desc_snsarea > .tooltip
 .tapas-share
 .redes
 .item_social_share
@@ -9996,5 +9998,3 @@ ul[class="share "]
 .addtoany_shortcode
 body .share-block__list
 .js-footer-social-widget
-.adi-share-flyout
-.share-info

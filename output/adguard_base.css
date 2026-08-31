@@ -39,6 +39,7 @@ body > div.demo-wrapper[style="display:none;"] + div[id][class]
 div.fadeInDown[id$="____equal"][class$="____equal"]
 #chp_branding
 a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
+footer#colophon + div[id][class*=" "]
 body > div[id][class*="_"]
 body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""] + div[class*="_"]
 body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""]
@@ -3600,6 +3601,9 @@ a[href^="https://p30download.ir/page/id/"] img
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+.page-layout > div.page-box:has(> div.wrapper > aside.ad-aside)
+.ad-aside
+.bli-ad
 .componentsPromotionsVideo
 div[data-ads]
 div[class^="main-box"]:has(> .adsbygoogle)
@@ -3632,7 +3636,6 @@ div[class^="optad"]
 .grid__col > .card:has(> .box > .box__container > div[id^="bills_in_"])
 .grid__row > .grid__col > .card--box:has(> .custom-html-box > .podawacz-spots)
 .mr-ad-slot
-.ad-aside
 #page-box-logotypes > .section-partners
 .right-column > .right-column-fix:has(div[data-ad])
 .box-list > .box-list-item.box-list-item-type-rectangle:has(div[data-ad]):style(visibility: hidden !important;)
@@ -3716,6 +3719,7 @@ a[class^="promo-"]
 .banner-wrapper
 .sponsor-banner
 div[id^="optad_"]
+.edito-banner:style(display: none !important;)
 .targetDivClass > a[target="_blank"] > img
 div[style*="margin: 0 auto; text-align: center; position: relative;"]:has(> .targetDivClass:only-child > a[target="_blank"] > img)
 .fc-Card14:has(> a[href="https://www.plus.pl/5g"])
@@ -3731,8 +3735,6 @@ div[id^="promoPlaceholder"]
 .header__banner
 div[id^="nano-"]
 .article-content > .extra-link:has(> p > a[href^="https://www.amazon.pl/wyprobujprime"])
-.start-prm
-.article-prm
 .wrapper > div[style^="text-align:"]:has(> .ad-label)
 #otwarty_artykul > div[style]:has(> div#taboola-below-article-thumbnails)
 #prawa_kolumna > h1:contains(Reklama)
@@ -3834,8 +3836,6 @@ div[style="min-height: 200px"]
 div[data-container="true"] > div:has(> div > div > img:not([alt]))
 .container--break-00
 div[id^="oa_placeholder"]
-div.text-center:has(> div.d-inline-block-not-important > small)
-.widget-advert_centralplacement
 div[data-insertion-position]
 .div-coffebreak-header
 div[id^="magid-"]
@@ -3855,6 +3855,8 @@ div[id^="nol24-"]
 .Home_categories_box > div.polecamy-slider > div[class*="poster-dnone-"]
 a[href^="https://milionymonet.onet.pl/"]
 #custom_html-8
+.start-prm
+.article-prm
 .item__side > a > img
 div[class^="position_"]:not(:has(> *))
 div[class^="position_"]:has(> .ad--pos)
@@ -3918,7 +3920,6 @@ a[href*="&utm_medium=baner"] > img
 .ppl-cnt
 .right-column-fix:has(> .right-column-fix-inner > .page-rectangle)
 .page-layout > .page-box:has(> .wrapper:only-child > .ad-aside:only-child)
-.bli-ad
 .page-layout > .page-box:has(> .ad-aside:only-child)
 .page-layout > .page-box:has(> .wrapper:only-child > .ad-slider-svr)
 .latest-news__big > div[style*="min-height:320px;"]
@@ -4719,10 +4720,7 @@ a[href^="https://bit.ly/"][target="_blank"] > img
 body > div[style*="min-width: 100%;"][style*="float:"]:has(> div[style] > div[style] > div[style]:contains(reklama))
 .baner-inner2
 a[href^="https://www.betters.pl/"] > img
-div[class^="adunit-constant-"]
 .adunit:not(#widget_playlist)
-div[class*="tile--ad"]
-[class^="publication_"][class*="ad-"]
 .losowanko
 div[data-slot="allAds"]
 a[href^="https://brave.com/"][target="_blank"] > img
@@ -5447,8 +5445,10 @@ p[style="text-align: center;"] > a[rel="noopener noreferrer"] > img
 p[align="center"] > a[target="_blank"][rel="noopener noreferrer"] > img
 #content > .content-wrapper > h2.before-popularshops:has(> .advertisement)
 #content > .content-wrapper > h2.before-popularshops:has(> .advertisement) + div[class="slider-module-container slim no-background"]
+#toplayer:has(.tipad_tag)
 div[class*="widget-advert_"]
 #main-content > .text-center:has(> [class*="d-inline-block"] > .tipad_tag)
+#main-content > .text-center:has(> span > [class*="d-inline-block"] > .tipad_tag)
 html[class].wppas-model-open:style(overflow: visible!important;)
 .magazyn-label
 .byebye
@@ -7400,6 +7400,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.cta[data-eventcategory="banner-cta-rhs"]
+main > div[style]:has(> div[data-stn-player])
+.my-3:has(> div.mx-auto > div.rounded-md > button[aria-label="Sponsored"])
 div[align="center"] > a[href*="?key="][target="_blank"]
 a[href^="/resource-session/?go="][rel*="sponsored"]
 aside.ecom-root
@@ -7530,6 +7533,7 @@ a[href^="https://reatasesetitoefa.com"]
 .row > article.post-card:has(> a[href] > div.img-wrapper > div.badge:contains(/^AD$/g))
 menu > li:has(> a[href="/games/"])
 .overflow-hidden.w-full:has(> div.text-center:contains(Advertisement))
+a[rel~="sponsored"]
 div[style="min-height: 90px;"]
 a[href^="https://omg10.com/"]
 .a-wrap-base
@@ -7553,6 +7557,7 @@ main > div.mx-auto:has(> div[style*="height:"][style*="width:"])
 div[style="display: block; min-height: 250px;"]
 .adpos_rightD
 ins.adsbygoogle:remove()
+.background-container > :is(div,section)[class]:not([class*="-"],[class*="progress"],[class*="cookie"],[class*="footer"])
 body > div.background-container ~ div.history_tooltip ~ [class]
 .top_nav_menu
 #main > div[data-bvs][data-identifier]
@@ -8418,6 +8423,7 @@ a[href^="https://fileserve.com/"]
 div.backdrop-blur-sm > div.relative > div.flex.rounded-xl
 .ad-host
 .cf-ad-box
+.cf-ad-slot
 div[style="height: 400px; width: 1240px; margin: 0 auto; text-align: center;"]
 a[href^="https://www.tckcandy.com/"]
 .col-md-8 > div[style]:has(> p > a[href="https://Xpinay.tv"])
@@ -9992,9 +9998,3 @@ center > a[href^="https://folynexartho.pro/"]
 div[style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;"]
 .header__content > a.header__hotlink
 .wrapper:has(> h2:contains(Advertisement))
-.media-spot
-.leftnav_banner
-.headZ
-.masonry-layout__panel:has(> .masonry-layout__panel-content > .sponsored-post)
-.rel:has(> a[href^="https://animeamigos.org/"])
-.banner[class*="bookmakers-"]

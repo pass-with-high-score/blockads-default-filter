@@ -328,6 +328,11 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+div.row:has(> div > div#snack-top)
+div[id*="AdvContainer"]
+aside[style="width:100%; padding:10px 0; background:rgb(238, 238, 238);"]
+.header--ad-reserved:style(padding-top: 0 !important;)
+.l-main_primary > .l-section:has(> .ad-iconPR)
 header div.container-fixed:style(position: static !important;)
 body > .mobile-only
 .sp-break-ad-text
