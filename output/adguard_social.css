@@ -41,7 +41,6 @@ div[class^="social-sharer_"]:not([data-scroll="comment-block"]):style(visibility
 .vue-portal-target > div[data-popper-placement="top"]:has(button > span > span:contains(ВКонтакте)):style(top: 170px !important;)
 .meta-wrap > .sns:style(visibility: hidden !important;)
 .colored > li:not([class]):style(display: none !important;)
-.SnsBtn:style(visibility: hidden !important;)
 div[class^="sns-share-"] > a[onclick^="socialAct"]:style(visibility: hidden !important;)
 .btn-shares:style(visibility: hidden !important;)
 .share:style(visibility: hidden !important;)
@@ -148,6 +147,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div.video-underplayer__button:has(> span:contains(Share))
+.b-article__include:has(> div.b-crossbnr)
+.web_share_api
 a[aria-label="Facebookでシェア"]
 .col-span-1 > div.sticky
 nav[aria-label="Paylaş"]
@@ -6507,7 +6509,6 @@ div[class="df-au df-av df-cq"]
 div[class^="dmnc_generic-share-bar-share-bar"]
 .snsBtnBlock
 .gowp-share-box
-article > .ArticleTitle + .SnsBtn
 .w-SnsCount
 .article-info-share-wrapper > div.icons
 div[class^="page-item--"][class$="-feed"]
@@ -9997,4 +9998,3 @@ body .social_box
 .soc_media
 .sa-share-btn-wrapper
 #share-btns
-.share > a[data-fbui]

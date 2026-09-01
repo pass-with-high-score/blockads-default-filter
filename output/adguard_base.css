@@ -7401,6 +7401,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.video__info > section:has(> div > div.direct-abnner)
 iframe[src^="data:text/html;base64,"]
 .column > div[data-id]:has(> a:only-child)
 div[style="width: 728px; height: 90px;"]
@@ -9997,4 +9998,3 @@ div[class^="storyPage_contentSec__"]:has(> div[class^="storyPage_storyblockAd"])
 div[class^="storyPage_storyblockAd"]
 div[id^="evowars-io_"]
 .advInBtweenNewsCard
-.advStoryDetailInline
