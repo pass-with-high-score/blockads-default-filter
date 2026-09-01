@@ -4775,8 +4775,8 @@ body .r_ov
 .text-center > a[href^="https://bit.ly/"] > img
 img[src^="https://www.skijumping.pl/content/images/banner/"]
 .jm-module-in > .jm-module-content > .custom:has(> p[style="text-align: center;"]:contains(/^REKLAMA$/))
-#billboard1
 div[id^="blok_"][id$="_box_300x250"]
+#billboard1
 body div[id^="banner_"]
 body div[id^="idmnet_horizontal"]
 div[id^="m_top_"]
@@ -5564,6 +5564,7 @@ div[style*="min-height:"] > div[class*=" "] > section[class*=" "] > div[class*="
 div:not([class]):not([id]):has(> div[class] > div[class*=" "] > div:not([class]):not([id]):contains(/^REKLAMA$/))
 .teasers > div[class=" display"]:has(> div[class] > div[class] > div:not([class]):not([id]) > div:not([class]):not([id]):contains(/^REKLAMA$/))
 .wp-placeholder
+#wp-leaflets-section
 .wp-section-placeholder-container
 #app-content > .relative > .flow-root > div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div[class] + script:last-child)
 .relative >.relative > .items-center[style]:has(> img[src^="https://v.wpimg.pl/"][alt]:first-child + img[src^="https://v.wpimg.pl/"][alt] + div[class]:last-child)
@@ -7400,6 +7401,10 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+iframe[src^="data:text/html;base64,"]
+.column > div[data-id]:has(> a:only-child)
+div[style="width: 728px; height: 90px;"]
+#page-partner
 #vz_im_ad
 .vyska-sense
 div[style^="height:"]:has(> div.vyska-sense)
@@ -7633,6 +7638,7 @@ ul.grid-cards[data-group="awards"] > li:not([class])
 div.w-full > div.grid > a[class][href^="/"]:has(> div > div[data-slot-id="ProductImageWrapper"] [data-slot-id="SponsorTag"])
 .smith-ad
 .fco-sticky-wrapper__wrapper
+body > div.fixed:has(> div.relative > a[href*="?utm_source"])
 .home-global-ad
 .homepage-ad-desktop-bant
 the-ads
@@ -9992,9 +9998,3 @@ div[id^="evowars-io_"]
 .advInBtweenNewsCard
 .advStoryDetailInline
 .phtgalwrp > div[style*="padding:"]:has(> div > .nw18-dfp-ad)
-.centered-placement
-a[class$="_premium_bar"]
-.c-broadstreet-ad
-#block-39
-center > a[href^="https://folynexartho.pro/"]
-div[style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;"]

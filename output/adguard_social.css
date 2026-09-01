@@ -148,6 +148,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+nav[aria-label="Paylaş"]
 div[class^="Share"]
 .social-media-promo
 section:has(> div#x-post)
@@ -9997,4 +9998,3 @@ body .social_box
 .share > a[data-fbui]
 figure > a[data-pin]
 ul[class="share "]
-.addtoany_shortcode
