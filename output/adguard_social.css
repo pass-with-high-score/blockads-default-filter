@@ -148,6 +148,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+a[aria-label="Facebookでシェア"]
+.col-span-1 > div.sticky
 nav[aria-label="Paylaş"]
 div[class^="Share"]
 .social-media-promo
@@ -9996,5 +9998,3 @@ body .social_box
 .sa-share-btn-wrapper
 #share-btns
 .share > a[data-fbui]
-figure > a[data-pin]
-ul[class="share "]

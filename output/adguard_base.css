@@ -7405,6 +7405,7 @@ iframe[src^="data:text/html;base64,"]
 .column > div[data-id]:has(> a:only-child)
 div[style="width: 728px; height: 90px;"]
 #page-partner
+.aicreat-wrapper
 #vz_im_ad
 .vyska-sense
 div[style^="height:"]:has(> div.vyska-sense)
@@ -9997,4 +9998,3 @@ div[class^="storyPage_storyblockAd"]
 div[id^="evowars-io_"]
 .advInBtweenNewsCard
 .advStoryDetailInline
-.phtgalwrp > div[style*="padding:"]:has(> div > .nw18-dfp-ad)
