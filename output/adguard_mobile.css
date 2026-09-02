@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.js-self-interstitial
 .video-detail-sbspace
 #main div[align="center"]:contains(Advertising)
 div.row:has(> div > div#snack-top)

@@ -7464,7 +7464,6 @@ div[data-test-id="virtual-list"] > ul > li > div > a[rel="noreferrer"]
 div[data-dev="MovableAd"]
 .u4dl-spotcol
 .top-ads-separator-enabled
-main > div[class]:has(div.ad-wrapper)
 #w_banner
 .pointer-events-auto:has(> a[target="_blank"] > img)
 #homepage-container > div.row-unit-container
@@ -9998,3 +9997,4 @@ div[class^="storyPage_contentSec__"]:has(> div[class^="storyPage_storyblockAd"])
 div[class^="storyPage_storyblockAd"]
 div[id^="evowars-io_"]
 .advInBtweenNewsCard
+.advStoryDetailInline
