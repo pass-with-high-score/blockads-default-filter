@@ -147,6 +147,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.p-books-media02__sns
 div.video-underplayer__button:has(> span:contains(Share))
 .b-article__include:has(> div.b-crossbnr)
 .web_share_api
@@ -9997,4 +9998,3 @@ body .social_box
 .social-like-share
 .soc_media
 .sa-share-btn-wrapper
-#share-btns
