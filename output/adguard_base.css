@@ -281,6 +281,7 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+body > div#app-runtime-cover
 #adblock-detector-wrapper
 #ab-wall
 .adbCard
@@ -7402,6 +7403,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+td:has(> script:first-child + iframe[src^="//ads.livet"]:last-child)
+td:has(> table:only-child > tbody:only-child > tr:only-child > td:only-child > script:first-child + iframe[src^="//ads.livet"]:last-child)
+td:has(> table:only-child > tbody:only-child > tr:first-child + tr:last-child > td > br:first-child + script + iframe[src^="//ads.livet"]:last-child)
 body > header:style(min-height: auto !important;)
 div[class^="pro_ad_"]
 .let-sidebar-stack
@@ -9994,7 +9998,3 @@ div[data-test-target="faq-json-ld"] + div[class] > div[class] > div[class] > div
 .block:has(> .block__content:only-child > .text-content:only-child > .ad-wrapper:only-child)
 #color-names
 .duet--layout--rail > div[class]:has(> div[class] > div[data-concert])
-div[class]:has(> div[data-concert])
-div[class^="storyPage_contentSec__"]:has(> div[class^="storyPage_storyblockAd"])
-div[class^="storyPage_storyblockAd"]
-div[id^="evowars-io_"]
