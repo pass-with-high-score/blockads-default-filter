@@ -6557,6 +6557,7 @@ amp-fx-flying-carpet
 #ad-p3
 .topAd
 .article-advert-container
+div[style="text-align:center;margin:0 0 8px 0;"] > div[class^="ad-"][class$="-wrapper"]
 .mvic-btn > a.btn-successful
 .outbrain
 .czlll-rlselse
@@ -7401,6 +7402,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+body > header:style(min-height: auto !important;)
+div[class^="pro_ad_"]
+.let-sidebar-stack
 .video__info > section:has(> div > div.direct-abnner)
 iframe[src^="data:text/html;base64,"]
 .column > div[data-id]:has(> a:only-child)
@@ -9519,7 +9523,6 @@ ul[role="list"] > li[class^="styles_"][class*="ad__"]
 aside[class^="Aside-"] > div.ant-card:has(div[data-analytics-events])
 div[style*="margin-bottom:"][style*="margin-left:"] > a > img
 a[href][target="_blank"]:not([href*="databreach.com"],[href^="/"])
-.nopop > .jw-hardlink-inner
 div[class^="TopAdBanner-"]
 .entry-content > small.text-grey-600
 .thumb-ax
@@ -9630,7 +9633,6 @@ div[class^="SectionScrollSentinel_"] > div[class^="SectionLeaderboard_"]:has(div
 .network
 .top-header
 #adstripe
-.jw-hardlink-btn
 .member2link
 .content [class^="headline"][style^="margin:"]
 a[href="https://porn00.org/best-casino/"]
@@ -9996,5 +9998,3 @@ div[class]:has(> div[data-concert])
 div[class^="storyPage_contentSec__"]:has(> div[class^="storyPage_storyblockAd"])
 div[class^="storyPage_storyblockAd"]
 div[id^="evowars-io_"]
-.advInBtweenNewsCard
-.advStoryDetailInline
