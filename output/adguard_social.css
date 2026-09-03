@@ -147,6 +147,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.wp-block-lazyblock-fale-com-o-pp--ms
+div.flex:has(> a[href^="https://www.facebook.com/sharer/"])
 .ui-content > div:has(> ul > li > button[aria-label^="Поделиться"])
 .SocialShare > button[class*="SocialShare"]:not([label="文字のサイズを変える"])
 .entity-share
@@ -2118,7 +2120,6 @@ button[data-tooltip-html="#product-share"]
 .c-shareSNS
 ul[data-meta="article-buttons-sharing"]
 p.text-center:contains(Partilhe a notícia)
-div.flex:has(> a[href^="https://www.facebook.com/sharer/"])
 .SSR_btn-lnk
 #js-Social-Share-0
 div[class^="_sharer_"]
@@ -9997,4 +9998,3 @@ body .social_box
 .post-share-area
 #leftBar
 .bottom-social
-.idmuvi-social-share

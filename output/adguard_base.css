@@ -281,6 +281,7 @@ iframe[name]:not([class]):not([id]):not([src])[style^="display:"]:remove()
 .ad-top-728:not([style="width: 10px; height: 10px;"])
 .stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 .ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+#blocker-overlay
 body > div#app-runtime-cover
 #adblock-detector-wrapper
 #ab-wall
@@ -7419,6 +7420,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#lm-slideup
 .u-ad-unit
 .adb-wrapper
 .adb-small
@@ -9312,7 +9314,6 @@ body > a[target="_blank"][style^="position:"][style*="z-index:"]
 #gate
 div[style*="background: rgb(239, 239, 239);"][style*="min-height: 355px;"]
 .divide-nav:style(height: auto !important;)
-.ads > *:style(transform: rotateX(90deg) !important; height: 1px !important;)
 .offerwall-widget
 .toffee-wrap
 .inside-article > footer.entry-meta ~ .wp-block-image
@@ -9997,4 +9998,3 @@ div[style]:has(> iframe)
 .menu > li:has(> a[href^="https://craveu.ai/"])
 body .c-ad
 hr + div[style]:has(> a[rel="sponsored noopener"])
-hr + div[style]:has(> a[rel="sponsored noopener"]) + div[style]
