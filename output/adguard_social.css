@@ -147,6 +147,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.ui-content > div:has(> ul > li > button[aria-label^="Поделиться"])
+.SocialShare > button[class*="SocialShare"]:not([label="文字のサイズを変える"])
+.entity-share
 #RC_follow
 .share-item[data-network]
 #sharing-tools-popover
@@ -9995,6 +9998,3 @@ body .social_box
 #leftBar
 .bottom-social
 .idmuvi-social-share
-.articleSocials > h4
-.socialAreaArticle > li > a.socialButton:not(.com)
-.tc-sharing-controls
