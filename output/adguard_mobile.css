@@ -328,7 +328,13 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
-.c-banner-sp
+.u-ad-mobile-top-banner
+#ga-cp_more:style(border-bottom: none !important;)
+#sports_topics_area:style(border-bottom: none !important;)
+.topicsTab-container.topics-news-block:style(border-bottom: none !important;)
+.m-newsThumbsList > ul > li:not([class]):has(> div[id^="ad_kj_con_much_"])
+.bottom-banner
+.c-banner-sp:has(> div[style^="min-height"] > div[id])
 .js-self-interstitial
 .video-detail-sbspace
 #main div[align="center"]:contains(Advertising)
@@ -1537,6 +1543,8 @@ main > div[class^="fixed bottom-"]
 #mobile-banner-story-def
 .BlankSpace
 .commercial-unit-mobile-bottom
+#footer-threads > .sidebar-sticky
+.an-zone-footer-footer
 #adsninja-below-main-pic
 body > span
 div[id^="sp_books\.j-cast_kiji_"][style^="min-width: 300px"]

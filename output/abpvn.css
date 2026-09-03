@@ -51,6 +51,7 @@ div[style="position: fixed; bottom: 0px; z-index: 98; width: 100%; text-align: c
 .mobile-catfish-top
 .mobile-catfixx
 .pc-catfixx
+.t_logo
 .adNative
 .pAd
 .relatedPostsAd
@@ -268,8 +269,6 @@ section.nh-section:nth-of-type(5)
 .sda-catfish
 .bg-black\/70.justify-center.items-center.flex.z-\[9999\].inset-0.fixed
 .overlay-1
-.t_logo
-.mp-adz
 #catfish_ad_top
 div[data-widget-id]
 .ad_info
@@ -504,6 +503,7 @@ a.news__item--action:nth-of-type(2)
 #banner1ab
 .banner-masthead
 .sticky_bottom
+.mp-adz
 #catfish-ads
 #ybox-H1>div[style]
 .td-container-wrap.td-logo-wrap-full.td-banner-wrap-full
@@ -542,13 +542,13 @@ div#recent-content:nth-of-type(1)
 #iklan-atas-wrapper
 .fixed-banner-bottom
 div[id^="divFLR"]
+#popup-ad-box
+.banner-ad
 #ad_global_below_navbar
 .castfish-wrappe
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
-#popup-ad-box
-.banner-ad
 .body_wrapper1
 #ad-banner
 #phe-overlay-root

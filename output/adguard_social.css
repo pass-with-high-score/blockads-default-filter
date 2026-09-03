@@ -147,12 +147,15 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+#RC_follow
+.share-item[data-network]
 #sharing-tools-popover
 div[data-type="share-links"]
 .p-books-media02__sns
 div.video-underplayer__button:has(> span:contains(Share))
 .b-article__include:has(> div.b-crossbnr)
 .web_share_api
+article ~ div.items-center:contains(この記事をシェアする)
 a[aria-label="Facebookでシェア"]
 .col-span-1 > div.sticky
 nav[aria-label="Paylaş"]
@@ -180,6 +183,7 @@ section[data-type="headline"]:has(> h3#h3-fitbook-folgen)
 section[data-type="headline"]:has(> h3#h3-fitbook-folgen) + section[data-type="rich-text"]
 .flex > div.block:has(> div.flex svg > path[d^="M444.7"])
 .article__byline-share
+button[title$="で共有する"]
 .el-share-image-link
 .hd-meta-share
 div[class^="_slotwrapper_"] > button:has(> div[align="center"] svg[data-icon^="ShareOutline"])
@@ -9994,7 +9998,3 @@ body .social_box
 .articleSocials > h4
 .socialAreaArticle > li > a.socialButton:not(.com)
 .tc-sharing-controls
-.socialLike
-#wsocial
-.social-like-share
-.soc_media

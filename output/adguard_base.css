@@ -3602,6 +3602,13 @@ a[href^="https://p30download.ir/page/id/"] img
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+.tipad_tag
+.elementor-widget-premium-carousel-widget
+.elementor-element > div > figure:has(> a[target="_blank"] ~ figcaption)
+.elementor-widget-wrap > div.elementor-element:has(> div.elementor-widget-container > h6)
+.page > .grid > .grid__container > .grid__row:has(> .grid__col > .adv)
+.page > .grid > .grid__container > .grid__row:contains(Reklama)
+.side-right > .widget:has(> .ad)
 .page-layout > div.page-box:has(> div.wrapper > aside.ad-aside)
 .ad-aside
 .bli-ad
@@ -3632,7 +3639,6 @@ div[class^="optad"]
 #r_slide > .text-center:has(> div[id][style] > a[target="_blank"])
 .zlokonieczne
 .google-ad-desktop
-.grid__ad
 .custom-html-box
 .grid__col > .card:has(> .box > .box__container > div[id^="bills_in_"])
 .grid__row > .grid__col > .card--box:has(> .custom-html-box > .podawacz-spots)
@@ -3668,6 +3674,9 @@ div[class*="sec_"][class$="_adv"] > *
 #sidebar > .widget_text > .textwidget:has(> div[class^="myBanner"])
 section[class]:has(> div:contains(/^Reklama$/))
 div[data-id]:has(> div:contains(/^REKLAMA$/)):remove()
+.recomended-news__list > div[id^="inside_"]
+div[class]:has(> div:first-child:not([class]) + div:last-child > div[data-id])
+div[class]:has(> div:first-child:not([class]) + div:last-child:is([id*="inside_"],[id^="bottom_"]))
 .saplConfigurator
 .grid__row:has(> div.grid__col > div.card > div.box > div.box__container > div[id^="bills_in_rotation_"] > a[href^="https://www.sdsm.pl/"])
 .banner:empty
@@ -3678,6 +3687,7 @@ div[class*="adBlock__" i]
 .brxe-container > .brxe-block > a.brxe-image[target="_blank"]
 main > section > div.container > div.w-full:has(> div > div > div > ins.adsbygoogle[data-ad-slot])
 div[style="min-height: 280px; min-width: 300px;"]
+.grid__ad
 div[data-ads-id]
 .kba
 .slitslider_container:has(> p[style]:contains(Reklama))
@@ -4068,6 +4078,9 @@ div[style="text-align:center; margin: 15px 0;width: 100%;"]
 .screening-banner
 text[class^="Ad_"]
 div[class^="Ad_bottom_"]
+div[class*="_header_ad"]
+text[class^="Ad-module-"]
+div[class^="SidebarWithAds-"][class*="__ad_"]
 .top
 div[class^="position_"][class$="top"]
 .grid-news-slider > div.news-item:has(> a[href^="https://www.meczyki.pl/link/bukmacher/"])
@@ -4122,7 +4135,6 @@ div[id^="think-"]
 .rotator-file
 div[class="container"][style^="margin-top: 160px;"]
 .banner-carousel
-.tipad_tag
 div[id^="widgetBody-placement"]
 #RMF_FM_sg_bill
 #RMF_FM_sg_top_bill
@@ -5341,7 +5353,7 @@ native-feed[slot="ListDirectiveController.nativeFeedSlot"]
 .article__side
 style + div[class] > img[src^="https://v.wpimg.pl/"][alt]:first-child + div:last-child:upward(1)
 img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"]:upward(1)
-style + div[class]:has(> script:first-child + img[src^="https://v.wpimg.pl/"][alt] + div[class]:last-child)
+style + div[class]:has(> script:first-child + img[src^="https://v.wpimg.pl/"][alt] + div:last-child)
 div[class*=" "] > div[class]:first-child + img[src^="https://i.wpimg.pl/100x0/"]:upward(1)
 article > div[class] > div > div[class]:has(> div[class]:only-child > div[class]:only-child > span:first-child + span:last-child)
 .ReactVirtualized__Grid > .ReactVirtualized__Grid__innerScrollContainer > div[data-slot][style^="height:"]:not([data-id])
@@ -7403,6 +7415,9 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.u-ad-unit
+.adb-wrapper
+.adb-small
 td:has(> script:first-child + iframe[src^="//ads.livet"]:last-child)
 td:has(> table:only-child > tbody:only-child > tr:only-child > td:only-child > script:first-child + iframe[src^="//ads.livet"]:last-child)
 td:has(> table:only-child > tbody:only-child > tr:first-child + tr:last-child > td > br:first-child + script + iframe[src^="//ads.livet"]:last-child)
@@ -9983,18 +9998,3 @@ tbody[id^="threadbits_forum_"] > tr:has(> td.alt2 > span[style="float:right"] > 
 #portfolio-items > div:has(> div.tac > i.xxx-banner)
 a[href^="/out.cgi?"]
 div[id^="Ad"]
-.tags_top
-.box_partnerships
-div[class*="-banner"][onclick*="window.open"]
-.code-block > a[target="_blank"]:not([href*="gamedrive.org"]) > img
-.single-post > div[style] > a[target="_blank"]
-.sektion-wrapper
-#execphp-2
-.c-expressvpn
-:root:style(--stickyPos: 0 !important;)
-#minigameplayer > .container > .panel:has(> .panel-body > ng-adsense)
-div[data-test-target="faq-json-ld"] + div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[id^="slot:"])
-.c-article-content > h2::before
-.block:has(> .block__content:only-child > .text-content:only-child > .ad-wrapper:only-child)
-#color-names
-.duet--layout--rail > div[class]:has(> div[class] > div[data-concert])
