@@ -534,7 +534,6 @@ a.news__item--action:nth-of-type(2)
 .header>app-banner
 .p-4.justify-center.items-center.flex.backdrop-blur-sm.bg-black\/80.z-\[9999\].inset-0.fixed
 #custom_html-42
-.xx-ads
 .catfish-ad
 [id$="bnr"]
 div#recent-content:nth-of-type(1)
@@ -545,6 +544,8 @@ div#recent-content:nth-of-type(1)
 div[id^="divFLR"]
 #ad_global_below_navbar
 .castfish-wrappe
+#popup-ad-box
+.banner-ad
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
@@ -562,6 +563,7 @@ div[id^="divFLR"]
 #pc-preload-modal
 .quang-cao
 #popup
+.xx-ads
 .btm_bar
 div.ad-container
 .adace-slideup-slot-wrap
@@ -586,8 +588,6 @@ div[style^="position:fixed;inset:0px;z-index:100000;"]
 #popup_fi
 .hidden-md.right.col-3
 body>.container>div
-#popup-ad-box
-.banner-ad
 .w1e48c4420b7073bc11916c6c1de226bb
 #shoppe_ads_fly
 #hide_float_right
