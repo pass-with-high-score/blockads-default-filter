@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+#content > div[data-cptid]
 #c2_click_endofarticle_JFA_adidas_sp
 .sp.banner_contents
 .u-ad-mobile-top-banner
