@@ -7421,6 +7421,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+body > div#fx0
 fbs-video[ad-unit-path]
 .article-body-container > div[class]> div[class]:has(> div[class]:only-child > fbs-video[ad-unit-path]:only-child)
 .g-top
@@ -9997,4 +9998,3 @@ p[style="color: #000000;"]
 div[align="center"]:has(p[style="color: #000000;"])
 div[style]:has(> iframe)
 .col-publi > div:has(> ins[data-zoneid])
-.animated-box

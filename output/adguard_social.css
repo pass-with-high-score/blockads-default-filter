@@ -147,6 +147,10 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.c-share-area
+.shareBox > ul > li.facebook
+.shareBox > ul > li.twitter
+.shareBox > ul > li.line
 .col-span-1 > div.grid:has(> div.flex > a[title="X Sayfası"])
 .article-nav > li.article-nav__item:has(> div.share-popup)
 .box_content:has(> ul.sns_button_list)
@@ -9994,7 +9998,3 @@ body .social_box
 .soc
 .snsbar
 .p-shareButton__cont
-.gn-share
-.theme__share-dropdown
-#sns-group
-.socialMediaScope
