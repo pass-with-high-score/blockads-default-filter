@@ -147,6 +147,10 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.canliyayin
+.article-meta-social
+span[data-qa="sbisRu-OFDCheck-share-button"]
+div[data-content-type="SHARE"]
 .real-share
 button[aria-label="Facebookでシェア"]
 .share-link-image
@@ -160,7 +164,7 @@ button[aria-label="Facebookでシェア"]
 .box_content:has(> ul.sns_button_list)
 #story-share
 .asd_social_likes
-.MuiGrid-root.MuiGrid-container[style="gap:8px 0"] .MuiGrid-spacing-xs-1 .MuiGrid-item:has(path[d$="4.68297 5.12405 4.48132C4.94433 4.29282 4.94433 3.99639 5.12405 3.80789L7.6386 1.17059Z"])
+.MuiGrid-root.MuiGrid-container[style^="gap:"] .MuiGrid-spacing-xs-1 .MuiGrid-item:has(path[d$="4.68297 5.12405 4.48132C4.94433 4.29282 4.94433 3.99639 5.12405 3.80789L7.6386 1.17059Z"])
 .wp-block-lazyblock-fale-com-o-pp--ms
 div.flex:has(> a[href^="https://www.facebook.com/sharer/"])
 .ui-content > div:has(> ul > li > button[aria-label^="Поделиться"])
@@ -9994,7 +9998,3 @@ body .social_box
 .pwebfblikebox
 .social-share-text
 .left > a.fb
-.left > a.tw
-.left > a.li
-.modal-video-share
-.shared-text-social

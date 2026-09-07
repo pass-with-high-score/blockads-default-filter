@@ -7425,6 +7425,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+nav + div.mx-auto:has(> div[data-testid^="banner-"])
+main > div > div.w-full:has( div > p.tracking-wide)
 .recommendations-items > div.recommendations-tile:has(> div.tile-picture > div.label.gray)
 .wpc-offerbox
 .header-nav-right > a[data-track-outgoing][target="_blank"]
@@ -9996,5 +9998,3 @@ div[class^="sponsor-block-"]
 .ars-interlude-container + .bg-gray-300:empty
 .bg-gray-300:empty:has(+ .ars-interlude-container)
 .xwdth > h1:contains(Strip Cam Girls)
-.xad
-.sc1item

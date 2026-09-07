@@ -66,6 +66,7 @@ div.pAdin
 div[class*="ads"]
 .top-header
 .block:has([data-adaptive])
+.is-show.xxxxxx
 .masthead-wrapper
 [id^="ZAP-zone-"]
 .monkey-content-duoicanbiet
@@ -555,6 +556,8 @@ div[id^="divFLR"]
 .in.fade.modal-backdrop
 #mp-preload-popup-overlay
 .banner-play
+#divExoLayerWrapper
+.ldg-y-x-header
 .cash-fish
 .cash-fish-pc
 .preload-pc
