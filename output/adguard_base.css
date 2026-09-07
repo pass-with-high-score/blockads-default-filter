@@ -7424,6 +7424,7 @@ body .ad
 body > div#fx0
 fbs-video[ad-unit-path]
 .article-body-container > div[class]> div[class]:has(> div[class]:only-child > fbs-video[ad-unit-path]:only-child)
+.entry-content > center > center:has(> a[href] > img)
 .g-top
 .focus-ad
 #root > div[class] > .fixed.inset-x-3:has(h2:contains(ads))
@@ -9997,4 +9998,3 @@ div[class*="250px"]:has(> div[class] > #aniBox)
 p[style="color: #000000;"]
 div[align="center"]:has(p[style="color: #000000;"])
 div[style]:has(> iframe)
-.col-publi > div:has(> ins[data-zoneid])
