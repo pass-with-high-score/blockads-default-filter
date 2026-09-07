@@ -328,6 +328,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+div.box:has(> div[style] > div[id^="div-gpt-ad-"])
+div.box:has(> div[id^="yad_"])
 #content > div[data-cptid]
 #c2_click_endofarticle_JFA_adidas_sp
 .sp.banner_contents
@@ -529,6 +531,7 @@ section[aria-label="Advertisement"]
 .pane-multiple-hub-traffic-drivers
 .infeed__large--block
 main > div > div.justify-center[style="min-height:280px;"]
+.mobile-rek-height
 .rekspan
 .common__adv_chowari_app
 .mob-Ad

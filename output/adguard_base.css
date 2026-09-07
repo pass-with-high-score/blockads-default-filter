@@ -4647,6 +4647,9 @@ a[href="https://beesafe.pl/kalkulator-oc-ac/"]
 #dfpRightLastContainer
 .reklama-footer
 #sidebar > #text-3
+a[rel][target="_blank"]:has(> :is(img, picture))
+article .not-prose:has(> a[rel][target="_blank"]> :is(img, picture))
+article .overflow-hidden:has(> a[rel][target="_blank"]> :is(img, picture))
 .widget_media_image > a:not([href*="bitcoin.pl"]) > img
 .sidebar__inner > div[class="widget"]:has(> .widget__notify:contains(/^reklama$/))
 #post-banner-ad
@@ -5142,6 +5145,7 @@ body .top-background
 body.background-image.background-screening .intro:style(margin-bottom: 0 !important;)
 body.background-image.background-screening .intro .header-widget:style(position: static!important;)
 div[id^="superbet-article-widget-"]
+ad-default
 .moneteasy
 a[href^="https://widgets.moneteasy.pl/widget-click/"]
 aside.artRight[data-run-module="local/main.floatingSlots"]
@@ -7421,6 +7425,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.recommendations-items > div.recommendations-tile:has(> div.tile-picture > div.label.gray)
+.wpc-offerbox
+.header-nav-right > a[data-track-outgoing][target="_blank"]
+div[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;"]
+.underplayer_video_page_desktop
+.footer-banners-wrap
 body > div#fx0
 fbs-video[ad-unit-path]
 .article-body-container > div[class]> div[class]:has(> div[class]:only-child > fbs-video[ad-unit-path]:only-child)
@@ -9297,6 +9307,7 @@ a[href^="https://trk.clash.gg/"]
 div[id^="ig-banner"]
 .cbd
 main#content > div[class] > div[class^="_"]:has(> div[data-concert])
+#sidebar-first:empty
 div[data-concert]
 .p-body-sidebar > p:has(> a[href^="https://www.plugrush.com/"])
 .wp-caption > div[class]:has(> .adsbyvli)
@@ -9987,14 +9998,3 @@ div[class^="sponsor-block-"]
 .xwdth > h1:contains(Strip Cam Girls)
 .xad
 .sc1item
-.xwdth > div[style*="width:"][style*="height:"][style*="margin:"]
-.container > div.btn-group ~ center > div.download-btn-group> a
-.top-ad-parent
-iframe[src*=".com/ad/"]
-[class^="search-page_SearchPage__"][class*="Sky__"]
-.undefined:has(> .adsbygoogle)
-div[class*="250px"]:has(> div[class] > #aniBox)
-.h-0.flex-1:has(.items-start > a[target="_blank"])
-p[style="color: #000000;"]
-div[align="center"]:has(p[style="color: #000000;"])
-div[style]:has(> iframe)

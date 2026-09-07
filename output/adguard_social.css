@@ -147,6 +147,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.real-share
+button[aria-label="Facebookでシェア"]
+.share-link-image
 .c-share-area
 .shareBox > ul > li.facebook
 .shareBox > ul > li.twitter
@@ -9995,6 +9998,3 @@ body .social_box
 .left > a.li
 .modal-video-share
 .shared-text-social
-.social-likes
-.soc
-.snsbar
