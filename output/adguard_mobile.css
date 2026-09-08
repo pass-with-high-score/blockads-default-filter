@@ -328,6 +328,9 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+iframe[src="https://1000mg.jp/ad_com1.php"]
+#container > div.my-box > div.ninreco:has(> ins.adsbygoogle)
+.section-vu
 div.box:has(> div[style] > div[id^="div-gpt-ad-"])
 div.box:has(> div[id^="yad_"])
 #content > div[data-cptid]

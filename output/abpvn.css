@@ -547,8 +547,6 @@ div[id^="divFLR"]
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 .logo-player
-#popup-ad-box
-.banner-ad
 .body_wrapper1
 #ad-banner
 #phe-overlay-root
@@ -589,6 +587,8 @@ div[style^="position:fixed;inset:0px;z-index:100000;"]
 #popup_fi
 .hidden-md.right.col-3
 body>.container>div
+#popup-ad-box
+.banner-ad
 .w1e48c4420b7073bc11916c6c1de226bb
 #shoppe_ads_fly
 #hide_float_right

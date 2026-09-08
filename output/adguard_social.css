@@ -147,6 +147,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div.mt-\[38px\] > section[class]:has(> ul > li > a[href^="https://twitter.com/intent/tweet?"])
+.addtoany-area
+.addtoany-vertical
 .canliyayin
 .article-meta-social
 span[data-qa="sbisRu-OFDCheck-share-button"]
@@ -581,6 +584,7 @@ div.mx-auto:has(> div.ShareIcons)
 .share-bar-buttons
 .product-controls__button--shared
 .icon-share_arrow
+player-fullscreen-controls .ytmSlimMetadataButtonRendererHost:has(> .icon-share_arrow:only-child)
 .elementor-widget-heading[data-widget_type="heading.default"]:has(+ .elementor-widget-share-buttons)
 .ds-flex > div.ds-flex:has(> div.ds-popper-wrapper > div.ds-flex > i.icon-share-outlined)
 .article_list_social_media
@@ -9994,7 +9998,3 @@ body .social_box
 .pp-secondary-share-link
 .article__sharebar
 .bam-social
-.mrw-custom-share-btn
-.pwebfblikebox
-.social-share-text
-.left > a.fb

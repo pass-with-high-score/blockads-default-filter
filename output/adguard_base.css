@@ -2052,6 +2052,7 @@ iframe[src*=".myvideo.ge/delivery/"]
 #banner
 #footerbanner
 .top-rek
+.inner-sidebar-ad-widget
 #ocm_inread
 .ocm-outbrain-wrapper
 .taboola-feed-wrapper-mob
@@ -2251,6 +2252,8 @@ div#right_sidebar .ad
 .footer-wrap:has(> div[id^="FootDesk_A_"])
 section[style="min-height: 252px"]:not([class]):not([id])
 a[href="http://topkinoebi.com/"]
+div[class^="AdComponent_"]
+div[class^="Ad_root"]
 .mkr_adunit
 .left-square-banner:has(a.banner_link)
 .top-banner
@@ -7425,6 +7428,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.w-full.flex > div.flex.items-center.my-2:has(> div > div > pubtag)
 nav + div.mx-auto:has(> div[data-testid^="banner-"])
 main > div > div.w-full:has( div > p.tracking-wide)
 .recommendations-items > div.recommendations-tile:has(> div.tile-picture > div.label.gray)
@@ -9994,7 +9998,3 @@ a.center-link-image[target="_blank"][rel="sponsored noopener"]
 div[id^="phx-relay"] > div:has(> div[style] > div[data-fuse])
 .revenu
 .mx-auto:has(> div[id^="snack_dex"])
-div[class^="sponsor-block-"]
-.ars-interlude-container + .bg-gray-300:empty
-.bg-gray-300:empty:has(+ .ars-interlude-container)
-.xwdth > h1:contains(Strip Cam Girls)
