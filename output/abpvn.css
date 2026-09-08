@@ -543,7 +543,6 @@ div#recent-content:nth-of-type(1)
 .fixed-banner-bottom
 div[id^="divFLR"]
 #ad_global_below_navbar
-.xx-ads
 .castfish-wrappe
 .pum-overlay
 #latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
@@ -623,5 +622,6 @@ div[id^="exo_slider_"]
 .sponsor
 .spot
 #content-ad-top-zone
+.xx-ads
 #cashfit-banner-host
 .ad-banner
