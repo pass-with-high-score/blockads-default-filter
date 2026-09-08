@@ -2052,6 +2052,8 @@ iframe[src*=".myvideo.ge/delivery/"]
 #banner
 #footerbanner
 .top-rek
+.col-span-1:has(> div.flex > div[data-ocm-ad])
+img[alt="ad banner"]
 .inner-sidebar-ad-widget
 #ocm_inread
 .ocm-outbrain-wrapper
@@ -7428,6 +7430,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.google-wrap
 .w-full.flex > div.flex.items-center.my-2:has(> div > div > pubtag)
 nav + div.mx-auto:has(> div[data-testid^="banner-"])
 main > div > div.w-full:has( div > p.tracking-wide)
@@ -7441,6 +7444,7 @@ body > div#fx0
 fbs-video[ad-unit-path]
 .article-body-container > div[class]> div[class]:has(> div[class]:only-child > fbs-video[ad-unit-path]:only-child)
 .entry-content > center > center:has(> a[href] > img)
+[class] > div[id]:has(> div.boomerang)
 .g-top
 .focus-ad
 #root > div[class] > .fixed.inset-x-3:has(h2:contains(ads))
@@ -7604,8 +7608,8 @@ main > div.mx-auto:has(> div[style*="height:"][style*="width:"])
 #ad_article_above_header:style(display: none !important;)
 #module_90:style(top: 0 !important;)
 #ads-gallery
-#contentWrapper ~ div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
-#headerSmall + div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
+#contentWrapper ~ div[class]:not([id]):has(a.ga-click img.ga-impression)
+#headerSmall + div[class]:not([id]):has(a.ga-click img.ga-impression)
 .widget[class*="bookstores-recommend-plugin"]
 #mys-wrapper
 .ad-cont
@@ -9723,7 +9727,6 @@ div[class$="__main-layout__empty-block"]
 .r-home__guides__ad
 div[class]:has(> div[id^="optidigital"]:only-child)
 article .bf-cnx-override:has(> .bf-cnx-player:empty)
-img[alt="ad banner"]
 .bg-buttons-purple:has(> button[aria-label="Dismiss ad"])
 .standard-banner-ad
 .code-block > center:has(> div#BR-Footer-Ads)
@@ -9995,6 +9998,3 @@ div[id^="yourc-"]
 a.center-link-image[target="_blank"][rel="sponsored noopener"]
 .bc_right_sidebar > a[target="_blank"] > img
 .bc_right_sidebar div[align="center"] > a[target="_blank"] > img
-div[id^="phx-relay"] > div:has(> div[style] > div[data-fuse])
-.revenu
-.mx-auto:has(> div[id^="snack_dex"])

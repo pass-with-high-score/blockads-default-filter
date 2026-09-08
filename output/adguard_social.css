@@ -147,6 +147,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.attachment__share
+.social-profile > span[class]:not(:has(> a[href^="https://news.google.com/publications/"]))
 div.mt-\[38px\] > section[class]:has(> ul > li > a[href^="https://twitter.com/intent/tweet?"])
 .addtoany-area
 .addtoany-vertical
@@ -9996,5 +9998,3 @@ body .social_box
 .top_share
 .boton_social
 .pp-secondary-share-link
-.article__sharebar
-.bam-social

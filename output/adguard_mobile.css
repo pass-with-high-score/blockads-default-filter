@@ -328,6 +328,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.adv_text
+.adx_center
 iframe[src="https://1000mg.jp/ad_com1.php"]
 #container > div.my-box > div.ninreco:has(> ins.adsbygoogle)
 .section-vu

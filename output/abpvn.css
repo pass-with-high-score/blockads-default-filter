@@ -73,7 +73,6 @@ div[class*="ads"]
 .monkey-section-tinnoibat
 div.monkey-qc
 .bottom-right-ads
-a[href^="/cgi-bin/to.cgi"]
 .b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 .b_algo:has(.rms_img[src*="=AdsPlus"])
 .button-dangkyngay
@@ -486,6 +485,7 @@ div[style]:has(.adsbypubpower)
 #bottomFixedDiv
 #js_pup_navigation
 tr[id^="word_"]
+a[href^="/cgi-bin/to.cgi"]
 .nhacai
 .nhacai2
 .bannerBox
