@@ -147,6 +147,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+button:has(svg > path[d^="M20 12"])
 .attachment__share
 .social-profile > span[class]:not(:has(> a[href^="https://news.google.com/publications/"]))
 div.mt-\[38px\] > section[class]:has(> ul > li > a[href^="https://twitter.com/intent/tweet?"])
@@ -359,7 +360,6 @@ div[data-tooltip="Share"]
 .social-btn-group
 .mat-divider + div:has(> div.mt-3 > div.text-center > button.sb-facebook)
 .share-button-b
-.rss-share
 .keepup-sharing
 .bnn-social-follow
 div[data-testid="article-social-shares"]
