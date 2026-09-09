@@ -3610,6 +3610,9 @@ a[href^="https://p30download.ir/page/id/"] img
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+div[style="margin: 20px 0; text-align: center;"] > a[target="_blank"]
+div[data-ad-slot]
+div[class*="-section"][class*="__banner"]
 div[data-element_type="container"]:has(> div[data-widget_type="cs-banner.default"])
 .cs-banner-entry
 .tipad_tag
@@ -5401,6 +5404,7 @@ a[href="https://kswshop.com/pl/"][target="_blank"] > img
 .globox__menu .globox__partner
 aside.grid-wx1 > a[href^="https://www.efortuna.pl/"] > img
 div[class*=" "][class*="___"]:has(> div[class]:only-child:empty)
+div[class*=" "][class*="___"]:has(> div:first-child:empty + img[src^="https://v.wpimg.pl/"]:last-child)
 div[class*=" "][class*="___"]:has(> div[class]:first-child:empty + img[src*="://std.wpcdn.pl/images/adv/placeholder"]:last-child)
 article > div[class*=" "]:has(> div:only-child:empty)
 article > div[class] > #bookmaker-ranking-widget
@@ -6457,6 +6461,7 @@ div[class^="banner-style-"]
 div[class^="adv_"]
 div[id^="ad_"]:not([id*="_poster"])
 .adv (should be in specific.txt)
+.ad-pos-top
 .pm-ad
 .adthrive-placeholder-content
 .addbanner
@@ -7430,6 +7435,13 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.flex.items-center.justify-center:has(> span:first-child + div[data-fuse]:last-child)
+.RelationalApp
+.poseidon-container
+div[data-testid="prism-static-embed"]
+.ScrollSpy_container > div[data-container="band"]:has(> div[class] > div[class] > div[class="placeholderWrapper"])
+.StickyTopOuter:style(display: none !important;)
+.nav.sticky:style(top: 0 !important;)
 .ad-titulo
 #category-banner-desktop
 #category-banner-desktop ~ #category-header[data-campaign]
@@ -9986,15 +9998,3 @@ a[href*="/linkout/"]
 div[id^="yourc-"]
 .head-t
 .stream-item-below-header
-.widget_text:has(> .textwidget > p > #_wau1ml)
-.thumbs-list > .content-side:has(> .banner)
-#main-content > a[target="_blank"] > img
-#teaserbottom
-.container-side > div[id^="next-tv"]
-.thumbs-list > .container-side:has(> #main-aside-placeholder)
-.container > .bottom-content:has(> .bottom-holder > div[id^="bottom-banner"])
-.container > .heading:has(+ .bottom-content > .bottom-holder > div[id^="bottom-banner"])
-.a-label
-.banabpang
-.card-section-promotion
-.thumbarea:has(.a-label)
