@@ -7435,6 +7435,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+#content > div.exo-ad-ins-container + div[class]:has(> a[href^="https://s.zline0.com/"][target="_blank"])
+.adsense-container
 .flex.items-center.justify-center:has(> span:first-child + div[data-fuse]:last-child)
 .RelationalApp
 .poseidon-container
@@ -9996,5 +9998,3 @@ a[href*="/linkout/"]
 .single-portfolio:has(.xxx-banner):remove()
 .single-portfolio:has(> .tac > .xxx-banner):style(display: none !important;)
 div[id^="yourc-"]
-.head-t
-.stream-item-below-header

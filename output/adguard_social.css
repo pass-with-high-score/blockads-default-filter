@@ -147,6 +147,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+div[class^="articleDetail_socialContainer"]
 .b-event-share
 button:has(svg > path[d^="M20 12"])
 .attachment__share
@@ -9997,4 +9998,3 @@ body .social_box
 .social_top > #fb_countz
 .mod-rrss
 .top_share
-.boton_social
