@@ -328,6 +328,11 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+#mobileStickyAd
+div[class^="HomeHero_ad_"]
+#surplus
+#category-banner-mobile
+.ad_960
 .adv_text
 .adx_center
 iframe[src="https://1000mg.jp/ad_com1.php"]

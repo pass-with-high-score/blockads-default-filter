@@ -147,6 +147,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.b-event-share
 button:has(svg > path[d^="M20 12"])
 .attachment__share
 .social-profile > span[class]:not(:has(> a[href^="https://news.google.com/publications/"]))
@@ -9997,4 +9998,3 @@ body .social_box
 .mod-rrss
 .top_share
 .boton_social
-.pp-secondary-share-link
