@@ -575,6 +575,7 @@ body>div[style^="position: fixed;"]
 .samVideoOverlay
 .catfix
 .quangcaomobile
+.xx-ads
 div[style^="position:fixed;inset:0px;z-index:100000;"]
 #video_player ~ div[id]
 #AgeModal
@@ -619,6 +620,5 @@ div[id^="exo_slider_"]
 .sponsor
 .spot
 #content-ad-top-zone
-.xx-ads
 #cashfit-banner-host
 .ad-banner

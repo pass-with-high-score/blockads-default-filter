@@ -7516,7 +7516,7 @@ aside.sticky:has(> a[href="/advertise#placements"])
 div.mx-auto > div.relative:has(> span.tracking-wide)
 div[id^="rightRailAds"]
 .colCon > div > aside > a[href^="/out2/"]
-body > div[style] > div[data-sveltekit-reload] > header + div.w-full
+body > div[style] > div[data-sveltekit-reload] > header + div.w-full:has(> div.border > button[aria-label="Close banner"])
 .Grid-column > div[id^="Col-Child-"]:has(> div.fast-grid-ad)
 div[data-ad-name]:remove()
 .ladder__item--sportsbet-cell
