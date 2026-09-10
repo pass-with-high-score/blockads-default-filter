@@ -556,6 +556,7 @@ body .ad.ads.adsbox.doubleclick.ad-placement.ad-placeholder.adbadge.BannerAd:not
 .abdmodal
 ins.adsbygoogle[data-ad-slot]:style(height: 0 !important;)
 #butok:style(display: block !important;)
+body > div[style*="revert;"]
 .banner.banner-captcha:style(height: 25px !important;)
 .banner-inner:style(display: block; width: 0 !important;)
 .myads > a:style(visibility: hidden !important;)
@@ -9997,4 +9998,3 @@ div[class^="banner--"]
 .player-col:has(> iframe[src^="/proporn_right_ads.php"])
 div[id$="_livecams"]
 a[href*="/linkout/"]
-.headline-secondary:has(> a[href*="/linkout/"])

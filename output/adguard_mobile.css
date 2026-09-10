@@ -328,6 +328,8 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+article > div:has(> div.lngtd-dynamic-inarticle)
+#specs-list > div:has(> div[id^="mob-"])
 .spRectangle
 div[data-testid="HomepageSponsorLogo"]
 #mobileStickyAd
