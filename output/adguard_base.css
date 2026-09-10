@@ -7436,6 +7436,8 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-slot="mpu"]
+a[href^="https://superprofile.bio/vp/Class-10-combo-offer"]
 .gam-ad-slot
 .other-ads-container
 #header-scroll-sentinel + div.top-0:style(top: 0 !important;)
@@ -9996,5 +9998,3 @@ div.items-center.bg-primary:has(a.button-primary[href^="https://www.bitdefender.
 div[id^="topcpu_net_in_page_repeat"]
 div[class^="banner--"]
 .player-col:has(> iframe[src^="/proporn_right_ads.php"])
-div[id$="_livecams"]
-a[href*="/linkout/"]

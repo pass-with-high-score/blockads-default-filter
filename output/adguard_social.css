@@ -147,6 +147,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.gDef-footer-share
 .b-article__actions > span:has(> a.js-share)
 .b-list__items > div.b-list__include:has(> div.b-crossbnr a[href="https://vk.com/expobank_official"])
 .custom-button-share
@@ -9997,4 +9998,3 @@ body .social_box
 .shareStrip
 .st_email_custom
 .st_reddit_custom
-.social_containerx
