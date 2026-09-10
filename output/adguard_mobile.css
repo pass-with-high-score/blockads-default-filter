@@ -328,6 +328,7 @@ amp-embed[type="taboola"]
 .Ad
 body .banner
 div[style^="--ads-width:"]
+.spRectangle
 div[data-testid="HomepageSponsorLogo"]
 #mobileStickyAd
 div[class^="HomeHero_ad_"]

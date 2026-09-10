@@ -147,6 +147,8 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.custom-button-share
+.c-list-sns--horizon > .c-list-sns__item:not(:has(> a[href="#c-article_comment"]))
 div[class^="articleDetail_socialContainer"]
 .b-event-share
 button:has(svg > path[d^="M20 12"])
@@ -9996,5 +9998,3 @@ body .social_box
 .social_containerx
 .social_top > #tw_countz
 .social_top > #fb_countz
-.mod-rrss
-.top_share

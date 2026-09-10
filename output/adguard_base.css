@@ -607,7 +607,6 @@ ins.adsbygoogle[data-ad-slot]:style(height: 1px!important;)
 #detect ~ div[style^="display: flex; align-items: center; justify-content: center; position: fixed;"]
 .adt-layout-fade
 .ad-blocker-detector
-#adblockbyspider:style(display: none !important;)
 div[class^="popup"][class$="wrap"][id]
 div[id^="anti-adblock-"]
 .rio-block-message
@@ -626,6 +625,7 @@ body[style^="overflow:"]:style(overflow: auto !important; background-color: unse
 #d7b2
 #adblockModal
 #adblockModal ~ div.modal-backdrop
+#adblockbyspider:style(display: none !important;)
 #Adblock:style(display: none !important;)
 #nagBG:style(display: none !important;)
 body [id*="google_ads_iframe_"]:style(display: block !important;)
@@ -2052,6 +2052,7 @@ iframe[src*=".myvideo.ge/delivery/"]
 #banner
 #footerbanner
 .top-rek
+article.h-entry > div.mx-auto:has(> #taboola-alternating-below-article)
 .col-span-1:has(> div.flex > div[data-ocm-ad])
 img[alt="ad banner"]
 .inner-sidebar-ad-widget
@@ -6316,7 +6317,6 @@ div[id^="hide_ads"]
 div[class^="fads"]
 #left-banner
 .adpia_banner
-img[alt^="Banner"]
 .ads_blocks_advice
 .card__FbWatch_ads
 .yan-app
@@ -7435,6 +7435,12 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.gam-ad-slot
+.other-ads-container
+#header-scroll-sentinel + div.top-0:style(top: 0 !important;)
+main div.leading-normal > div.text-center > a.inline-block[target="_blank"]:has(img)
+a[rel="noopener sponsored"]
+.header__topbar
 #content > div.exo-ad-ins-container + div[class]:has(> a[href^="https://s.zline0.com/"][target="_blank"])
 .adsense-container
 .flex.items-center.justify-center:has(> span:first-child + div[data-fuse]:last-child)
@@ -7779,7 +7785,6 @@ div.mx-auto:has(> iframe[src])
 .tp-vpn-banner
 div[id^="mobid-"]
 div[data-ips-ad]
-a[rel="noopener sponsored"]
 a[href^="https://69pedia.com"]
 a[href^="https://69Search.com/"]
 .block-sticky-bar__element
@@ -9993,8 +9998,3 @@ div[class^="banner--"]
 div[id$="_livecams"]
 a[href*="/linkout/"]
 .headline-secondary:has(> a[href*="/linkout/"])
-.player-live-title:contains(Advertising)
-#subHeader3
-.single-portfolio:has(.xxx-banner):remove()
-.single-portfolio:has(> .tac > .xxx-banner):style(display: none !important;)
-div[id^="yourc-"]
