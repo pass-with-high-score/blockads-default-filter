@@ -1467,6 +1467,8 @@ div[class^="css-"]:has(> span.Slot_title:first-child + .Slot_content:last-child)
 .noa-banner > a
 #billboard_ad_container
 .side_banner
+.alert_premiumExpired
+body > div[class][style^="z-index:"]
 div[data-elementor-type="wp-page"] > .elementor-section[data-settings*="background_background"]:has(.reklama-wrapper)
 .container div[class]:has(> div.ad--align)
 div[style^="width:100%;min-height:"]
@@ -3612,6 +3614,8 @@ a[href^="https://p30download.ir/page/id/"] img
 div[data-actirise-slot]:not(#style_important)
 .wpb_wrapper > center > a[rel="nofollow"]
 .video-top-wrap > .sb
+.sidebar > .mb-3:has(> .small + div > .adsbygoogle)
+.sidebar > .small:has(+ div[id^="ceneoaffcontainer"])
 div[style="margin: 20px 0; text-align: center;"] > a[target="_blank"]
 div[data-ad-slot]
 div[class*="-section"][class*="__banner"]
@@ -7436,6 +7440,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+div[data-testid="vpn-banner"]
 div[data-slot="mpu"]
 a[href^="https://superprofile.bio/vp/Class-10-combo-offer"]
 .gam-ad-slot
@@ -9993,8 +9998,3 @@ li:has(> a[href^="https://adobe.prf.hn/click/"])
 .sortable-list > li.sortable-item:has(> div > a > img[width="300"][height="50"])
 .content > .top:has(> center > .adsbyexoclick)
 .region > .block:has(> .content:only-child > ins[data-zoneid])
-.fixed.flex[class*="bg-opacity"]:has(> div > button#close-banner)
-div.items-center.bg-primary:has(a.button-primary[href^="https://www.bitdefender.com/pages/consumer/"])
-div[id^="topcpu_net_in_page_repeat"]
-div[class^="banner--"]
-.player-col:has(> iframe[src^="/proporn_right_ads.php"])

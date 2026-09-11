@@ -147,6 +147,9 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.post-amenities-share-buttons
+.k-share-button
+.SnsBtn li:not(:has(a[href="/sp/r#"]))
 section[style="--top-spacing-default:0px;--bottom-spacing-default:0px"] li:has(> a[target="_blank"])
 .gDef-footer-share
 .b-article__actions > span:has(> a.js-share)
@@ -9995,6 +9998,3 @@ body .social_box
 .post__item__internal__share
 .item-share-buttons
 .share-item-twitter
-.share-item-facebook
-.shareStrip
-.st_email_custom
