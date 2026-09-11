@@ -147,6 +147,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+.hero-grid-card-action--share
 .post-amenities-share-buttons
 .k-share-button
 .SnsBtn li:not(:has(a[href="/sp/r#"]))
@@ -9997,4 +9998,3 @@ body .social_box
 .info-section > ul > li[class^="like"]
 .post__item__internal__share
 .item-share-buttons
-.share-item-twitter

@@ -2055,6 +2055,9 @@ iframe[src*=".myvideo.ge/delivery/"]
 #banner
 #footerbanner
 .top-rek
+.flex-col.h-full:has(> h4.font-bold)
+.sticky:has(> p.font-medium)
+.flex-col.h-full:has(> p.font-medium)
 article.h-entry > div.mx-auto:has(> #taboola-alternating-below-article)
 .col-span-1:has(> div.flex > div[data-ocm-ad])
 img[alt="ad banner"]
@@ -5374,7 +5377,7 @@ dd-holder[slot="PANEL_PREMIUM"]
 div[ng-if="CommonController.showBannerTop"]
 native-feed[slot="ListDirectiveController.nativeFeedSlot"]
 .article__side
-style + div[class] > img[src^="https://v.wpimg.pl/"][alt]:first-child + div:last-child:upward(1)
+style + div[class]:has(> img[src^="https://v.wpimg.pl/"][alt]:first-child + div:last-child)
 img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"]:upward(1)
 style + div[class]:has(> script:first-child + img[src^="https://v.wpimg.pl/"][alt] + div:last-child)
 div[class*=" "] > div[class]:first-child + img[src^="https://i.wpimg.pl/100x0/"]:upward(1)
@@ -7440,6 +7443,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.boxOverContentRevive__placeholder
 div[data-testid="vpn-banner"]
 div[data-slot="mpu"]
 a[href^="https://superprofile.bio/vp/Class-10-combo-offer"]
@@ -9994,7 +9998,3 @@ div[class^="PageIntroWrapper_foodWrapper"]:has(> div[class*="min-w-ad-"])
 div[id$="_rek"]
 div[id^="browse_img_"]:has(li > a[href][target="_blank"][onclick*="__cfRLUnblockHandlers"])
 li:has(> a[href^="https://adobe.prf.hn/click/"])
-.great_andhra_body > div[class^="great_andhra_main_"]:has(> div > a > img[width="330"][height="40"])
-.sortable-list > li.sortable-item:has(> div > a > img[width="300"][height="50"])
-.content > .top:has(> center > .adsbyexoclick)
-.region > .block:has(> .content:only-child > ins[data-zoneid])
