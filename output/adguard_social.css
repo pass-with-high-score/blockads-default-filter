@@ -147,6 +147,7 @@ a[data-share-url]
 .twitter-timeline
 .comment__share > *
 #thread-share-bar
+button[aria-label="Share page"]
 .hero-grid-card-action--share
 .post-amenities-share-buttons
 .k-share-button
@@ -9997,4 +9998,3 @@ body .social_box
 .article-section > div.align-items-center > div[class="col-md-4 text-right"]
 .info-section > ul > li[class^="like"]
 .post__item__internal__share
-.item-share-buttons
