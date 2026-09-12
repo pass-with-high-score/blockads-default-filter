@@ -7443,6 +7443,7 @@ body .ad
 .ad-container:not(#style_important)
 .block-video > div.table
 #dismiss-btn
+.entry center.dl-dark-neglect > a.download-btn[target="_blank"]
 .boxOverContentRevive__placeholder
 div[data-testid="vpn-banner"]
 div[data-slot="mpu"]
@@ -9997,4 +9998,3 @@ div[class^="PageIntroWrapper_foodWrapper"]:has(> div[class*="min-w-ad-"])
 #alternative-list li:has(> div[class*="min-w-ad-"])
 div[id$="_rek"]
 div[id^="browse_img_"]:has(li > a[href][target="_blank"][onclick*="__cfRLUnblockHandlers"])
-li:has(> a[href^="https://adobe.prf.hn/click/"])
